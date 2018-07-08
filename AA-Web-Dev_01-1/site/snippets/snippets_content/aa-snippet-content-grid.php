@@ -1,41 +1,22 @@
 <!-- Pull images from backend -->
 <?php 
 
+$projects = page('aa-projekte')->children()->visible();
+
 ?>
 
 <div class="grid">
 
-	<div class="grid-item">
-		
-	</div>
-	
-	<div class="grid-item">
-		
-	</div>
-	
-	<div class="grid-item">
-		
-	</div>
+	<?php foreach($projects as $project): ?>
 
-	<div class="grid-item">
-		
-	</div>
+		<?php if($image = $project->images()->sortBy('sort', 'asc')->first()): $thumb = $image->crop(600, 600); ?>
 
-	<div class="grid-item">
-		
-	</div>
+			<div class="grid-item">
+				<img src="<?= $thumb->url() ?>" alt="Thumbnail for <?= $project->title()->html() ?>" class="showcase-image" />
+		  </div>
 
-	<div class="grid-item">
-		
-	</div>
+		<?php endif ?>
 
-	<div class="grid-item">
-		
-	</div>
-
-	<div class="grid-item">
-		
-	</div>
-
+	<?php endforeach ?>
 
 </div>
