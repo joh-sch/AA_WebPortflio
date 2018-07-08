@@ -39,7 +39,7 @@
 		}
 
 		.hidden--dis {
-			display: none;
+			display: none !important;
 		}
 
 	/*–––––––––––––––––––––––––––––––––*/
@@ -83,6 +83,10 @@
 
 
 		/*––– Special Formats –––*/
+
+			#FooterMenu {
+				font-size: 36.5px;
+			}
 
 		/*–––––––––––––––––––––––*/
 
