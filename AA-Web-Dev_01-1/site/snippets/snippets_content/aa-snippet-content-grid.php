@@ -12,6 +12,10 @@ $projects = page('aa-projekte')->children()->visible();
 		<?php if($image = $project->images()->sortBy('sort', 'asc')->first()): $thumb = $image ?>
 
 			<div class="grid-item">
+				<a href="<?= $project->url() ?>">
+					<div class="grid-item--overlay">				
+					</div>
+				</a>
 				<img src="<?= $thumb->url() ?>" alt="Thumbnail for <?= $project->title()->html() ?>" class="showcase-image" />
 		  </div>
 
