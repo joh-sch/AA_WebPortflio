@@ -1,22 +1,22 @@
-<div class="menu--navbar--top-wrapper">
+<div class="menu--navbar--top-wrapper menu--closed" id="MainMenu">
 
-	<div class="menu--navbar--section_sm">
+	<div class="menu--navbar--section_sm" id="MainMenuButton" onclick="mainmenu_toggle()">
 		<span></span>
 	</div>
 
-	<div class="menu--navbar--section_md">
+	<div class="menu--navbar--section_md hidden--vis" id="MainMenu_about">
 		<div>
 			<span>about</span>
 		</div>
 	</div>
 
-	<div class="menu--navbar--section_md">
+	<div class="menu--navbar--section_md hidden--vis" id="MainMenu_contact">
 		<div>
 			<span>contact</span>
 		</div>
 	</div>
 
-	<div class="menu--navbar--section_md">
+	<div class="menu--navbar--section_md hidden--vis" id="MainMenu_shop">
 		<div>
 			<span>shop</span>
 		</div>
