@@ -15,7 +15,8 @@ $('document').ready(function(){
 						$('.grid').isotope({
 							// options
 							itemSelector: '.grid-item',
-							layoutMode: 'fitRows'
+							layoutMode: 'fitRows',
+							transitionDuration: 0,
 						});
 					console.log('… grid running!');
         },
