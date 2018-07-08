@@ -1,6 +1,6 @@
 
-/*	TBN Web Portfolio					*/
-/*	Stylesheet: Menu Styling 	*/
+/*	AA Web Portfolio					*/
+/*	Stylesheet: Menu Styling 		*/
 
 /*––––––––––––––––––––––––––––––––––––––––––––––––––––*/
 /*––––––––––––––––––––––––––––––––––––––––––––––––––––*/
@@ -10,24 +10,34 @@
 /*––––––––––––––––––––––––––––––––*/
 
 	.menu--navbar--top-wrapper {
-		width: calc(100vw - 1rem);
-		height: 1.2em;
-		padding: 0rem 0rem 0.25rem 0rem;
+		height: 9vw;
+		width: calc(100vw - (2.4% + 10px));
+		margin: 1.2%;
+		
+		position: fixed;
+		top: 0;
 
-		position: absolute;
-		bottom: 0;
+		display: flex;
+		justify-content: space-between;
 
+		border: 5px solid #000;
 		user-select: none;
 	}
 
-	.menu--navbar--item-container {
-		margin: 0 !important;
-		padding: 0.2em 0 0 0;
+	.menu--navbar--section_md {
+		flex: 3;
+		border-right: 2.5px solid #000;
+		border-left: 2.5px solid #000;
 	}
 
-	.menu--navbar-item {
-		padding: 0 !important;
-		margin: 0 !important;
+		.menu--navbar--section_md:last-child {
+			flex: 3;
+			border-right: 0px solid #000;
+		}
+
+	.menu--navbar--section_sm {
+		flex: 1;
+		border-right: 2.5px solid #000;
 	}
 
 /*––––––––––––––––––––––––––––––––*/
