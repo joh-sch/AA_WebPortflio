@@ -1,0 +1,9 @@
+title: AA Projekte
+
+pages: true
+files: false
+
+pages:
+  template: AA-Projekt
+
+fields:

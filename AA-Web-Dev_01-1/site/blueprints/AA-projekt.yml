@@ -1,0 +1,21 @@
+title: AA-Projekt
+
+files:
+  sortable: true
+
+pages: false
+
+fields:
+  title:
+    label: Titel
+    type:  text
+    width: 3/4
+
+  year:
+    label: Jahr
+    type:  text
+    width: 1/4
+
+  text:
+    label: Beschreibung
+    type:  textarea
