@@ -9,7 +9,7 @@ $projects = page('aa-projekte')->children()->visible();
 
 	<?php foreach($projects as $project): ?>
 
-		<?php if($image = $project->images()->sortBy('sort', 'asc')->first()): $thumb = $image->crop(600, 600); ?>
+		<?php if($image = $project->images()->sortBy('sort', 'asc')->first()): $thumb = $image ?>
 
 			<div class="grid-item">
 				<img src="<?= $thumb->url() ?>" alt="Thumbnail for <?= $project->title()->html() ?>" class="showcase-image" />
