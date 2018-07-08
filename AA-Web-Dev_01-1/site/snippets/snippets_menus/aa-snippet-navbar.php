@@ -5,15 +5,21 @@
 	</div>
 
 	<div class="menu--navbar--section_md">
-		<span>about</span>
+		<div>
+			<span>about</span>
+		</div>
 	</div>
 
 	<div class="menu--navbar--section_md">
-		<span>contact</span>
+		<div>
+			<span>contact</span>
+		</div>
 	</div>
 
 	<div class="menu--navbar--section_md">
-		<span>shop</span>
+		<div>
+			<span>shop</span>
+		</div>
 	</div>
 	
 </div>

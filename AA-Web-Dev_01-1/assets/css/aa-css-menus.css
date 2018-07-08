@@ -10,7 +10,7 @@
 /*––––––––––––––––––––––––––––––––*/
 
 	.menu--navbar--top-wrapper {
-		height: 9vw;
+		height: 7vw;
 		width: calc(100vw - (2.4% + 10px));
 		margin: 1.2%;
 		
@@ -24,14 +24,20 @@
 		user-select: none;
 	}
 
+	div[class^="menu--navbar--section_"] {
+		position: relative;
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+	}
+
 	.menu--navbar--section_md {
-		flex: 3;
+		flex: 4;
 		border-right: 2.5px solid #000;
 		border-left: 2.5px solid #000;
 	}
 
 		.menu--navbar--section_md:last-child {
-			flex: 3;
 			border-right: 0px solid #000;
 		}
 
