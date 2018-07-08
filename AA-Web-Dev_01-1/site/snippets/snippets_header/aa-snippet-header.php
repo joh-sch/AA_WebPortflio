@@ -39,6 +39,10 @@
 	<!-- barba.js -->
 		<?= js('assets/js/aa-js-barba.js') ?>
 
+	<!-- PLUGINS -->
+		<!-- Isotope -->
+			<?= js('assets/js/isotope.min.js') ?>
+
 <!-- ––––––––––––––––––– -->
 
 
