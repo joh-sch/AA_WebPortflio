@@ -88,8 +88,25 @@
 			user-select: none;
 			pointer-events: none;
 			background-color: transparent;
-
 		}
+
+	.menu--close-button {
+		position: fixed;
+		height: 3.5vw;
+		width: 3.5vw;
+		border: 5px solid;
+		box-sizing: border-box;
+		background-color: white;
+		margin: 1.2%;
+		right: 0;
+
+		display: flex;
+		justify-content: space-around;
+	}
+
+	#closingIcon {
+		width: 2.2vw;
+	}
 
 /*––––––––––––––––––––––––––––––––*/
 /*––––––––––––––––––––––––––––––––*/
@@ -102,6 +119,16 @@
 		color: #fff;
 		background-color: #000;
 		cursor: pointer;
+	}
+
+	.menu--close-button:hover {
+		background-color: black;
+		cursor: pointer;
+	}
+
+	.menu--close-button:hover img {
+		-webkit-filter: invert(100%);
+		filter: invert(100%);
 	}
 
 /*–––––––––––––––––––––––––––––––––*/
