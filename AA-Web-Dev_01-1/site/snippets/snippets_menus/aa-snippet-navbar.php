@@ -1,4 +1,4 @@
-<div class="menu--navbar--top-wrapper menu--closed" id="MainMenu">
+<div class="menu--navbar--top-wrapper z--topmost menu--closed" id="MainMenu">
 
 	<div class="menu--navbar--section_sm" id="MainMenuButton" onclick="mainmenu_toggle()">
 		<span></span>

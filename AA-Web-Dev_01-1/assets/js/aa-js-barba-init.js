@@ -7,10 +7,18 @@ $('document').ready(function(){
         namespace: 'home',
         onEnter: function() {
           console.log('Entering »Home« …')
-          
         },
         onEnterCompleted: function() {
-          console.log('… »Home« loaded successfully');
+          console.log('… »Home« loaded successfully!');
+
+          console.log('Initializing grid …');
+						$('.grid').isotope({
+							// options
+							itemSelector: '.grid-item',
+							layoutMode: 'masonry',
+							transitionDuration: 0,
+						});
+					console.log('… grid running!');
         },
         onLeave: function() {
         	console.log('Leaving »Home« …')

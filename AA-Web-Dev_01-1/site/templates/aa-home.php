@@ -31,12 +31,9 @@ Template name: Home
 	<div class="main-wrapper" id="main-wrapper"> <!-- THIS IS THE BARBA MAIN WRAPPER! -->
 		<div class="main-container" data-namespace="home"> <!-- THIS IS THE BARBA MAIN CONTAINER! -->
 
-			<!--–––––– Module # ––––––-->
-				
+			<!--–––– Content Grid ––––-->
+				<?php snippet('/snippets_content/aa-snippet-content-grid') ?>
 			<!-- –––––––––––––––––––– -->
-
-			<div class="">
-			</div>
 
 		</div>
 	</div>

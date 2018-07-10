@@ -24,6 +24,9 @@
 	<!-- Menus -->
 		<?= css('assets/css/aa-css-menus.css') ?>
 
+	<!-- Grid -->
+		<?= css('assets/css/aa-css-grid.css') ?>
+
 <!-- –––––––––––––––––––– -->
 
 
@@ -38,6 +41,10 @@
 
 	<!-- barba.js -->
 		<?= js('assets/js/aa-js-barba.js') ?>
+
+	<!-- PLUGINS -->
+		<!-- Isotope -->
+			<?= js('assets/js/isotope.min.js') ?>
 
 <!-- ––––––––––––––––––– -->
 
