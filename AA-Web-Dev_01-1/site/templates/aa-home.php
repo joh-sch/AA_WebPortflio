@@ -26,6 +26,28 @@ Template name: Home
 					<?php snippet('/snippets_menus/aa-snippet-navbar') ?>
 				<!-- –––––––––––––––––––– -->
 
+				<!-- –––– Filter Menu –––– -->
+					<div class="menu--navbar--bottom-wrapper z--topmost" id="FilterMenu">
+
+						<div class="menu--navbar--section_md_filter_blank hidden--vis" id="">
+							
+						</div>
+
+						<div class="menu--navbar--section_md_filter_blank hidden--vis" id="">
+							
+						</div>
+
+						<div class="menu--navbar--section_md_filter_blank hidden--vis" id="">
+							
+						</div>
+
+						<div class="menu--navbar--section_md_filter" id="FilterMenuButton">
+							
+						</div>
+						
+					</div>
+				<!-- ––––––––––––––––––––– -->
+
 				<!--–––– Content Grid ––––-->
 					<?php snippet('/snippets_content/aa-snippet-content-grid') ?>
 				<!-- –––––––––––––––––––– -->
