@@ -2,7 +2,7 @@
 AA Web Portfolio
 ––––––––––––––––––––––
 
-Template name: Home
+Template name: Projekt Page
 
 ––––––––––––––––––––––
 -->
@@ -20,14 +20,21 @@ Template name: Home
 	<div class="wrapper--global">
 
 		<div class="main-wrapper" id="main-wrapper"> <!-- THIS IS THE BARBA MAIN WRAPPER! -->
-			<div class="main-container" data-namespace="home"> <!-- THIS IS THE BARBA MAIN CONTAINER! -->
+			<div class="main-container" data-namespace="projekt"> <!-- THIS IS THE BARBA MAIN CONTAINER! -->
 
-				<!-- –––––– Navbar –––––– -->
-					<?php snippet('/snippets_menus/aa-snippet-navbar') ?>
+				<!--–––– NavBar (min) ––––-->
+					<?php snippet('/snippets_menus/aa-snippet-navbar-min') ?>
+				<!-- –––––––––––––––––––– -->
+
+				<!--–––––– ×-Button ––––––-->
+					<div class="menu--close-button z--topmost">
+						<a href="/aa-home/" class="z--topmost" style="position: absolute; width: 100%; height: 100%;"></a>
+						<img src="/assets/images/close-button.svg" alt="x" id="closingIcon">
+					</div>
 				<!-- –––––––––––––––––––– -->
 
 				<!--–––– Content Grid ––––-->
-					<?php snippet('/snippets_content/aa-snippet-content-grid') ?>
+					This is a project page…
 				<!-- –––––––––––––––––––– -->
 
 			</div>
