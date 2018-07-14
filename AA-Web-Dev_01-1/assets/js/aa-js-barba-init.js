@@ -24,7 +24,15 @@ $('document').ready(function(){
               var filterValue = $( this ).attr('data-filter');
               $grid.isotope({ filter: filterValue });
             });
-            
+            // Change checked class on filter-buttons
+            $('.filters').each( function( i, filters ) {
+							var $buttonGroup = $( filters );
+							$buttonGroup.on( 'click', 'button', function() {
+							$buttonGroup.find('.checked').removeClass('checked');
+							$( this ).addClass('checked');
+							$( this ).append(' ✔');
+							});
+            });
 					console.log('… grid running!');
         },
         onLeave: function() {

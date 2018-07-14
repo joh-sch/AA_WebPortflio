@@ -38,6 +38,7 @@ Template name: Home
 						</div>
 
 						<div class="menu--navbar--section_md_filter_sub filters" id="">
+
 								<button data-filter=".vector">Vector</button>
 								<button data-filter=".hand">Hand-drawn</button>
 						</div>
