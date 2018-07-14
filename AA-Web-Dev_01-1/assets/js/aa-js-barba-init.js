@@ -12,12 +12,19 @@ $('document').ready(function(){
           console.log('… »Home« loaded successfully!');
 
           console.log('Initializing grid …');
-						$('.grid').isotope({
+
+						var $grid = $('.grid').isotope({
 							// options
 							itemSelector: '.grid-item',
 							layoutMode: 'masonry',
 							transitionDuration: 0,
 						});
+            // bind filter button click
+            $('.filters').on( 'click', 'button', function() {
+              var filterValue = $( this ).attr('data-filter');
+              $grid.isotope({ filter: filterValue });
+            });
+            
 					console.log('… grid running!');
         },
         onLeave: function() {

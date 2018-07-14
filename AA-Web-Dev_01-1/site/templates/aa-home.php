@@ -37,9 +37,9 @@ Template name: Home
 							
 						</div>
 
-						<div class="menu--navbar--section_md_filter_sub" id="">
-								<button>Vector</button>
-								<button>Hand-drawn</button>
+						<div class="menu--navbar--section_md_filter_sub filters" id="">
+								<button data-filter=".vector">Vector</button>
+								<button data-filter=".hand">Hand-drawn</button>
 						</div>
 
 						<div class="menu--navbar--section_md_filter" id="FilterMenuButton">
