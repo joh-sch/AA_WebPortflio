@@ -9,12 +9,21 @@ fields:
   title:
     label: Titel
     type:  text
-    width: 3/4
+    width: 2/4
 
   year:
     label: Jahr
     type:  text
     width: 1/4
+
+  style:
+    label: Stil
+    type: checkboxes
+    width: 1/4
+    options:
+      vector: Vektor
+      hand: Handgezeichnet
+    columns: 1
 
   text:
     label: Beschreibung

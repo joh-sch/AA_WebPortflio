@@ -37,12 +37,15 @@ Template name: Home
 							
 						</div>
 
-						<div class="menu--navbar--section_md_filter_blank hidden--vis" id="">
-							
+						<div class="menu--navbar--section_md_filter_sub" id="">
+								<button>Vector</button>
+								<button>Hand-drawn</button>
 						</div>
 
 						<div class="menu--navbar--section_md_filter" id="FilterMenuButton">
-							
+							<div>
+								<span>Filter</span>
+							</div>
 						</div>
 						
 					</div>
