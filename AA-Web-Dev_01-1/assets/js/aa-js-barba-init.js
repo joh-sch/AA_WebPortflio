@@ -21,7 +21,6 @@ $('document').ready(function(){
 						});
             // bind filter button click
             $('.filters').on( 'click', 'button', function() {
-
             	if ($(this).hasClass('checked')) {
             		$grid.isotope({ filter: '*' });
             	} else {
@@ -32,6 +31,7 @@ $('document').ready(function(){
             // Change checked class on filter-buttons
             $('.filters').each( function( i, filters ) {
 							var $buttonGroup = $( filters );
+
 							$buttonGroup.on( 'click', 'button', function() {
 								if ($(this).hasClass('checked')) {
 									$( this ).removeClass('checked');
@@ -39,6 +39,8 @@ $('document').ready(function(){
 								} else {
 									$( this ).addClass('checked');
 									$( this ).append('<span class="appended"> ✔</span');
+									$( this ).siblings().children('.appended').remove();
+									$( this ).siblings().removeClass('checked');
 								}
 							});
             });
