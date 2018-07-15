@@ -59,6 +59,28 @@ $('document').ready(function(){
       home.init();
     // ------------
 
+    // Page: »Projekt«
+      var projekt = Barba.BaseView.extend({
+        namespace: 'projekt',
+        onEnter: function() {
+          console.log('Entering project page …')
+        },
+        onEnterCompleted: function() {
+          console.log('… project page loaded successfully!');
+        },
+        onLeave: function() {
+        	console.log('Leaving project page …')
+
+        },
+        onLeaveCompleted: function() {
+
+        }
+      });
+
+      // Don't forget to init the view!
+      projekt.init();
+    // ------------
+
   // -------------------------------
 
   var transEffect = Barba.BaseTransition.extend({

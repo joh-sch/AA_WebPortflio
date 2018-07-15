@@ -33,9 +33,9 @@ Template name: Projekt Page
 					</div>
 				<!-- –––––––––––––––––––– -->
 
-				<!--–––– Content Grid ––––-->
-					This is a project page…
-				<!-- –––––––––––––––––––– -->
+				<!--––––––– Content –––––––-->
+					
+				<!-- ––––––––––––––––––––– -->
 
 			</div>
 		</div>
