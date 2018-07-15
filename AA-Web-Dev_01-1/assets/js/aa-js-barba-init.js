@@ -21,8 +21,13 @@ $('document').ready(function(){
 						});
             // bind filter button click
             $('.filters').on( 'click', 'button', function() {
-              var filterValue = $( this ).attr('data-filter');
-              $grid.isotope({ filter: filterValue });
+
+            	if ($(this).hasClass('checked')) {
+            		$grid.isotope({ filter: '*' });
+            	} else {
+            		var filterValue = $( this ).attr('data-filter');
+              	$grid.isotope({ filter: filterValue });
+            	}          
             });
             // Change checked class on filter-buttons
             $('.filters').each( function( i, filters ) {
