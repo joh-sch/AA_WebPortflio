@@ -26,11 +26,8 @@ $('document').ready(function(){
             });
             // Change checked class on filter-buttons
             $('.filters').each( function( i, filters ) {
-
 							var $buttonGroup = $( filters );
-
 							$buttonGroup.on( 'click', 'button', function() {
-
 								if ($(this).hasClass('checked')) {
 									$( this ).removeClass('checked');
 									$( this ).children('.appended').remove();
@@ -38,8 +35,6 @@ $('document').ready(function(){
 									$( this ).addClass('checked');
 									$( this ).append('<span class="appended"> ✔</span');
 								}
-
-								// $buttonGroup.find('.checked').removeClass('checked');
 							});
             });
 					console.log('… grid running!');
