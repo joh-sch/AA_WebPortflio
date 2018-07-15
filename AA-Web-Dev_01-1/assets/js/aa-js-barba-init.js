@@ -12,12 +12,31 @@ $('document').ready(function(){
           console.log('… »Home« loaded successfully!');
 
           console.log('Initializing grid …');
-						$('.grid').isotope({
+
+						var $grid = $('.grid').isotope({
 							// options
 							itemSelector: '.grid-item',
 							layoutMode: 'masonry',
 							transitionDuration: 0,
 						});
+            // bind filter button click
+            $('.filters').on( 'click', 'button', function() {
+              var filterValue = $( this ).attr('data-filter');
+              $grid.isotope({ filter: filterValue });
+            });
+            // Change checked class on filter-buttons
+            $('.filters').each( function( i, filters ) {
+							var $buttonGroup = $( filters );
+							$buttonGroup.on( 'click', 'button', function() {
+								if ($(this).hasClass('checked')) {
+									$( this ).removeClass('checked');
+									$( this ).children('.appended').remove();
+								} else {
+									$( this ).addClass('checked');
+									$( this ).append('<span class="appended"> ✔</span');
+								}
+							});
+            });
 					console.log('… grid running!');
         },
         onLeave: function() {

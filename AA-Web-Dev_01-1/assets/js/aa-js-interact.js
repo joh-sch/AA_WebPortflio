@@ -18,16 +18,13 @@
 		var menuSec3 		= $('#MainMenu_shop');
 
 		if (menu.hasClass('menu--closed')) {
-
 			menuSec1.removeClass('hidden--vis')
 			menuSec2.removeClass('hidden--vis')
 			menuSec3.removeClass('hidden--vis')
 			subMenu.removeClass('hidden--dis')
 			menu.removeClass('menu--closed')
 			menu.addClass('menu--open')
-
 		} else {
-
 			menuSec1.addClass('hidden--vis')
 			menuSec2.addClass('hidden--vis')
 			menuSec3.addClass('hidden--vis')
@@ -37,6 +34,31 @@
 		
 		}
 	}
+
+	// Open Filter Menu
+	function filtermenu_toggle() {
+		var menu 		= $('#FilterButtons');
+		var button 	= $('#FilterMenuButton');
+
+		if (menu.hasClass('menu--closed')) {
+			menu.removeClass('hidden--vis')
+			menu.removeClass('menu--closed')
+		} else {
+			menu.addClass('hidden--vis')
+			menu.addClass('menu--closed')
+		}
+	}
+
+//	––––––––––––––––––––––––––––––––
+//	––––––––––––––––––––––––––––––––
+
+
+// **************************************************
+// **************************************************
+
+
+//	–––––– BUTTON INTERACTION ––––––
+//	––––––––––––––––––––––––––––––––
 
 //	––––––––––––––––––––––––––––––––
 //	––––––––––––––––––––––––––––––––
