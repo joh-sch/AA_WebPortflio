@@ -127,6 +127,13 @@
 			cursor: default !important;
 		}
 
+		.menu--navbar--section_md_filter_sub button:first-child {
+			border-right: 2.4px solid #000;
+		}
+		.menu--navbar--section_md_filter_sub button:nth-child(2) {
+			border-left: 2.5px solid #000;
+		}
+
 		.menu--navbar--section_md_filter_sub button {
 			width: 100%;
 			height: 100%;

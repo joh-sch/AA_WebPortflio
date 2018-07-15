@@ -102,6 +102,8 @@ button {
 
     background: transparent;
 
+    outline: none;
+
     /* inherit font & color from ancestor */
     color: inherit;
     font: inherit;
