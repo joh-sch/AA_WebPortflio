@@ -26,6 +26,8 @@
 
 	<!-- Grid -->
 		<?= css('assets/css/aa-css-grid.css') ?>
+	<!-- Slider -->
+		<?= css('assets/css/aa-css-slider.css') ?>
 
 	<!-- PLUGINS -->
 		<!-- Flickity -->

@@ -67,6 +67,18 @@ $('document').ready(function(){
         },
         onEnterCompleted: function() {
           console.log('… project page loaded successfully!');
+          console.log('Setting up slider …')
+
+						$('.main-carousel').flickity({
+							// options
+							cellAlign: 'left',
+							contain: true,
+							draggable: false,
+							pageDots: false,
+							wrapAround: true
+						});
+
+					console.log('… slider ready!')
         },
         onLeave: function() {
         	console.log('Leaving project page …')
