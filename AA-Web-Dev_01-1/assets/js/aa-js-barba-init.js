@@ -17,8 +17,7 @@ $('document').ready(function(){
 							// options
 							itemSelector: '.grid-item',
 							layoutMode: 'masonry',
-							transitionDuration: 0,
-							imagesLoaded: true,
+							transitionDuration: 0
 						});
             // bind filter button click
             $('.filters').on( 'click', 'button', function() {
@@ -76,7 +75,10 @@ $('document').ready(function(){
 							contain: true,
 							draggable: false,
 							pageDots: false,
-							wrapAround: true
+							wrapAround: true,
+							selectedAttraction: 0.01,
+							friction: 0.15,
+							imagesLoaded: true
 						});
 
 					console.log('… slider ready!')
