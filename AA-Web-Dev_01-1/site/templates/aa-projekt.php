@@ -49,6 +49,12 @@ Template name: Projekt Page
 							<?php endforeach ?>
 						</div>
 					<!-- –––––––––––––––––––––– -->
+
+					<!-- –––– Slide Counter –––– -->
+						<div class="slide--counter-container">
+							<p class="slider--counter"></p>
+						</div>
+					<!-- ––––––––––––––––––––––– -->
 				<!-- ––––––––––––––––––––– -->
 
 			</div>

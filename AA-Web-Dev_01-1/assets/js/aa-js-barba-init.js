@@ -67,8 +67,8 @@ $('document').ready(function(){
         },
         onEnterCompleted: function() {
           console.log('… project page loaded successfully!');
-          console.log('Setting up slider …')
 
+          console.log('Setting up slider …')
 						$('.main-carousel').flickity({
 							// options
 							cellAlign: 'left',
@@ -80,8 +80,20 @@ $('document').ready(function(){
 							friction: 0.15,
 							imagesLoaded: true
 						});
-
 					console.log('… slider ready!')
+
+					console.log('Setting slide counter')
+						var $carousel = $('.main-carousel').flickity();
+						var $carouselStatus = $('.slider--counter');
+						var flkty = $carousel.data('flickity');
+
+						function updateStatus() {
+						  var cellNumber = flkty.selectedIndex + 1;
+						  $carouselStatus.text( cellNumber + '/' + flkty.slides.length );
+						}
+						updateStatus();
+						$carousel.on( 'change.flickity', updateStatus );
+					console.log('… slide counter ready!')
         },
         onLeave: function() {
         	console.log('Leaving project page …')

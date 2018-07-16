@@ -27,6 +27,12 @@
 			height: 90%;
 		}
 
+
+		.slide--counter-container {
+			position: absolute;
+			bottom: 0;
+		}
+
 	/*––––––––––––––––––––––––––––––––*/
 	/*––––––––––––––––––––––––––––––––*/
 
