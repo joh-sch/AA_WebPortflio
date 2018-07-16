@@ -75,7 +75,7 @@ $('document').ready(function(){
 							contain: true,
 							draggable: false,
 							pageDots: false,
-							wrapAround: true,
+							wrapAround: false,
 							selectedAttraction: 0.01,
 							friction: 0.15,
 							imagesLoaded: true
