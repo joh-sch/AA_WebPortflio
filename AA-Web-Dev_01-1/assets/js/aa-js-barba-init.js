@@ -18,6 +18,7 @@ $('document').ready(function(){
 							itemSelector: '.grid-item',
 							layoutMode: 'masonry',
 							transitionDuration: 0,
+							imagesLoaded: true,
 						});
             // bind filter button click
             $('.filters').on( 'click', 'button', function() {
