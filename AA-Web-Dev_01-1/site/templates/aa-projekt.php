@@ -51,10 +51,17 @@ Template name: Projekt Page
 					<!-- –––––––––––––––––––––– -->
 
 					<!-- –––– Slide Counter –––– -->
-						<div class="slide--counter-container">
+						<div class="slider--counter-container">
 							<p class="slider--counter"></p>
 						</div>
 					<!-- ––––––––––––––––––––––– -->
+
+					<!-- – Last-Slide Detector – -->
+						<div class="slider--last-slide-detector-container">
+							<p class="slider--last-slide-detector">Not the last slide</p>
+						</div>
+					<!-- ––––––––––––––––––––––– -->
+
 				<!-- ––––––––––––––––––––– -->
 
 			</div>

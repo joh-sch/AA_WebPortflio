@@ -67,7 +67,7 @@ $('document').ready(function(){
         },
         onEnterCompleted: function() {
           console.log('… project page loaded successfully!');
-
+          ///////////////////////// 
           console.log('Setting up slider …')
 						$('.main-carousel').flickity({
 							// options
@@ -81,11 +81,11 @@ $('document').ready(function(){
 							imagesLoaded: true
 						});
 					console.log('… slider ready!')
-
-					console.log('Setting slide counter')
-						var $carousel = $('.main-carousel').flickity();
+					///////////////////////// 
+					console.log('Setting slide counter …')
+						var $carousel 			= $('.main-carousel').flickity();
 						var $carouselStatus = $('.slider--counter');
-						var flkty = $carousel.data('flickity');
+						var flkty 					= $carousel.data('flickity');
 
 						function updateStatus() {
 						  var cellNumber = flkty.selectedIndex + 1;
@@ -94,6 +94,23 @@ $('document').ready(function(){
 						updateStatus();
 						$carousel.on( 'change.flickity', updateStatus );
 					console.log('… slide counter ready!')
+					/////////////////////////
+					console.log('Setting last-slide detector …')
+						var $carousel 				= $('.main-carousel').flickity();
+						var $lastSlideDetect 	= $('.slider--last-slide-detector');
+						var flkty 						= $carousel.data('flickity');
+
+						function detectLast() {
+							if ( flkty.selectedIndex == flkty.cells.length - 1 ) {
+								console.log('This is the last slide.');
+								$lastSlideDetect.text('The last slide')
+							} else {
+								console.log('This is not the last slide.');
+								$lastSlideDetect.text('Not the last slide')
+							}	
+						}
+						$carousel.on( 'settle.flickity', detectLast );
+					console.log('… last-slide detector ready!')
         },
         onLeave: function() {
         	console.log('Leaving project page …')
