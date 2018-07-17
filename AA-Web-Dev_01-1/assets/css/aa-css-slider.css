@@ -39,6 +39,13 @@
 			right: 0;
 		}
 
+		.slider--NextProject-btn-container {
+			position: absolute;
+			top: 50%;
+			right: 10px;
+			transform: translateY(-50%);
+		}
+
 	/*–––––––––––––––––––––––––––––––––*/
 	/*–––––––––––––––––––––––––––––––––*/
 

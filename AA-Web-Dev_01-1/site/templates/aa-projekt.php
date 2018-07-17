@@ -62,6 +62,14 @@ Template name: Projekt Page
 						</div>
 					<!-- ––––––––––––––––––––––– -->
 
+					<!-- – Next Project-Button – -->
+						<div class="slider--NextProject-btn-container hidden--dis">
+							<a href="<?= $page->nextVisible()->url() ?>" class="slider--NextProject-btn">
+								next
+							</a>
+						</div>
+					<!-- ––––––––––––––––––––––– -->
+
 				<!-- ––––––––––––––––––––– -->
 
 			</div>
