@@ -56,12 +56,6 @@ Template name: Projekt Page
 						</div>
 					<!-- ––––––––––––––––––––––– -->
 
-					<!-- – Last-Slide Detector – -->
-						<div class="slider--last-slide-detector-container">
-							<p class="slider--last-slide-detector">Not the last slide</p>
-						</div>
-					<!-- ––––––––––––––––––––––– -->
-
 					<!-- – Next Project-Button – -->
 						<div class="slider--NextProject-btn-container hidden--dis">
 							<a href="<?= $page->nextVisible()->url() ?>" class="slider--NextProject-btn">

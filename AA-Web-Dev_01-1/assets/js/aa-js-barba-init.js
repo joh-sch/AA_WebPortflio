@@ -97,18 +97,15 @@ $('document').ready(function(){
 					/////////////////////////
 					console.log('Setting last-slide detector …')
 						var $carousel 				= $('.main-carousel').flickity();
-						var $lastSlideDetect 	= $('.slider--last-slide-detector');
 						var flkty 						= $carousel.data('flickity');
 						var nextProjectBtn		=	$('.slider--NextProject-btn-container')
 
 						function detectLast() {
 							if ( flkty.selectedIndex == flkty.cells.length - 1 ) {
 								console.log('This is the last slide.');
-								$lastSlideDetect.text('The last slide');
 								nextProjectBtn.removeClass('hidden--dis')
 							} else {
 								console.log('This is not the last slide.');
-								$lastSlideDetect.text('Not the last slide');
 								nextProjectBtn.addClass('hidden--dis')
 							}	
 						}
@@ -117,10 +114,8 @@ $('document').ready(function(){
         },
         onLeave: function() {
         	console.log('Leaving project page …')
-
         },
         onLeaveCompleted: function() {
-
         }
       });
 
