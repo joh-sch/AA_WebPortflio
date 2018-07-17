@@ -41,3 +41,27 @@
 /* ************************************************** */
 
 
+	/*–––––––– SLIDER ARROWS ––––––––*/
+	/*–––––––––––––––––––––––––––––––*/
+
+		.flickity-button {
+			opacity: 0 !important;
+			background: transparent !important;
+		}
+
+		.flickity-button:hover {
+			opacity: 1 !important;
+		}
+
+		.flickity-prev-next-button {
+			height: 150px !important;
+			width: 150px !important;
+		}
+
+	/*–––––––––––––––––––––––––––––––*/
+	/*–––––––––––––––––––––––––––––––*/
+
+
+/* ************************************************** */
+/* ************************************************** */
+
