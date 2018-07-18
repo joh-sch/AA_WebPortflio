@@ -17,6 +17,10 @@ Template name: Projekt Page
 <!-- ************************************************** -->
 
 
+
+<!-- ************************************************** -->
+<!-- ************************************************** -->
+
 	<div class="wrapper--global">
 
 		<div class="main-wrapper" id="main-wrapper"> <!-- THIS IS THE BARBA MAIN WRAPPER! -->
@@ -33,9 +37,34 @@ Template name: Projekt Page
 					</div>
 				<!-- –––––––––––––––––––– -->
 
-				<!--–––– Content Grid ––––-->
-					This is a project page…
-				<!-- –––––––––––––––––––– -->
+				<!--––––––– Content –––––––-->
+					<!-- ––––––– Slider ––––––– -->
+						<div class="main-carousel">
+							<?php foreach($page->images()->sortBy('sort', 'asc') as $image): ?>
+
+								<div class="carousel-cell">
+									<img src="<?= $image->url() ?>" alt="<?= $page->title()->html() ?>" />
+								</div>
+
+							<?php endforeach ?>
+						</div>
+					<!-- –––––––––––––––––––––– -->
+
+					<!-- –––– Slide Counter –––– -->
+						<div class="slider--counter-container">
+							<p class="slider--counter"></p>
+						</div>
+					<!-- ––––––––––––––––––––––– -->
+
+					<!-- – Next Project-Button – -->
+						<div class="slider--NextProject-btn-container hidden--dis">
+							<a href="<?= $page->nextVisible()->url() ?>" class="slider--NextProject-btn">
+								next
+							</a>
+						</div>
+					<!-- ––––––––––––––––––––––– -->
+
+				<!-- ––––––––––––––––––––– -->
 
 			</div>
 		</div>

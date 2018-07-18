@@ -26,7 +26,12 @@
 
 	<!-- Grid -->
 		<?= css('assets/css/aa-css-grid.css') ?>
+	<!-- Slider -->
+		<?= css('assets/css/aa-css-slider.css') ?>
 
+	<!-- PLUGINS -->
+		<!-- Flickity -->
+			<?= css('assets/css/flickity.css') ?>
 <!-- –––––––––––––––––––– -->
 
 
@@ -45,6 +50,8 @@
 	<!-- PLUGINS -->
 		<!-- Isotope -->
 			<?= js('assets/js/isotope.min.js') ?>
+		<!-- Flickity -->
+			<?= js('assets/js/flickity.pkgd.min.js') ?>
 
 <!-- ––––––––––––––––––– -->
 

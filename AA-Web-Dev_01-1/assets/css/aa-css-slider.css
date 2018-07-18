@@ -1,0 +1,108 @@
+/*	AA Web Portfolio						*/
+/*	Stylesheet: Slider Styling 	*/
+
+/*––––––––––––––––––––––––––––––––––––––––––––––––––––*/
+/*––––––––––––––––––––––––––––––––––––––––––––––––––––*/
+
+
+	/*––––––––– SLIDER LAYOUT –––––––––*/
+	/*–––––––––––––––––––––––––––––––––*/
+
+		.carousel-cell {
+		  width: 100%; /* full width */
+		  height: 100vh; /* height of carousel */
+
+		  /* Center images in slides 1*/
+			display: -webkit-box;
+			display: -webkit-flex;
+			display:         flex;
+			-webkit-box-pack: center;
+			-webkit-justify-content: center;
+			justify-content: center;
+			-webkit-align-items: center;
+			align-items: center;
+		}
+
+		.carousel-cell img {	
+			height: 90%;
+		}
+
+
+		.slider--counter-container {
+			position: absolute;
+			top: 0;
+			
+			width: calc(100% - (2.4%));
+			margin: 1.2%;
+
+			display: flex;
+			justify-content: space-evenly;
+		}
+
+		.slider--last-slide-detector-container {
+			position: absolute;
+			bottom: 0;
+			right: 0;
+		}
+
+		.slider--NextProject-btn-container {
+			position: absolute;
+			top: 50%;
+			right: 1.2%;
+			transform: translateY(-50%);
+		}
+
+	/*–––––––––––––––––––––––––––––––––*/
+	/*–––––––––––––––––––––––––––––––––*/
+
+
+/* ************************************************** */
+/* ************************************************** */
+
+
+	/*–––––––– SLIDER ARROWS ––––––––*/
+	/*–––––––––––––––––––––––––––––––*/
+
+		.flickity-button {
+			color: #000 !important;
+			opacity: 0 !important;
+			background: transparent !important;
+		}
+
+		.flickity-button:hover {
+			opacity: 1 !important;
+		}
+
+		.flickity-button-icon {
+			fill: transparent !important;
+		}
+
+		.flickity-prev-next-button {
+			height: 100px !important;
+			width: 100px !important;
+
+			border-radius: 0% !important;
+		}
+
+		.flickity-prev-next-button.next {
+			right: 1.2% !important;
+			text-align: right;
+		}
+		.flickity-prev-next-button.previous {
+			left: 1.2% !important;
+			text-align: left;
+		}
+
+		.flickity-prev-next-button.next::after {
+			content: '→';
+		}
+		.flickity-prev-next-button.previous::after {
+			content: '←';
+		}
+
+	/*–––––––––––––––––––––––––––––––*/
+	/*–––––––––––––––––––––––––––––––*/
+
+/* ************************************************** */
+/* ************************************************** */
+
