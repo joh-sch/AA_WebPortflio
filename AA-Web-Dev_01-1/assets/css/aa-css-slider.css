@@ -30,7 +30,13 @@
 
 		.slider--counter-container {
 			position: absolute;
-			bottom: 0;
+			top: 0;
+			
+			width: calc(100% - (2.4%));
+			margin: 1.2%;
+
+			display: flex;
+			justify-content: space-evenly;
 		}
 
 		.slider--last-slide-detector-container {
