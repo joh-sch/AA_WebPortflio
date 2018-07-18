@@ -58,6 +58,7 @@
 	/*–––––––––––––––––––––––––––––––*/
 
 		.flickity-button {
+			color: #000 !important;
 			opacity: 0 !important;
 			background: transparent !important;
 		}
@@ -66,9 +67,31 @@
 			opacity: 1 !important;
 		}
 
+		.flickity-button-icon {
+			fill: transparent !important;
+		}
+
 		.flickity-prev-next-button {
-			height: 150px !important;
-			width: 150px !important;
+			height: 100px !important;
+			width: 100px !important;
+
+			border-radius: 0% !important;
+		}
+
+		.flickity-prev-next-button.next {
+			right: 1.2% !important;
+			text-align: right;
+		}
+		.flickity-prev-next-button.previous {
+			left: 1.2% !important;
+			text-align: left;
+		}
+
+		.flickity-prev-next-button.next::after {
+			content: '→';
+		}
+		.flickity-prev-next-button.previous::after {
+			content: '←';
 		}
 
 	/*–––––––––––––––––––––––––––––––*/
