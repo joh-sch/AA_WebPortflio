@@ -111,6 +111,23 @@ $('document').ready(function(){
 						}
 						$carousel.on( 'change.flickity', detectLast );
 					console.log('… last-slide detector ready!')
+          /////////////////////////
+          console.log('Setting first-slide detector …')
+            var $carousel         = $('.main-carousel').flickity();
+            var flkty             = $carousel.data('flickity');
+            var prevProjectBtn    = $('.slider--PrevProject-btn-container')
+
+            function detectFirst() {
+              if ( flkty.selectedIndex == flkty.cells.length - flkty.cells.length ) {
+                console.log('This is the first slide.');
+                prevProjectBtn.removeClass('hidden--dis')
+              } else {
+                console.log('This is not the first slide.');
+                prevProjectBtn.addClass('hidden--dis')
+              } 
+            }
+            $carousel.on( 'change.flickity', detectFirst );
+          console.log('… first-slide detector ready!')
         },
         onLeave: function() {
         	console.log('Leaving project page …')

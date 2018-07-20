@@ -57,6 +57,16 @@ Template name: Projekt Page
 					<!-- ––––––––––––––––––––––– -->
 
 					<!-- – Next Project-Button – -->
+						<?php if($page->hasPrev()) { ?>
+						<div class="slider--PrevProject-btn-container hidden--dis">
+							<a href="<?= $page->prevVisible()->url() ?>" class="slider--PrevProject-btn">
+								previous
+							</a>
+						</div>
+						<?php } ?>
+					<!-- ––––––––––––––––––––––– -->
+
+					<!-- – Next Project-Button – -->
 						<div class="slider--NextProject-btn-container hidden--dis">
 							<a href="<?= $page->nextVisible()->url() ?>" class="slider--NextProject-btn">
 								next
