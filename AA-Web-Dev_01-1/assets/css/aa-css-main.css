@@ -114,9 +114,11 @@
 			text-rendering: optimizeLegibility;
 		}
 
-		/*–––––– Fließtext ––––––*/
-
-		/*–––––––––––––––––––––––*/
+		/*––––––––– Text –––––––––*/
+			.text--project {
+				font-size: 36.5px;
+			}
+		/*––––––––––––––––––––––––*/
 
 
 		/*–––––– Headlines ––––––*/

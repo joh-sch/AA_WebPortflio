@@ -110,6 +110,7 @@ $('document').ready(function(){
 							}	
 						}
 						$carousel.on( 'change.flickity', detectLast );
+            detectLast();
 					console.log('… last-slide detector ready!')
           /////////////////////////
           console.log('Setting first-slide detector …')
@@ -127,6 +128,7 @@ $('document').ready(function(){
               } 
             }
             $carousel.on( 'change.flickity', detectFirst );
+            detectFirst();
           console.log('… first-slide detector ready!')
         },
         onLeave: function() {

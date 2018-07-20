@@ -56,11 +56,17 @@ Template name: Projekt Page
 						</div>
 					<!-- ––––––––––––––––––––––– -->
 
+					<!-- – Project Description – -->
+						<div class="slider--projectDescription-container text--project">
+							<span>Projektbeschreibung</span>
+						</div>
+					<!-- ––––––––––––––––––––––– -->
+
 					<!-- – Next Project-Button – -->
 						<?php if($page->hasPrev()) { ?>
 						<div class="slider--PrevProject-btn-container hidden--dis">
 							<a href="<?= $page->prevVisible()->url() ?>" class="slider--PrevProject-btn">
-								previous
+								prev
 							</a>
 						</div>
 						<?php } ?>

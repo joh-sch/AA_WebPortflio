@@ -59,6 +59,14 @@
 			transform: translateY(-50%);
 		}
 
+		.slider--projectDescription-container {
+			position: absolute;
+			left: 0;
+			bottom: 0;
+
+			margin: 1.2%;
+			line-height: 0.6712328767em;
+		}
 	/*–––––––––––––––––––––––––––––––––*/
 	/*–––––––––––––––––––––––––––––––––*/
 
