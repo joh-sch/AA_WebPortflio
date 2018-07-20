@@ -25,6 +25,16 @@ fields:
       hand: Handgezeichnet
     columns: 1
 
+  type:
+    label: Medium/Art
+    type:  text
+    width: 1/4
+
+  client:
+    label: Kunde
+    type:  text
+    width: 1/4
+
   text:
     label: Beschreibung
     type:  textarea

@@ -58,7 +58,10 @@ Template name: Projekt Page
 
 					<!-- – Project Description – -->
 						<div class="slider--projectDescription-container text--project">
-							<span>Projektbeschreibung</span>
+							<span><?= $page->title()->kirbytext() ?>, </span>
+							<span><?= $page->year()->kirbytext() ?>, </span>
+							<span><?= $page->type()->kirbytext() ?>, </span>
+							<span><?= $page->client()->kirbytext() ?>, </span>
 						</div>
 					<!-- ––––––––––––––––––––––– -->
 

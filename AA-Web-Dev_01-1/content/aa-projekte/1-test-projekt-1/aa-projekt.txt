@@ -1,4 +1,4 @@
-Title: Test-Projekt-1
+Title: Super Project
 
 ----
 
@@ -11,3 +11,11 @@ Text: Dies ist ein Typoblindtext. An ihm kann man sehen, ob alle Buchstaben da s
 ----
 
 Style: vector
+
+----
+
+Type: Editorial Illustration
+
+----
+
+Client: A Very Cool Client
