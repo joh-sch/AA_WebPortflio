@@ -71,6 +71,9 @@
 		.slider--projectDescription-container span p {
 			display: inline-block;
 		}
+		.slider--projectDescription-container span:first-child {
+			font-family: Eesti-Regular-Italic;
+		}
 	/*–––––––––––––––––––––––––––––––––*/
 	/*–––––––––––––––––––––––––––––––––*/
 

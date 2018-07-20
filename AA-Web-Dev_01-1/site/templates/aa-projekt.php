@@ -61,7 +61,7 @@ Template name: Projekt Page
 							<span><?= $page->title()->kirbytext() ?>, </span>
 							<span><?= $page->year()->kirbytext() ?>, </span>
 							<span><?= $page->type()->kirbytext() ?>, </span>
-							<span><?= $page->client()->kirbytext() ?>, </span>
+							<span><?= $page->client()->kirbytext() ?> </span>
 						</div>
 					<!-- ––––––––––––––––––––––– -->
 

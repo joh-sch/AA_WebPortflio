@@ -92,6 +92,12 @@
 					src: url('../fonts/GTEestiProDisplay-Regular.otf');
 				}
 
+				@font-face {
+					font-family: Eesti-Regular-Italic;
+					font-style: italic;
+					src: url('../fonts/GTEestiProDisplay-RegularItalic.otf');
+				}
+
 			/* Ginto */
 				@font-face {
 					font-family: Ginto-Regular;
