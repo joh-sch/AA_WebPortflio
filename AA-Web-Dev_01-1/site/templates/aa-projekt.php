@@ -40,13 +40,15 @@ Template name: Projekt Page
 					<div class="slider--projectDesc-section" id="descSection2">
 						<div class="slider--projectDesc-item-container">
 							<div>
-								<span><?= $page->title()->kirbytext() ?> </span>
+								<span><?= $page->title()->kirbytext()?> </span>
+								<span>(<?= str::unhtml( $page->context()->kirbytext() ) ?>) </span>
 							</div>
 							<div>
-								<span><?= $page->type()->kirbytext() ?> </span>
+								<span><?= $page->description()->kirbytext() ?> </span>
 							</div>
 							<div>
 								<span><?= $page->year()->kirbytext() ?> </span>
+								<span>(<?= str::unhtml( $page->additional()->kirbytext() ) ?>) </span>
 							</div>
 							<div>
 								

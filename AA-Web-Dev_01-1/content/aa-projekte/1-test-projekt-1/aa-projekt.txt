@@ -1,8 +1,8 @@
-Title: Super Project
+Title: SEAB
 
 ----
 
-Year: 2018
+Year: 2016
 
 ----
 
@@ -18,4 +18,20 @@ Type: Editorial Illustration
 
 ----
 
-Client: A Very Cool Client
+Client: 
+
+----
+
+Context: environmental business in Bozen, Italy
+
+----
+
+Madeat: 
+
+----
+
+Description: Corporate Design (collaborative), Graphic Design & Corporate Illustration, bag for organic waste
+
+----
+
+Additional: made at Raffinerie
