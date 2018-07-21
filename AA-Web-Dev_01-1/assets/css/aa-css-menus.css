@@ -9,6 +9,22 @@
 /*–––––––––––– NAVBARS ––––––––––––*/
 /*–––––––––––––––––––––––––––––––––*/
 
+	/*––––– NAVBAR ICON –––––*/
+		.menu--navbar--icon {
+			position: fixed;
+			height: 7vw;
+			width: 7vw;
+			border: 5px solid;
+			box-sizing: border-box;
+			background-color: white;
+			margin: 1.2%;
+			left: 0;
+
+			display: flex;
+			justify-content: space-around;
+		}
+	/*–––––––––––––––––––––––*/
+
 	.menu--navbar--top-wrapper {
 		height: 7vw;
 		width: calc(100vw - (2.4%));

@@ -26,9 +26,35 @@ Template name: Projekt Page
 		<div class="main-wrapper" id="main-wrapper"> <!-- THIS IS THE BARBA MAIN WRAPPER! -->
 			<div class="main-container" data-namespace="projekt"> <!-- THIS IS THE BARBA MAIN CONTAINER! -->
 
+				<!--––––– Brand Icon –––––-->
+					<?php snippet('/snippets_menus/aa-snippet-navbar-icon') ?>
+				<!-- –––––––––––––––––––– -->
+
 				<!--–––– NavBar (min) ––––-->
 					<?php snippet('/snippets_menus/aa-snippet-navbar-min') ?>
 				<!-- –––––––––––––––––––– -->
+
+				<!-- – Project Descrip. II – -->
+				<div class="slider--projectDesc-container z--top text--project2">
+
+					<div class="slider--projectDesc-section" id="descSection2">
+						<div class="slider--projectDesc-item-container">
+							<div>
+								<span><?= $page->title()->kirbytext() ?> </span>
+							</div>
+							<div>
+								<span><?= $page->type()->kirbytext() ?> </span>
+							</div>
+							<div>
+								<span><?= $page->year()->kirbytext() ?> </span>
+							</div>
+							<div>
+								
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- ––––––––––––––––––––––– -->
 
 				<!--–––––– ×-Button ––––––-->
 					<div class="menu--close-button z--topmost">
@@ -53,15 +79,6 @@ Template name: Projekt Page
 					<!-- –––– Slide Counter –––– -->
 						<div class="slider--counter-container">
 							<p class="slider--counter"></p>
-						</div>
-					<!-- ––––––––––––––––––––––– -->
-
-					<!-- – Project Description – -->
-						<div class="slider--projectDescription-container text--project">
-							<span><?= $page->title()->kirbytext() ?>, </span>
-							<span><?= $page->year()->kirbytext() ?>, </span>
-							<span><?= $page->type()->kirbytext() ?>, </span>
-							<span><?= $page->client()->kirbytext() ?> </span>
 						</div>
 					<!-- ––––––––––––––––––––––– -->
 
