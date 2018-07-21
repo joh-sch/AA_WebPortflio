@@ -59,21 +59,54 @@
 			transform: translateY(-50%);
 		}
 
-		.slider--projectDescription-container {
-			position: absolute;
-			left: 0;
-			bottom: 0;
+		/*–– Project Descrip.  ––*/
 
-			margin: 1.2%;
-			line-height: 0.6712328767em;
-		}
+			.slider--projectDescription-container {
+				position: absolute;
+				left: 0;
+				bottom: 0;
 
-		.slider--projectDescription-container span p {
-			display: inline-block;
-		}
-		.slider--projectDescription-container span:first-child {
-			font-family: Eesti-Regular-Italic;
-		}
+				margin: 1.2%;
+				line-height: 0.6712328767em;
+			}
+
+			.slider--projectDescription-container span p {
+				display: inline-block;
+			}
+			.slider--projectDescription-container span:first-child {
+				font-family: Eesti-Regular-Italic;
+			}
+
+
+			.slider--projectDesc-container {
+				height: 7vw;
+				width: calc(100vw - (2.4% + 3.5vw));
+				margin: 1.2%;
+				position: fixed;
+				top: 0;
+				display: flex;
+				justify-content: space-between;
+			}
+
+			.slider--projectDesc-section {
+				opacity: 0.7;
+			}
+
+			#descSection1 {
+				flex: 1;
+				border: 5px solid;
+			}
+			#descSection2 {
+				flex: 12;
+			}
+
+			.slider--projectDesc-section:nth-child(even){
+				background-color: orchid;
+			}
+			.slider--projectDesc-section:nth-child(odd){
+				background-color: tomato;
+			}
+		/*–––––––––––––––––––––––*/
 	/*–––––––––––––––––––––––––––––––––*/
 	/*–––––––––––––––––––––––––––––––––*/
 

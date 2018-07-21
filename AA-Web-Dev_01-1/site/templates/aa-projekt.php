@@ -30,6 +30,13 @@ Template name: Projekt Page
 					<?php snippet('/snippets_menus/aa-snippet-navbar-min') ?>
 				<!-- –––––––––––––––––––– -->
 
+				<!-- – Project Descrip. II – -->
+				<div class="slider--projectDesc-container z--topmost">
+					<div class="slider--projectDesc-section" id="descSection1"></div>
+					<div class="slider--projectDesc-section" id="descSection2"></div>
+				</div>
+				<!-- ––––––––––––––––––––––– -->
+
 				<!--–––––– ×-Button ––––––-->
 					<div class="menu--close-button z--topmost">
 						<a href="/aa-home/" class="z--topmost" style="position: absolute; width: 100%; height: 100%;"></a>
