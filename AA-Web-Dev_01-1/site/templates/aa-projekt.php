@@ -31,9 +31,24 @@ Template name: Projekt Page
 				<!-- –––––––––––––––––––– -->
 
 				<!-- – Project Descrip. II – -->
-				<div class="slider--projectDesc-container z--topmost">
+				<div class="slider--projectDesc-container z--topmost text--project2">
 					<div class="slider--projectDesc-section" id="descSection1"></div>
-					<div class="slider--projectDesc-section" id="descSection2"></div>
+					<div class="slider--projectDesc-section" id="descSection2">
+						<div class="slider--projectDesc-item-container">
+							<div>
+								<span><?= $page->title()->kirbytext() ?> </span>
+							</div>
+							<div>
+								<span><?= $page->type()->kirbytext() ?> </span>
+							</div>
+							<div>
+								<span><?= $page->year()->kirbytext() ?> </span>
+							</div>
+							<div>
+								
+							</div>
+						</div>
+					</div>
 				</div>
 				<!-- ––––––––––––––––––––––– -->
 
