@@ -29,19 +29,6 @@
 			bottom: 7.5%
 		}
 
-
-		.slider--counter-container {
-			position: absolute;
-			bottom: 0;
-			
-			width: calc(100% - (2.4%));
-			margin: 1.2%;
-			line-height: 0.6712328767em;
-
-			display: flex;
-			justify-content: flex-end;
-		}
-
 		.slider--last-slide-detector-container {
 			position: absolute;
 			bottom: 0;

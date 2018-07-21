@@ -43,16 +43,21 @@ Template name: Projekt Page
 								<span><?= $page->title()->kirbytext()?> </span>
 								<span>(<?= str::unhtml( $page->context()->kirbytext() ) ?>) </span>
 							</div>
+
 							<div>
 								<span><?= $page->description()->kirbytext() ?> </span>
 							</div>
+
 							<div>
 								<span><?= $page->year()->kirbytext() ?> </span>
 								<span>(<?= str::unhtml( $page->additional()->kirbytext() ) ?>) </span>
 							</div>
-							<div>
-								
-							</div>
+
+							<!-- –––– Slide Counter –––– -->
+								<div class="slider--counter-container">
+									<p class="slider--counter"></p>
+								</div>
+							<!-- ––––––––––––––––––––––– -->
 						</div>
 					</div>
 				</div>
@@ -76,13 +81,7 @@ Template name: Projekt Page
 
 							<?php endforeach ?>
 						</div>
-					<!-- –––––––––––––––––––––– -->
-
-					<!-- –––– Slide Counter –––– -->
-						<div class="slider--counter-container">
-							<p class="slider--counter"></p>
-						</div>
-					<!-- ––––––––––––––––––––––– -->
+					<!-- –––––––––––––––––––––– -->					
 
 					<!-- – Next Project-Button – -->
 						<?php if($page->hasPrev()) { ?>

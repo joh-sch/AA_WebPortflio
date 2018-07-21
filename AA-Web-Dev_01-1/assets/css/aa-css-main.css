@@ -143,6 +143,11 @@
 				font-size: 36.5px;
 			}
 
+			.slider--counter-container {
+				font-size: 73px;
+				line-height: 1;
+				text-align: right;
+			}
 		/*–––––––––––––––––––––––*/
 
 	/*––––––––––––––––––––––––––––––––*/
