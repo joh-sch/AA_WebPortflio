@@ -203,6 +203,16 @@
 		color: #fff;
 	}
 
+	div[class^="menu--navbar--section_"].active {
+		color: #fff;
+		background-color: #000;
+		cursor: pointer;
+	}
+
+	div[class^="menu--navbar--section_"].active a {
+		color: #fff;
+	}
+
 	.menu--close-button:hover {
 		background-color: black;
 		cursor: pointer;
