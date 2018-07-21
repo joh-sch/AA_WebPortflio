@@ -80,10 +80,16 @@
 
 			.slider--projectDesc-container {
 				height: 7vw;
-				width: calc(100vw - (2.4% + 3.5vw));
-				margin: 1.2%;
+				width: calc(100vw - (2.4% + 3.5vw + 7vw));
+				
+				margin-top: 1.2%;
+				margin-bottom: 1.2%; 
+				margin-left: calc(7vw + 1.2%);
+				margin-right: calc(3.5vw + 1.2%);
+				
 				position: fixed;
 				top: 0;
+				
 				display: flex;
 				justify-content: space-between;
 			}

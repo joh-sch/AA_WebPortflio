@@ -36,7 +36,7 @@ Template name: Projekt Page
 
 				<!-- – Project Descrip. II – -->
 				<div class="slider--projectDesc-container z--top text--project2">
-					<div class="slider--projectDesc-section" id="descSection1"></div>
+
 					<div class="slider--projectDesc-section" id="descSection2">
 						<div class="slider--projectDesc-item-container">
 							<div>
