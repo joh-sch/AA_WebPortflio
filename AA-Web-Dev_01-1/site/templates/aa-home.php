@@ -42,6 +42,7 @@ Template name: Home
 						</div>
 
 						<div class="menu--navbar--section_md_filter_sub filters hidden--vis menu--closed" id="FilterButtons">
+								<button data-filter="*" class="checked">all<span class="appended"> ✔</span></button>
 								<button data-filter=".vector">Vector</button>
 								<button data-filter=".hand">Hand-drawn</button>
 						</div>
