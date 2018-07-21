@@ -1,6 +1,6 @@
 <div class="menu--navbar--top-wrapper z--topmost menu--closed">
 
-	<div class="menu--navbar--section_sm" id="">
+	<div class="menu--navbar--section_sm" id="" style="display: none;">
 		<a href="/aa-home/" style="width: 100%; height: 100%;"></a>
 	</div>
 

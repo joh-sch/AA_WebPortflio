@@ -26,12 +26,16 @@ Template name: Projekt Page
 		<div class="main-wrapper" id="main-wrapper"> <!-- THIS IS THE BARBA MAIN WRAPPER! -->
 			<div class="main-container" data-namespace="projekt"> <!-- THIS IS THE BARBA MAIN CONTAINER! -->
 
+				<!--––––– Brand Icon –––––-->
+					<?php snippet('/snippets_menus/aa-snippet-navbar-icon') ?>
+				<!-- –––––––––––––––––––– -->
+
 				<!--–––– NavBar (min) ––––-->
 					<?php snippet('/snippets_menus/aa-snippet-navbar-min') ?>
 				<!-- –––––––––––––––––––– -->
 
 				<!-- – Project Descrip. II – -->
-				<div class="slider--projectDesc-container z--topmost text--project2">
+				<div class="slider--projectDesc-container z--top text--project2">
 					<div class="slider--projectDesc-section" id="descSection1"></div>
 					<div class="slider--projectDesc-section" id="descSection2">
 						<div class="slider--projectDesc-item-container">
