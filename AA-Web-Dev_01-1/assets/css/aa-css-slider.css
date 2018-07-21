@@ -136,8 +136,8 @@
 		}
 
 		.flickity-prev-next-button {
-			height: 100px !important;
-			width: 100px !important;
+			height: 100% !important;
+			width: 25% !important;
 
 			border-radius: 0% !important;
 		}
