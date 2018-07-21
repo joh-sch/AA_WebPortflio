@@ -9,10 +9,15 @@ fields:
   title:
     label: Titel
     type:  text
-    width: 2/4
+    width: 1/4
 
-  year:
-    label: Jahr
+  context:
+    label: Kontext
+    type:  text
+    width: 1/4
+
+  client:
+    label: Kunde
     type:  text
     width: 1/4
 
@@ -25,6 +30,20 @@ fields:
       hand: Handgezeichnet
     columns: 1
 
-  text:
+# ////////////////////
+
+  year:
+    label: Jahr
+    type:  text
+    width: 1/4
+
+  additional:
+    label: Zusatzinfo
+    type:  text
+    width: 1/4
+
+# ////////////////////
+ 
+  description:
     label: Beschreibung
     type:  textarea

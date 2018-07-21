@@ -26,9 +26,42 @@ Template name: Projekt Page
 		<div class="main-wrapper" id="main-wrapper"> <!-- THIS IS THE BARBA MAIN WRAPPER! -->
 			<div class="main-container" data-namespace="projekt"> <!-- THIS IS THE BARBA MAIN CONTAINER! -->
 
+				<!--––––– Brand Icon –––––-->
+					<?php snippet('/snippets_menus/aa-snippet-navbar-icon') ?>
+				<!-- –––––––––––––––––––– -->
+
 				<!--–––– NavBar (min) ––––-->
 					<?php snippet('/snippets_menus/aa-snippet-navbar-min') ?>
 				<!-- –––––––––––––––––––– -->
+
+				<!-- – Project Descrip. II – -->
+				<div class="slider--projectDesc-container z--top text--project2">
+
+					<div class="slider--projectDesc-section" id="descSection2">
+						<div class="slider--projectDesc-item-container">
+							<div>
+								<span><?= $page->title()->kirbytext()?> </span>
+								<span>(<?= str::unhtml( $page->context()->kirbytext() ) ?>) </span>
+							</div>
+
+							<div>
+								<span><?= $page->description()->kirbytext() ?> </span>
+							</div>
+
+							<div>
+								<span><?= $page->year()->kirbytext() ?> </span>
+								<span>(<?= str::unhtml( $page->additional()->kirbytext() ) ?>) </span>
+							</div>
+
+							<!-- –––– Slide Counter –––– -->
+								<div class="slider--counter-container">
+									<p class="slider--counter"></p>
+								</div>
+							<!-- ––––––––––––––––––––––– -->
+						</div>
+					</div>
+				</div>
+				<!-- ––––––––––––––––––––––– -->
 
 				<!--–––––– ×-Button ––––––-->
 					<div class="menu--close-button z--topmost">
@@ -48,19 +81,7 @@ Template name: Projekt Page
 
 							<?php endforeach ?>
 						</div>
-					<!-- –––––––––––––––––––––– -->
-
-					<!-- –––– Slide Counter –––– -->
-						<div class="slider--counter-container">
-							<p class="slider--counter"></p>
-						</div>
-					<!-- ––––––––––––––––––––––– -->
-
-					<!-- – Project Description – -->
-						<div class="slider--projectDescription-container text--project">
-							<span>Projektbeschreibung</span>
-						</div>
-					<!-- ––––––––––––––––––––––– -->
+					<!-- –––––––––––––––––––––– -->					
 
 					<!-- – Next Project-Button – -->
 						<?php if($page->hasPrev()) { ?>

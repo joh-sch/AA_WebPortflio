@@ -2,7 +2,7 @@ Title: Test-Projekt-2
 
 ----
 
-Year: 
+Year: 2017
 
 ----
 
@@ -11,3 +11,11 @@ Text:
 ----
 
 Style: vector
+
+----
+
+Type: Editorial Illustration
+
+----
+
+Client: A Very Cool Client

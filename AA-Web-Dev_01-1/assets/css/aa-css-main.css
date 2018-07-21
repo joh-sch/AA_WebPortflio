@@ -92,6 +92,12 @@
 					src: url('../fonts/GTEestiProDisplay-Regular.otf');
 				}
 
+				@font-face {
+					font-family: Eesti-Regular-Italic;
+					font-style: italic;
+					src: url('../fonts/GTEestiProDisplay-RegularItalic.otf');
+				}
+
 			/* Ginto */
 				@font-face {
 					font-family: Ginto-Regular;
@@ -118,6 +124,11 @@
 			.text--project {
 				font-size: 36.5px;
 			}
+
+			.text--project2 {
+				font-size: 22px;
+				line-height: 25px;
+			}
 		/*––––––––––––––––––––––––*/
 
 
@@ -132,6 +143,11 @@
 				font-size: 36.5px;
 			}
 
+			.slider--counter-container {
+				font-size: 73px;
+				line-height: 1;
+				text-align: right;
+			}
 		/*–––––––––––––––––––––––*/
 
 	/*––––––––––––––––––––––––––––––––*/
