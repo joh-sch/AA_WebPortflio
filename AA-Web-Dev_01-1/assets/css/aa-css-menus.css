@@ -196,6 +196,16 @@
 
 
 /*–––––––––––– NAVBAR –––––––––––––*/
+/*––––––– CONDITIONS/STATES –––––––*/
+
+	.menu--state--closed {
+		pointer-events: none;
+	}
+/*–––––––––––––––––––––––––––––––––*/
+/*–––––––––––––––––––––––––––––––––*/
+
+
+/*–––––––––––– NAVBAR –––––––––––––*/
 /*–––––––––– Interaction ––––––––––*/
 
 	div[class^="menu--navbar--section_"]:hover {
