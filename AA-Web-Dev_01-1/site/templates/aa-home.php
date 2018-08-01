@@ -22,21 +22,21 @@ Template name: Home
 		<div class="main-wrapper" id="main-wrapper"> <!-- THIS IS THE BARBA MAIN WRAPPER! -->
 			<div class="main-container" data-namespace="home"> <!-- THIS IS THE BARBA MAIN CONTAINER! -->
 
-				<!-- ––––– Module 1 ––––– -->
-				<!--––––– Brand Icon –––––-->
+				<!-- ––––– Module A1 ––––– -->
+				<!--––––– Brand Icon ––––––-->
 					<?php snippet('/snippets_menus/aa-snippet-navbar-icon') ?>
-				<!-- –––––––––––––––––––– -->
-				<!-- –––––––––––––––––––– -->
+				<!-- ––––––––––––––––––––– -->
+				<!-- ––––––––––––––––––––– -->
 
 
-				<!-- ––––– Module 2 ––––– -->
-				<!-- –––––– Navbar –––––– -->
+				<!-- ––––– Module A2 ––––– -->
+				<!-- –––––– Navbar ––––––– -->
 					<?php snippet('/snippets_menus/aa-snippet-navbar') ?>
-				<!-- –––––––––––––––––––– -->
-				<!-- –––––––––––––––––––– -->
+				<!-- ––––––––––––––––––––– -->
+				<!-- ––––––––––––––––––––– -->
 
 
-				<!-- –––––– Module 3 ––––– -->
+				<!-- ––––– Module A3 ––––– -->
 				<!-- –––– Filter Menu –––– -->
 					<?php snippet('/snippets_menus/aa-snippet-menu-filter') ?>
 				<!-- ––––––––––––––––––––– -->
