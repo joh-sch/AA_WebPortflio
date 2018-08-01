@@ -30,12 +30,15 @@ Template name: Projekt Page
 					<?php snippet('/snippets_menus/aa-snippet-navbar-icon') ?>
 				<!-- –––––––––––––––––––– -->
 
-				<!--–––– NavBar (min) ––––-->
-					<?php snippet('/snippets_menus/aa-snippet-navbar-min') ?>
-				<!-- –––––––––––––––––––– -->
+
+				<!-- ––––– Module A2 ––––– -->
+				<!-- –––––– Navbar ––––––– -->
+					<?php snippet('/snippets_menus/aa-snippet-navbar') ?>
+				<!-- ––––––––––––––––––––– -->
+				<!-- ––––––––––––––––––––– -->
 
 				<!-- – Project Descrip. II – -->
-				<div class="slider--projectDesc-container z--top text--project2">
+				<div class="slider--projectDesc-container z--high text--project2">
 
 					<div class="slider--projectDesc-section" id="descSection2">
 						<div class="slider--projectDesc-item-container">
@@ -64,7 +67,7 @@ Template name: Projekt Page
 				<!-- ––––––––––––––––––––––– -->
 
 				<!--–––––– ×-Button ––––––-->
-					<div class="menu--close-button z--topmost">
+					<div class="menu--close-button z--top">
 						<a href="/aa-home/" class="z--topmost" style="position: absolute; width: 100%; height: 100%;"></a>
 						<img src="/assets/images/close-button.svg" alt="x" id="closingIcon">
 					</div>

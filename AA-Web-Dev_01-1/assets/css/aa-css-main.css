@@ -9,6 +9,10 @@
 	/*––––––––––––––––––––––––––––––––*/
 
 		/*–– Z-Axial Alignment ––*/
+			.z--topult {
+				z-index: 99999;
+			}
+
 			.z--topmost {
 				z-index: 9999;
 			}
@@ -70,6 +74,10 @@
 
 		.hidden--dis {
 			display: none !important;
+		}
+
+		.hidden--interact {
+			pointer-events: none;
 		}
 
 	/*–––––––––––––––––––––––––––––––––*/

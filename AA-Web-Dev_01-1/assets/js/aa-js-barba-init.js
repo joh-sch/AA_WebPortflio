@@ -132,7 +132,15 @@ $('document').ready(function(){
           console.log('… first-slide detector ready!')
         },
         onLeave: function() {
-        	console.log('Leaving project page …')
+          console.log('Closing navbar …');
+            if ($('#MainMenu').hasClass('menu--state--open')) {
+              mainmenu_toggle();
+              console.log('… navbar closed …');
+            } else {
+              console.log('… Navbar cannot be closed b/c it is not open …');
+            }
+          /////////////////////////
+          console.log('… leaving project page …');
         },
         onLeaveCompleted: function() {
         }

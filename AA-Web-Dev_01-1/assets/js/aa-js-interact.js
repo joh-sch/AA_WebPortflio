@@ -18,22 +18,22 @@
 		var menuSec3 		= $('#MainMenu_shop');
 		var menuSec4 		= $('#MainMenu_work');
 
-		if (menu.hasClass('menu--closed')) {
+		if (menu.hasClass('menu--state--closed')) {
 			menuSec1.removeClass('hidden--vis')
 			menuSec2.removeClass('hidden--vis')
 			menuSec3.removeClass('hidden--vis')
 			menuSec4.removeClass('hidden--vis')
 			subMenu.removeClass('hidden--dis')
-			menu.removeClass('menu--closed')
-			menu.addClass('menu--open')
+			menu.removeClass('menu--state--closed')
+			menu.addClass('menu--state--open')
 		} else {
 			menuSec1.addClass('hidden--vis')
 			menuSec2.addClass('hidden--vis')
 			menuSec3.addClass('hidden--vis')
 			menuSec4.addClass('hidden--vis')
 			subMenu.addClass('hidden--dis')
-			menu.addClass('menu--closed')
-			menu.removeClass('menu--open')
+			menu.addClass('menu--state--closed')
+			menu.removeClass('menu--state--open')
 		
 		}
 	}
