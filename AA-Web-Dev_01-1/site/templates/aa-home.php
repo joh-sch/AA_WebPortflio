@@ -22,47 +22,26 @@ Template name: Home
 		<div class="main-wrapper" id="main-wrapper"> <!-- THIS IS THE BARBA MAIN WRAPPER! -->
 			<div class="main-container" data-namespace="home"> <!-- THIS IS THE BARBA MAIN CONTAINER! -->
 
+				<!-- ––––– Module 1 ––––– -->
 				<!--––––– Brand Icon –––––-->
 					<?php snippet('/snippets_menus/aa-snippet-navbar-icon') ?>
 				<!-- –––––––––––––––––––– -->
+				<!-- –––––––––––––––––––– -->
 
+
+				<!-- ––––– Module 2 ––––– -->
 				<!-- –––––– Navbar –––––– -->
 					<?php snippet('/snippets_menus/aa-snippet-navbar') ?>
 				<!-- –––––––––––––––––––– -->
+				<!-- –––––––––––––––––––– -->
 
+
+				<!-- –––––– Module 3 ––––– -->
 				<!-- –––– Filter Menu –––– -->
-					<div class="menu--navbar--bottom-wrapper z--topmost" id="FilterMenu">
-
-						<div class="menu--navbar--section_md_filter_blank hidden--vis" id="">
-							
-						</div>
-
-						<div class="menu--navbar--section_md_filter_blank hidden--vis" id="">
-							
-						</div>
-
-						<div class="menu--navbar--section_md_filter_sub filters hidden--vis menu--closed" id="FilterButtons">
-								<button data-filter="*" class="checked">
-									all
-									<img class="appended" src="assets/icons/AA-Web_CheckMark-01-1.svg">
-								</button>
-
-								<button data-filter=".vector">
-									Vector
-									
-								</button> 
-
-								<button data-filter=".hand">Hand-drawn</button>
-						</div>
-
-						<div class="menu--navbar--section_md_filter" id="FilterMenuButton" onclick="filtermenu_toggle()">
-							<div>
-								<span>Filter</span>
-							</div>
-						</div>
-						
-					</div>
+					<?php snippet('/snippets_menus/aa-snippet-menu-filter') ?>
 				<!-- ––––––––––––––––––––– -->
+				<!-- ––––––––––––––––––––– -->
+
 
 				<!--–––– Content Grid ––––-->
 					<?php snippet('/snippets_content/aa-snippet-content-grid') ?>
