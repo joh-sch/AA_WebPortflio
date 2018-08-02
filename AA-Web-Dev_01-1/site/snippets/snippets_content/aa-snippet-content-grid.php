@@ -5,7 +5,7 @@ $projects = page('aa-projekte')->children()->visible();
 
 ?>
 
-<div class="grid">
+<div class="grid" id="contentHome">
 
 	<?php foreach($projects as $project): ?>
 

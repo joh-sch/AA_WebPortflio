@@ -8,15 +8,20 @@
 //	––––––– MENU INTERACTION –––––––
 //	––––––––––––––––––––––––––––––––
 
+
+$links = $("li[data-pk-type*='foo']");
+
 	// Open Main Menu
 	function mainmenu_toggle() {
-		var menu 				= $('#MainMenu');
-		var subMenu			= $('#FooterMenu'); 
-		var menuBtn 		= $('#MainMenuButton');
-		var menuSec1 		= $('#MainMenu_about');
-		var menuSec2 		= $('#MainMenu_contact');
-		var menuSec3 		= $('#MainMenu_shop');
-		var menuSec4 		= $('#MainMenu_work');
+		var menu 					= $('#MainMenu');
+		var subMenu				= $('#FooterMenu'); 
+		var menuBtn 			= $('#MainMenuButton');
+		var menuSec1 			= $('#MainMenu_about');
+		var menuSec2 			= $('#MainMenu_contact');
+		var menuSec3 			= $('#MainMenu_shop');
+		var menuSec4 			= $('#MainMenu_work');
+
+		var pageLocation	=	$('.main-container');
 
 		if (menu.hasClass('menu--state--closed')) {
 			menuSec1.removeClass('hidden--vis')
@@ -26,6 +31,17 @@
 			subMenu.removeClass('hidden--dis')
 			menu.removeClass('menu--state--closed')
 			menu.addClass('menu--state--open')
+
+			// set page content inactive
+			if (pageLocation.attr('data-namespace').indexOf('home') > -1) {
+				$('#contentHome').addClass('hidden--interact');
+			} else {
+					if (pageLocation.attr('data-namespace').indexOf('projekt') > -1) {
+						$('.main-carousel').addClass('hidden--interact');
+				} else {
+					console.log('I do not know where we are');
+				}
+			}
 		} else {
 			menuSec1.addClass('hidden--vis')
 			menuSec2.addClass('hidden--vis')
@@ -34,7 +50,17 @@
 			subMenu.addClass('hidden--dis')
 			menu.addClass('menu--state--closed')
 			menu.removeClass('menu--state--open')
-		
+			
+			// set page content active
+			if (pageLocation.attr('data-namespace').indexOf('home') > -1) {
+				$('#contentHome').removeClass('hidden--interact');
+			} else {
+					if (pageLocation.attr('data-namespace').indexOf('projekt') > -1) {
+						$('.main-carousel').removeClass('hidden--interact');
+				} else {
+					console.log('I do not know where we are');
+				}
+			}
 		}
 	}
 
