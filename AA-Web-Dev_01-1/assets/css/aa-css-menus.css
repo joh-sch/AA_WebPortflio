@@ -219,13 +219,17 @@
 	}
 
 	div[class^="menu--navbar--section_"].active {
-		color: #fff;
-		background-color: #000;
+		color: #000;
+		background-color: #fff;
 		cursor: pointer;
 	}
 
 	div[class^="menu--navbar--section_"].active a {
-		color: #fff;
+		color: #000;
+	}
+
+	div[class^="menu--navbar--section_"].active a::after {
+		content: '✓'
 	}
 
 	.menu--close-button:hover {
