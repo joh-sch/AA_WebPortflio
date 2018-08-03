@@ -58,7 +58,7 @@ $links = $("li[data-pk-type*='foo']");
 					if (pageLocation.attr('data-namespace').indexOf('projekt') > -1) {
 						$('.main-carousel').removeClass('hidden--interact');
 				} else {
-					console.log('I do not know where we are');
+					console.log('I do not know where we are :(');
 				}
 			}
 		}
@@ -88,6 +88,44 @@ $links = $("li[data-pk-type*='foo']");
 
 //	–––––– BUTTON INTERACTION ––––––
 //	––––––––––––––––––––––––––––––––
+
+//	––––––––––––––––––––––––––––––––
+//	––––––––––––––––––––––––––––––––
+
+
+// **************************************************
+// **************************************************
+
+
+//	–––––– OVERLAY INTERACTION –––––
+//	––––––––––––––––––––––––––––––––
+
+	function fadeInCover_toggle() {
+		var cover = $('#fadeInCover');
+
+		if (cover.hasClass('hidden--dis')) {
+			cover.removeClass('hidden--dis')
+			/////////////////////////
+			setTimeout(function(){
+				cover.removeClass('hidden--op')
+			}, 20);
+			/////////////////////////
+			setTimeout(function(){
+				console.log('%cCover turned on.', 'background:black ; color: white');
+			}, 320);
+		} else {
+			cover.addClass('hidden--op')
+			/////////////////////////
+			setTimeout(function(){
+				cover.addClass('hidden--dis')
+			}, 310);
+			/////////////////////////
+			setTimeout(function(){
+				console.log('%cCover turned off.', 'background:black ; color: white');
+			}, 320);
+		}
+
+	}
 
 //	––––––––––––––––––––––––––––––––
 //	––––––––––––––––––––––––––––––––

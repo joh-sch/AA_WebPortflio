@@ -17,6 +17,20 @@ Template name: Home
 <!-- ************************************************** -->
 
 
+	<!-- ––––– Module X1 ––––– -->
+	<!--–––– FadeIn-Cover –––––-->
+
+		<div id="fadeInCover" class="wrapper--overlay bg-color--default z--topult fade--op--default hidden--interact">
+			
+		</div>
+
+	<!-- ––––––––––––––––––––– -->
+	<!-- ––––––––––––––––––––– -->
+
+
+<!-- ************************************************** -->
+<!-- ************************************************** -->
+
 	<div class="wrapper--global">
 
 		<div class="main-wrapper" id="main-wrapper"> <!-- THIS IS THE BARBA MAIN WRAPPER! -->
