@@ -19,11 +19,7 @@ Template name: Home
 
 	<!-- ––––– Module X1 ––––– -->
 	<!--–––– FadeIn-Cover –––––-->
-
-		<div id="fadeInCover" class="wrapper--overlay bg-color--default z--topult fade--op--default hidden--interact">
-			
-		</div>
-
+		<?php snippet('/snippets_overlay/aa-snippet-overlay-fadeCover') ?>
 	<!-- ––––––––––––––––––––– -->
 	<!-- ––––––––––––––––––––– -->
 
