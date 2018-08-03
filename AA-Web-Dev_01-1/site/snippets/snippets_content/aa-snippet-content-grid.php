@@ -15,7 +15,7 @@ $projects = page('aa-projekte')->children()->visible();
 				<a href="<?= $project->url() ?>">
 					<div class="grid-item--overlay">
 						<!-- »Show similar« Btn -->
-							<div class="grid-item--btn">
+							<div class="grid-item--btn text--project">
 								test
 							</div>
 						<!-- –––––––––––––––––– -->
