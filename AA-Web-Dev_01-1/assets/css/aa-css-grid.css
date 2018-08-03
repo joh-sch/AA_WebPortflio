@@ -33,11 +33,27 @@
 
 			opacity: 0;
 			background-color: rgba(255,255,255,1);
+
+			display: flex;
+			justify-content: space-around;
+			align-items: flex-end;
 		}
 
 			.grid-item--overlay:hover {
 				opacity: 1;
 				cursor: pointer;
+			}
+
+			.grid-item--btn {
+				width: 90%;
+				height: 3.5vw;
+
+				background-color: orchid;
+				border: 5px solid black;
+				box-sizing: border-box;
+
+				margin: 5%;
+				
 			}
 	/*–––––––––––––––––––––––––––––––––*/
 	/*–––––––––––––––––––––––––––––––––*/
