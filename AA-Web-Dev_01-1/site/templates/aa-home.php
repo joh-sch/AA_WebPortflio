@@ -17,6 +17,16 @@ Template name: Home
 <!-- ************************************************** -->
 
 
+	<!-- ––––– Module X1 ––––– -->
+	<!--–––– FadeIn-Cover –––––-->
+		<?php snippet('/snippets_overlay/aa-snippet-overlay-fadeCover') ?>
+	<!-- ––––––––––––––––––––– -->
+	<!-- ––––––––––––––––––––– -->
+
+
+<!-- ************************************************** -->
+<!-- ************************************************** -->
+
 	<div class="wrapper--global">
 
 		<div class="main-wrapper" id="main-wrapper"> <!-- THIS IS THE BARBA MAIN WRAPPER! -->

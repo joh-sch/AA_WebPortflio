@@ -6,6 +6,8 @@ $('document').ready(function(){
       var home = Barba.BaseView.extend({
         namespace: 'home',
         onEnter: function() {
+          console.log('%conEnter fired.', 'background:orchid ; color: white');
+          ///////////////////////// 
           console.log('Entering »Home« …')
         },
         onEnterCompleted: function() {
@@ -45,17 +47,24 @@ $('document').ready(function(){
 							});
             });
 					console.log('… grid running!');
+          /////////////////////////
+          console.log('%cpage content ready.', 'background:orchid ; color: white');
+          /////////////////////////
+          setTimeout(fadeInCover_toggle, 500)
         },
         onLeave: function() {
+          console.log('%conLeave fired.', 'background:orchid ; color: white');
+          /////////////////////////
+          fadeInCover_toggle();
+          ///////////////////////// 
         	console.log('Leaving »Home« …')
-
         },
         onLeaveCompleted: function() {
 
         }
       });
 
-      // Don't forget to init the view!
+      // Init the view
       home.init();
     // ------------
 
@@ -63,7 +72,9 @@ $('document').ready(function(){
       var projekt = Barba.BaseView.extend({
         namespace: 'projekt',
         onEnter: function() {
-          console.log('Entering project page …')
+          console.log('%conEnter fired.', 'background:orchid ; color: white');
+          /////////////////////////
+          console.log('Entering project page …');
         },
         onEnterCompleted: function() {
           console.log('… project page loaded successfully!');
@@ -81,7 +92,7 @@ $('document').ready(function(){
 							imagesLoaded: true
 						});
 					console.log('… slider ready!')
-					///////////////////////// 
+          ///////////////////////// 
 					console.log('Setting slide counter …')
 						var $carousel 			= $('.main-carousel').flickity();
 						var $carouselStatus = $('.slider--counter');
@@ -130,8 +141,16 @@ $('document').ready(function(){
             $carousel.on( 'change.flickity', detectFirst );
             detectFirst();
           console.log('… first-slide detector ready!')
+          /////////////////////////
+          console.log('%cpage content ready.', 'background:orchid ; color: white');
+          /////////////////////////
+          setTimeout(fadeInCover_toggle, 500)
         },
         onLeave: function() {
+          console.log('%conLeave fired.', 'background:orchid ; color: white');
+          /////////////////////////
+          fadeInCover_toggle();
+          /////////////////////////
           console.log('Closing navbar …');
             if ($('#MainMenu').hasClass('menu--state--open')) {
               mainmenu_toggle();
@@ -139,31 +158,33 @@ $('document').ready(function(){
             } else {
               console.log('… Navbar cannot be closed b/c it is not open …');
             }
-          /////////////////////////
+          ///////////////////////// 
           console.log('… leaving project page …');
         },
         onLeaveCompleted: function() {
         }
       });
 
-      // Don't forget to init the view!
+      // Init the view
       projekt.init();
     // ------------
 
   // -------------------------------
-
   var transEffect = Barba.BaseTransition.extend({
       start: function(){
+        console.log('%cBarba starting …', 'background:red ; color: white');
         this.newContainerLoading.then(val => this.fadeInNewcontent($(this.newContainer)));
       },
       fadeInNewcontent: function(nc) {
         nc.hide();
         var _this = this;
-        $(this.oldContainer).fadeOut(200).promise().done(() => {
+        $(this.oldContainer).fadeOut(300).promise().done(() => {
           nc.css('visibility','visible');
-          nc.fadeIn(200, function(){
+          /////////////////////////
+          nc.fadeIn(300, 
+            function(){
             _this.done();
-          })
+          });
         });
       }
   });

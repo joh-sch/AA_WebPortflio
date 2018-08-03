@@ -17,14 +17,22 @@ Template name: Projekt Page
 <!-- ************************************************** -->
 
 
+	<!-- ––––– Module X1 ––––– -->
+	<!--–––– FadeIn-Cover –––––-->
+		<?php snippet('/snippets_overlay/aa-snippet-overlay-fadeCover') ?>
+	<!-- ––––––––––––––––––––– -->
+	<!-- ––––––––––––––––––––– -->
+
 
 <!-- ************************************************** -->
 <!-- ************************************************** -->
+
 
 	<div class="wrapper--global">
 
 		<div class="main-wrapper" id="main-wrapper"> <!-- THIS IS THE BARBA MAIN WRAPPER! -->
 			<div class="main-container" data-namespace="projekt"> <!-- THIS IS THE BARBA MAIN CONTAINER! -->
+
 
 				<!--––––– Brand Icon –––––-->
 					<?php snippet('/snippets_menus/aa-snippet-navbar-icon') ?>
