@@ -35,7 +35,8 @@
 			background-color: rgba(255,255,255,1);
 
 			display: flex;
-			justify-content: space-around;
+			flex-direction: column;
+			justify-content: space-between;
 			align-items: flex-end;
 		}
 
@@ -51,8 +52,8 @@
 				position: absolute;
 			}
 
-			.grid-item--btn {
-				width: 100%;
+			.grid-item--overlay--btn {
+				width: calc( 100% - ((100% - 20px) * 0.012) * 8);
 				height: 3.5vw;
 
 				background-color: #fff;
@@ -67,9 +68,22 @@
 				line-height: 1.5;
 				color: #000;
 			}
-			.grid-item--btn:hover {
+			.grid-item--overlay--btn:hover {
 				background-color: #000;
 				color: #fff; 
+			}
+
+			.grid-item--overlay--text {
+				width: calc( 100% - ((100% - 20px) * 0.012) * 8);
+
+				display: flex;
+
+				margin: calc(((100% - 20px) * 0.012) * 4);
+
+				background-color: #fff;
+				color: #000;
+
+				line-height: 1.5;
 			}
 	/*–––––––––––––––––––––––––––––––––*/
 	/*–––––––––––––––––––––––––––––––––*/

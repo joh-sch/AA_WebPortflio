@@ -18,8 +18,14 @@ $projects = page('aa-projekte')->children()->visible();
 							<a href="<?= $project->url() ?>"></a>
 						<!-- –––––––––––––––––– -->
 
+						<!-- – Project Title –– -->
+							<div class="grid-item--overlay--text text--project">
+								<span>Title</span>
+							</div>
+						<!-- –––––––––––––––––– -->
+
 						<!-- »Show similar« Btn -->
-							<div class="grid-item--btn text--project z--high" onClick="alert('test')">
+							<div class="grid-item--overlay--btn text--project z--high" onClick="alert('test')">
 								<span>show similar</span>
 							</div>
 						<!-- –––––––––––––––––– -->
