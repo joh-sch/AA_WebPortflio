@@ -16,7 +16,7 @@ $projects = page('aa-projekte')->children()->visible();
 					<div class="grid-item--overlay">
 						<!-- »Show similar« Btn -->
 							<div class="grid-item--btn text--project">
-								test
+								<span>show similar</span>
 							</div>
 						<!-- –––––––––––––––––– -->
 					</div>
