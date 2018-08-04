@@ -18,9 +18,10 @@ $projects = page('aa-projekte')->children()->visible();
 							<a href="<?= $project->url() ?>"></a>
 						<!-- –––––––––––––––––– -->
 
-						<!-- – Project Title –– -->
+						<!-- – Project Info –– -->
 							<div class="grid-item--overlay--text text--project">
-								<span>Title</span>
+								<span><?= $project->title()->kirbytext() ?></span>
+								<span><?= $project->year()->kirbytext() ?></span>
 							</div>
 						<!-- –––––––––––––––––– -->
 
