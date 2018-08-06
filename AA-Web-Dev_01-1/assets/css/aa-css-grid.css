@@ -37,7 +37,7 @@
 
 			.grid-item--overlay:hover {
 				opacity: 1;
-				cursor: pointer;
+				cursor: url(/assets/cursor/aa-pointer_45deg.svg), auto !important;
 			}
 	/*–––––––––––––––––––––––––––––––––*/
 	/*–––––––––––––––––––––––––––––––––*/

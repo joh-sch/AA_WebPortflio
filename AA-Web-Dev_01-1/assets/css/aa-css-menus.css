@@ -170,7 +170,7 @@
 		.menu--navbar--section_md_filter_sub button:hover {
 			color: #fff;
 			background-color: #000;
-			cursor: pointer;
+			cursor: url(/assets/cursor/aa-pointer_45deg.svg), auto !important;
 		}
 
 	.menu--close-button {
@@ -211,7 +211,7 @@
 	div[class^="menu--navbar--section_"]:hover {
 		color: #fff;
 		background-color: #000;
-		cursor: pointer;
+		cursor: url(/assets/cursor/aa-pointer_45deg.svg), auto !important;
 	}
 
 	div[class^="menu--navbar--section_"]:hover a{
@@ -221,7 +221,7 @@
 	div[class^="menu--navbar--section_"].active {
 		color: #000;
 		background-color: #fff;
-		cursor: pointer;
+		cursor: url(/assets/cursor/aa-pointer_45deg.svg), auto !important;
 	}
 
 	div[class^="menu--navbar--section_"].active a {
@@ -234,7 +234,7 @@
 
 	.menu--close-button:hover {
 		background-color: black;
-		cursor: pointer;
+		cursor: url(/assets/cursor/aa-pointer_45deg.svg), auto !important;
 	}
 
 	.menu--close-button:hover img {
