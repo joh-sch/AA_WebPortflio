@@ -22,10 +22,14 @@
 
 			display: flex;
 			justify-content: space-around;
+
+			overflow: hidden;
 		}
 			.menu--navbar--icon img {
-				width: 100%;
-				height: 100%;
+				width: 110%;
+				height: 110%;
+
+				transform: translateY(-5%);
 			}
 	/*–––––––––––––––––––––––*/
 
