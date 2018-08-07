@@ -23,6 +23,10 @@
 			display: flex;
 			justify-content: space-around;
 		}
+			.menu--navbar--icon img {
+				width: 100%;
+				height: 100%;
+			}
 	/*–––––––––––––––––––––––*/
 
 	.menu--navbar--top-wrapper {

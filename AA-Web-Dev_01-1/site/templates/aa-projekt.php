@@ -34,9 +34,11 @@ Template name: Projekt Page
 			<div class="main-container" data-namespace="projekt"> <!-- THIS IS THE BARBA MAIN CONTAINER! -->
 
 
-				<!--––––– Brand Icon –––––-->
+				<!-- ––––– Module A1 ––––– -->
+				<!--––––– Brand Icon ––––––-->
 					<?php snippet('/snippets_menus/aa-snippet-navbar-icon') ?>
-				<!-- –––––––––––––––––––– -->
+				<!-- ––––––––––––––––––––– -->
+				<!-- ––––––––––––––––––––– -->>
 
 
 				<!-- ––––– Module A2 ––––– -->
