@@ -8,7 +8,10 @@ $('document').ready(function(){
         onEnter: function() {
           console.log('%conEnter fired.', 'background:orchid ; color: white');
           ///////////////////////// 
-          console.log('Entering »Home« …')
+          console.log('Entering »Home« …');
+          /////////////////////////
+          console.log('… setting Brand-Icon & animation …');
+          icon_animate_init();
         },
         onEnterCompleted: function() {
           console.log('… »Home« loaded successfully!');

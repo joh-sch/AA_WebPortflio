@@ -41,6 +41,9 @@
 		<?= js('assets/js/jquery-3.2.1.min.js') ?>
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
 
+	<!-- Initilizations -->
+		<?= js('assets/js/aa-js-inits.js') ?>
+
 	<!-- Interactions -->
 		<?= js('assets/js/aa-js-interact.js') ?>
 
