@@ -78,6 +78,9 @@ $('document').ready(function(){
           console.log('%conEnter fired.', 'background:orchid ; color: white');
           /////////////////////////
           console.log('Entering project page …');
+          /////////////////////////
+          console.log('… setting Brand-Icon & animation …');
+          icon_animate_init();
         },
         onEnterCompleted: function() {
           console.log('… project page loaded successfully!');

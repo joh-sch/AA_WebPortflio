@@ -38,7 +38,7 @@ Template name: Projekt Page
 				<!--––––– Brand Icon ––––––-->
 					<?php snippet('/snippets_menus/aa-snippet-navbar-icon') ?>
 				<!-- ––––––––––––––––––––– -->
-				<!-- ––––––––––––––––––––– -->>
+				<!-- ––––––––––––––––––––– -->
 
 
 				<!-- ––––– Module A2 ––––– -->

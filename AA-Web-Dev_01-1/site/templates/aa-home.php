@@ -27,10 +27,12 @@ Template name: Home
 <!-- ************************************************** -->
 <!-- ************************************************** -->
 
+
 	<div class="wrapper--global">
 
 		<div class="main-wrapper" id="main-wrapper"> <!-- THIS IS THE BARBA MAIN WRAPPER! -->
 			<div class="main-container" data-namespace="home"> <!-- THIS IS THE BARBA MAIN CONTAINER! -->
+
 
 				<!-- ––––– Module A1 ––––– -->
 				<!--––––– Brand Icon ––––––-->
