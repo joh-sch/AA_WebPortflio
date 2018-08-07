@@ -99,10 +99,28 @@
 			//////////////////////////////////////////////////
 
 
-			// Call Animation #1
-			icon_animation02();
-		}
+			// Choose & call animation
 
+				// Set up function for random selection from array
+				function randomFrom(array) {return array[Math.floor(Math.random() * array.length)];}
+
+				// Set up array containing all animations (functions)
+				var animArray = [
+					function(){
+				     icon_animation01();
+				    },
+					function(){
+						icon_animation02();
+					}
+				];
+
+				function icon_animation_random_play(){ 
+					randomFrom(animArray).call();
+				};
+
+				// Call function to randomly select animation
+				icon_animation_random_play();
+		}
 //	–––––––––––––––––––––––––––––––
 //	–––––––––––––––––––––––––––––––
 
