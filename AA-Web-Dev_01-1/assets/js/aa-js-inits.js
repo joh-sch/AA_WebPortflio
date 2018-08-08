@@ -99,7 +99,7 @@
 			//////////////////////////////////////////////////
 
 
-			// Choose & call animation
+			// Pick & play/call animation (randomly)
 
 				// Set up function for random selection from array
 				function randomFrom(array) {return array[Math.floor(Math.random() * array.length)];}
