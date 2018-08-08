@@ -92,9 +92,116 @@
 				}
 
 				// Play frames
-				setInterval(icon_animation02_play, 5000)
+				setInterval(icon_animation02_play, 15000)
 			}
 
+			//////////////////////////////////////////////////
+
+			// Animation #3
+			function icon_animation03() {
+
+				// Animation #2 – Frames
+				var iconAnim3_frame1	= iconsPathPre + 'icon-03/Portrait-Icon-03-Schielen1-01-1_1.svg';
+				var iconAnim3_frame2	= iconsPathPre + 'icon-03/Portrait-Icon-03-Schielen1-01-1_2.svg';
+
+				// Loading initial frame (the default icon)
+				console.log('%cBrand-Icon: Loading Animation #3, 1st frame (default icon) …', 'background:tomato ; color: white');
+				iconImage.attr("src", iconAnim3_frame1);
+				
+				// Set up frames
+				function icon_animation03_play() {
+					setTimeout(function() {
+						console.log('%cBrand-Icon: Loading Animation #3, 2nd frame …', 'background:Lightgreen ; color: black');
+						iconImage.attr("src", iconAnim3_frame2);
+					}, 140);
+					/////////////////////////
+					setTimeout(function() {
+						console.log('%cBrand-Icon: Loading Animation #3, last frame (default icon) …', 'background:Lightblue ; color: black');
+						iconImage.attr("src", iconAnim3_frame1);
+					}, 560);
+				}
+
+				// Play frames
+				setInterval(icon_animation03_play, 15000)
+			}
+
+			//////////////////////////////////////////////////
+
+			// Animation #4
+			function icon_animation04() {
+
+				// Animation #2 – Frames
+				var iconAnim4_frame1	= iconsPathPre + 'icon-04/Portrait-Icon-04-Schielen2-01-1_1.svg';
+				var iconAnim4_frame2	= iconsPathPre + 'icon-04/Portrait-Icon-04-Schielen2-01-1_2.svg';
+				var iconAnim4_frame3	= iconsPathPre + 'icon-04/Portrait-Icon-04-Schielen2-01-1_3.svg';
+				var iconAnim4_frame4	= iconsPathPre + 'icon-04/Portrait-Icon-04-Schielen2-01-1_4.svg';
+
+				// Loading initial frame (the default icon)
+				console.log('%cBrand-Icon: Loading Animation #4, 1st frame (default icon) …', 'background:tomato ; color: white');
+				iconImage.attr("src", iconAnim4_frame1);
+				
+				// Set up frames
+				function icon_animation04_play() {
+					setTimeout(function() {
+						console.log('%cBrand-Icon: Loading Animation #4, 2nd frame …', 'background:Lightgreen ; color: black');
+						iconImage.attr("src", iconAnim4_frame2);
+					}, 140);
+					/////////////////////////
+					setTimeout(function() {
+						console.log('%cBrand-Icon: Loading Animation #4, 3nd frame …', 'background:Lightgreen ; color: black');
+						iconImage.attr("src", iconAnim4_frame3);
+					}, 560);
+					/////////////////////////
+					setTimeout(function() {
+						console.log('%cBrand-Icon: Loading Animation #4, 4nd frame …', 'background:Lightgreen ; color: black');
+						iconImage.attr("src", iconAnim4_frame4);
+					}, 700);
+					/////////////////////////
+					setTimeout(function() {
+						console.log('%cBrand-Icon: Loading Animation #4, last frame (default icon) …', 'background:Lightblue ; color: black');
+						iconImage.attr("src", iconAnim4_frame1);
+					}, 1120);
+				}
+
+				// Play frames
+				setInterval(icon_animation04_play, 15000)
+			}
+
+			//////////////////////////////////////////////////
+
+			// Animation #5
+			function icon_animation05() {
+
+				// Animation #2 – Frames
+				var iconAnim5_frame1	= iconsPathPre + 'icon-05/Portrait-Icon-05-Sonnenbrille-01-1_1.svg';
+				var iconAnim5_frame2	= iconsPathPre + 'icon-05/Portrait-Icon-05-Sonnenbrille-01-1_2.svg';
+				var iconAnim5_frame3	= iconsPathPre + 'icon-05/Portrait-Icon-05-Sonnenbrille-01-1_3.svg';
+
+				// Loading initial frame (the default icon)
+				console.log('%cBrand-Icon: Loading Animation #5, 1st frame (default icon) …', 'background:tomato ; color: white');
+				iconImage.attr("src", iconAnim5_frame1);
+				
+				// Set up frames
+				function icon_animation05_play() {
+					setTimeout(function() {
+						console.log('%cBrand-Icon: Loading Animation #5, 2nd frame …', 'background:Lightgreen ; color: black');
+						iconImage.attr("src", iconAnim5_frame2);
+					}, 1000);
+					/////////////////////////
+					setTimeout(function() {
+						console.log('%cBrand-Icon: Loading Animation #5, 3nd frame …', 'background:Lightgreen ; color: black');
+						iconImage.attr("src", iconAnim5_frame3);
+					}, 1600);
+					/////////////////////////
+					setTimeout(function() {
+						console.log('%cBrand-Icon: Loading Animation #5, last frame (default icon) …', 'background:Lightblue ; color: black');
+						iconImage.attr("src", iconAnim5_frame1);
+					}, 2200);
+				}
+
+				// Play frames
+				setInterval(icon_animation05_play, 15000)
+			}
 
 			//////////////////////////////////////////////////
 
@@ -107,10 +214,19 @@
 				// Set up array containing all animations (functions)
 				var animArray = [
 					function(){
-				     icon_animation01();
-				    },
+						icon_animation01();
+					},
 					function(){
 						icon_animation02();
+					},
+					function(){
+						icon_animation03();
+					},
+					function(){
+						icon_animation04();
+					},
+					function(){
+						icon_animation05();
 					}
 				];
 
