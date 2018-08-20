@@ -141,14 +141,14 @@
 
 		html, body {
 			font-family: 'Eesti-Regular';
-			font-size: 73px;
+			font-size: 68px;
 			-webkit-font-smoothing: antialiased;
 			text-rendering: optimizeLegibility;
 		}
 
 		/*––––––––– Text –––––––––*/
 			.text--project {
-				font-size: 36.5px;
+				font-size: 38px;
 			}
 
 			.text--project2 {
@@ -165,16 +165,20 @@
 
 		/*––– Special Formats –––*/
 			#FooterMenu, #FilterMenu {
-				font-size: 36.5px;
+				font-size: 38px;
 			}
 
 			.slider--counter-container {
-				font-size: 73px;
+				font-size: 68px;
 				line-height: 1;
 				text-align: right;
 			}
 
 			.menu--navbar--section_md.active {
+				font-family: 'Eesti-Regular-Italic';
+			}
+
+			.checked {
 				font-family: 'Eesti-Regular-Italic';
 			}
 		/*–––––––––––––––––––––––*/
