@@ -86,9 +86,14 @@
 					}, 280);
 					/////////////////////////
 					setTimeout(function() {
+						console.log('%cBrand-Icon: Loading Animation #2, 4nd frame …', 'background:Lightgreen ; color: black');
+						iconImage.attr("src", iconAnim2_frame2);
+					}, 560);
+					/////////////////////////
+					setTimeout(function() {
 						console.log('%cBrand-Icon: Loading Animation #2, last frame (default icon) …', 'background:Lightblue ; color: black');
 						iconImage.attr("src", iconAnim2_frame1);
-					}, 560);
+					}, 700);
 				}
 
 				// Play frames
@@ -176,6 +181,7 @@
 				var iconAnim5_frame1	= iconsPathPre + 'icon-05/Portrait-Icon-05-Sonnenbrille-01-1_1.svg';
 				var iconAnim5_frame2	= iconsPathPre + 'icon-05/Portrait-Icon-05-Sonnenbrille-01-1_2.svg';
 				var iconAnim5_frame3	= iconsPathPre + 'icon-05/Portrait-Icon-05-Sonnenbrille-01-1_3.svg';
+				var iconAnim5_frame4	= iconsPathPre + 'icon-05/Portrait-Icon-05-Sonnenbrille-01-1_4.svg';
 
 				// Loading initial frame (the default icon)
 				console.log('%cBrand-Icon: Loading Animation #5, 1st frame (default icon) …', 'background:tomato ; color: white');
@@ -191,7 +197,12 @@
 					setTimeout(function() {
 						console.log('%cBrand-Icon: Loading Animation #5, 3nd frame …', 'background:Lightgreen ; color: black');
 						iconImage.attr("src", iconAnim5_frame3);
-					}, 1600);
+					}, 1400);
+					/////////////////////////
+					setTimeout(function() {
+						console.log('%cBrand-Icon: Loading Animation #5, 4th frame …', 'background:Lightgreen ; color: black');
+						iconImage.attr("src", iconAnim5_frame4);
+					}, 1800);
 					/////////////////////////
 					setTimeout(function() {
 						console.log('%cBrand-Icon: Loading Animation #5, last frame (default icon) …', 'background:Lightblue ; color: black');
@@ -214,19 +225,19 @@
 				// Set up array containing all animations (functions)
 				var animArray = [
 					function(){
-						icon_animation01();
+						icon_animation02();
 					},
 					function(){
 						icon_animation02();
 					},
 					function(){
-						icon_animation03();
+						icon_animation02();
 					},
 					function(){
-						icon_animation04();
+						icon_animation02();
 					},
 					function(){
-						icon_animation05();
+						icon_animation02();
 					}
 				];
 
