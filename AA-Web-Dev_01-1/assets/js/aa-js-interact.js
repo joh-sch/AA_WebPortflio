@@ -9,8 +9,6 @@
 //	––––––––––––––––––––––––––––––––
 
 
-$links = $("li[data-pk-type*='foo']");
-
 	// Open Main Menu
 	function mainmenu_toggle() {
 		var menu 					= $('#MainMenu');

@@ -22,7 +22,21 @@
 
 			display: flex;
 			justify-content: space-around;
+
+			overflow: hidden;
 		}
+			.menu--navbar--icon img {
+				width: 110%;
+				height: 110%;
+
+				transform: translateY(-5%);
+			}
+			.menu--navbar--icon img:hover {
+				filter: invert(100%);
+			}
+			.menu--navbar--icon:hover {
+				cursor: url(/assets/cursor/aa-pointer_45deg.svg), auto !important;
+			}
 	/*–––––––––––––––––––––––*/
 
 	.menu--navbar--top-wrapper {
