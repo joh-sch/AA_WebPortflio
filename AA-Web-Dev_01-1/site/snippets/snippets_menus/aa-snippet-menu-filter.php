@@ -11,7 +11,6 @@
 	<div class="menu--navbar--section_md_filter_sub filters hidden--vis menu--closed" id="FilterButtons">
 			<button data-filter="*" class="checked">
 				all
-				<img class="appended" src="assets/icons/AA-Web_CheckMark-01-1.svg">
 			</button>
 
 			<button data-filter=".vector">

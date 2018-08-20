@@ -91,8 +91,8 @@
 
 	.menu--navbar--section_md {
 		flex: 4;
-		border-right: 2.5px solid #000;
-		border-left: 2.5px solid #000;
+		border-right: 0px solid #000;
+		border-left: 0px solid #000;
 		border-bottom: 5px solid #000;
    	border-top: 5px solid #000;
 	}
@@ -240,10 +240,6 @@
 
 	div[class^="menu--navbar--section_"].active a {
 		color: #000;
-	}
-
-	div[class^="menu--navbar--section_"].active a::after {
-		content: '✓'
 	}
 
 	.menu--close-button:hover {

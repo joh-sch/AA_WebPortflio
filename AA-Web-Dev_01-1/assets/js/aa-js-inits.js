@@ -225,19 +225,19 @@
 				// Set up array containing all animations (functions)
 				var animArray = [
 					function(){
-						icon_animation02();
+						icon_animation01();
 					},
 					function(){
 						icon_animation02();
 					},
 					function(){
-						icon_animation02();
+						icon_animation03();
 					},
 					function(){
-						icon_animation02();
+						icon_animation04();
 					},
 					function(){
-						icon_animation02();
+						icon_animation05();
 					}
 				];
 

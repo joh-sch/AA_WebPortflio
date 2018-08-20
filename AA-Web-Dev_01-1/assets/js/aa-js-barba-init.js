@@ -40,11 +40,8 @@ $('document').ready(function(){
 							$buttonGroup.on( 'click', 'button', function() {
 								if ($(this).hasClass('checked')) {
 									$( this ).removeClass('checked');
-									$( this ).children('.appended').remove();
 								} else {
 									$( this ).addClass('checked');
-									$( this ).append('<img class="appended" src="assets/icons/AA-Web_CheckMark-01-1.svg">');
-									$( this ).siblings().children('.appended').remove();
 									$( this ).siblings().removeClass('checked');
 								}
 							});
