@@ -86,7 +86,7 @@ Template name: Projekt Page
 				<!--––––––– Content –––––––-->
 					<!-- ––––––– Slider ––––––– -->
 						<div class="main-carousel">
-							<?php foreach($page->images()->sortBy('sort', 'asc') as $image): ?>
+							<?php foreach($page->images()->filterBy('filename', '!*=', 'cover') as $image): ?>
 
 								<div class="carousel-cell">
 									<img src="<?= $image->url() ?>" alt="<?= $page->title()->html() ?>" />
