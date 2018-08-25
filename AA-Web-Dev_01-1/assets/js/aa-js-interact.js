@@ -98,7 +98,7 @@
 //	–––––– OVERLAY INTERACTION –––––
 //	––––––––––––––––––––––––––––––––
 
-	function fadeInCover_toggle() {
+	function fadeInCover_toggle_smooth() {
 		var cover = $('#fadeInCover');
 
 		if (cover.hasClass('hidden--dis')) {
@@ -121,6 +121,34 @@
 			setTimeout(function(){
 				console.log('%cCover turned off.', 'background:black ; color: white');
 			}, 320);
+		}
+
+	}
+
+
+	function fadeInCover_toggle_hardbreak() {
+		var cover = $('#fadeInCover');
+
+		if (cover.hasClass('hidden--dis')) {
+			cover.removeClass('hidden--dis')
+			/////////////////////////
+			setTimeout(function(){
+				cover.removeClass('hidden--op')
+			}, 10);
+			/////////////////////////
+			setTimeout(function(){
+				console.log('%cCover turned on.', 'background:black ; color: white');
+			}, 20);
+		} else {
+			cover.addClass('hidden--op')
+			/////////////////////////
+			setTimeout(function(){
+				cover.addClass('hidden--dis')
+			}, 10);
+			/////////////////////////
+			setTimeout(function(){
+				console.log('%cCover turned off.', 'background:black ; color: white');
+			}, 20);
 		}
 
 	}

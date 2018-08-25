@@ -50,12 +50,12 @@ $('document').ready(function(){
           /////////////////////////
           console.log('%cpage content ready.', 'background:orchid ; color: white');
           /////////////////////////
-          setTimeout(fadeInCover_toggle, 500)
+          setTimeout(fadeInCover_toggle_hardbreak, 100)
         },
         onLeave: function() {
           console.log('%conLeave fired.', 'background:orchid ; color: white');
           /////////////////////////
-          fadeInCover_toggle();
+          fadeInCover_toggle_hardbreak();
           ///////////////////////// 
         	console.log('Leaving »Home« …')
         },
@@ -147,12 +147,12 @@ $('document').ready(function(){
           /////////////////////////
           console.log('%cpage content ready.', 'background:orchid ; color: white');
           /////////////////////////
-          setTimeout(fadeInCover_toggle, 500)
+          setTimeout(fadeInCover_toggle_hardbreak, 100)
         },
         onLeave: function() {
           console.log('%conLeave fired.', 'background:orchid ; color: white');
           /////////////////////////
-          fadeInCover_toggle();
+          fadeInCover_toggle_hardbreak();
           /////////////////////////
           console.log('Closing navbar …');
             if ($('#MainMenu').hasClass('menu--state--open')) {
