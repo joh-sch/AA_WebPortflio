@@ -1,16 +1,4 @@
-Title: Test-Projekt-5
-
-----
-
-Year: 
-
-----
-
-Text: 
-
-----
-
-Style: vector
+Title: Digitales Portemonaie
 
 ----
 
@@ -18,7 +6,15 @@ Context:
 
 ----
 
-Client: 
+Client: UBS
+
+----
+
+Style: vector
+
+----
+
+Year: 2017
 
 ----
 
@@ -30,4 +26,4 @@ Description:
 
 ----
 
-Similar: TestTag1
+Similar: UBS
