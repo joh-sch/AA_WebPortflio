@@ -90,6 +90,10 @@
 
 				line-height: 1.5;
 			}
+
+				.grid-item--overlay--text:last-child {
+					margin-bottom: 0;
+				}
 	/*–––––––––––––––––––––––––––––––––*/
 	/*–––––––––––––––––––––––––––––––––*/
 

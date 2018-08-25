@@ -151,9 +151,18 @@
 				font-size: 38px;
 			}
 
+			.text--description {
+				font-size: 38px;
+				line-height: 42px !important;
+			}
+
 			.text--project2 {
 				font-size: 22px;
 				line-height: 25px;
+			}
+
+			.text--italic {
+				font-family: 'Eesti-Regular-Italic' !important;
 			}
 		/*––––––––––––––––––––––––*/
 

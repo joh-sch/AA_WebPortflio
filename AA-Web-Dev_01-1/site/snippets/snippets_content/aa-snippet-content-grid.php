@@ -26,8 +26,11 @@ $projects = page('aa-projekte')->children()->visible();
 								<span><?= $project->year()->kirbytext() ?></span>
 							</div>
 
-							<div class="grid-item--overlay--text text--project">
+							<div class="grid-item--overlay--text text--project text--italic ">
 								<span><?= $project->client()->kirbytext() ?></span>
+							</div>
+							<div class="grid-item--overlay--text text--description">
+								<span><?= $project->description()->kirbytext() ?></span>
 							</div>
 
 						</div>
