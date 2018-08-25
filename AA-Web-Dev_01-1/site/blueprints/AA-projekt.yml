@@ -47,3 +47,10 @@ fields:
   description:
     label: Beschreibung
     type:  textarea
+
+# ////////////////////
+
+  similar:
+    label: Stichworte 
+    type: tags
+    help: Zum Markieren von ähnlichen Projekten
