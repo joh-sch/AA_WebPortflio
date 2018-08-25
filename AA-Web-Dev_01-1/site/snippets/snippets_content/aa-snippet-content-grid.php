@@ -19,10 +19,18 @@ $projects = page('aa-projekte')->children()->visible();
 						<!-- –––––––––––––––––– -->
 
 						<!-- – Project Info –– -->
+						<div class="grid-item--overlay--text-container">
+
 							<div class="grid-item--overlay--text text--project">
 								<span><?= $project->title()->kirbytext() ?></span>
 								<span><?= $project->year()->kirbytext() ?></span>
 							</div>
+
+							<div class="grid-item--overlay--text text--project">
+								<span><?= $project->client()->kirbytext() ?></span>
+							</div>
+
+						</div>
 						<!-- –––––––––––––––––– -->
 
 						<!-- »Show similar« Btn -->

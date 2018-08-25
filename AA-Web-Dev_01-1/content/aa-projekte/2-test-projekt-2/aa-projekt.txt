@@ -1,8 +1,8 @@
-Title: Test-Projekt-2
+Title: Projekt
 
 ----
 
-Year: 2017
+Year: 2015
 
 ----
 
@@ -18,4 +18,16 @@ Type: Editorial Illustration
 
 ----
 
-Client: A Very Cool Client
+Client: Cool Client
+
+----
+
+Context: A Swiss magazine, published three times annually
+
+----
+
+Additional: made at Raffinerie
+
+----
+
+Description: Editorial illustration, cover illustration & graphic design

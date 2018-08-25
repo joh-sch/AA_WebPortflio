@@ -73,13 +73,17 @@
 				color: #fff; 
 			}
 
-			.grid-item--overlay--text {
+			.grid-item--overlay--text-container {
 				width: calc( 100% - ((100% - 20px) * 0.012) * 8);
+				margin: calc(((100% - 20px) * 0.012) * 4);
+			}
+
+			.grid-item--overlay--text {
+				width: 100%;
+				margin-bottom: 1em;
 
 				display: flex;
 				justify-content: space-between;
-
-				margin: calc(((100% - 20px) * 0.012) * 4);
 
 				background-color: #fff;
 				color: #000;
