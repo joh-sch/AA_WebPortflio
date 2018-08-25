@@ -7,10 +7,15 @@
 
 	/*––––––––– SLIDER LAYOUT –––––––––*/
 	/*–––––––––––––––––––––––––––––––––*/
+.flickity-slider {
+  
+}
 
 		.carousel-cell {
 		  width: 100%; /* full width */
-		  height: 100vh; /* height of carousel */
+		  height: calc(100vh); /* height of carousel */
+
+		/*  margin-top: calc(2.4% + 7vw);*/
 
 		  /* Center images in slides 1*/
 			display: -webkit-box;
@@ -25,9 +30,8 @@
 
 		.carousel-cell img {
 			position: absolute;
-			height: 75%;
-			bottom: 0;
-			margin-bottom: 1.2%
+			height: calc(100% - (1.2vw + 7vw + 1.2vw + 1.2vw));
+			bottom: calc(1.2vw);
 		}
 
 		.slider--last-slide-detector-container {
