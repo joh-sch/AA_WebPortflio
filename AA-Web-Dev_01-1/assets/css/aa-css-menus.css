@@ -127,6 +127,8 @@
 			user-select: none;
 			pointer-events: none;
 			background-color: transparent;
+
+			background-color: transparent !important;
 		}
 
 
