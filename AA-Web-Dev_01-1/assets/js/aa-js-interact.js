@@ -12,7 +12,8 @@
 	// Open Main Menu
 	function mainmenu_toggle() {
 		var menu 					= $('#MainMenu');
-		var subMenu				= $('#FooterMenu'); 
+		var subMenu				= $('#FooterMenu');
+		var filterMenu 		= $('#FilterMenu');
 		var menuBtn 			= $('#MainMenuButton');
 		var menuSec1 			= $('#MainMenu_about');
 		var menuSec2 			= $('#MainMenu_contact');
@@ -29,6 +30,7 @@
 			subMenu.removeClass('hidden--dis')
 			menu.removeClass('menu--state--closed')
 			menu.addClass('menu--state--open')
+			filterMenu.addClass('hidden--dis')
 
 			// set page content inactive
 			if (pageLocation.attr('data-namespace').indexOf('home') > -1) {
@@ -48,6 +50,7 @@
 			subMenu.addClass('hidden--dis')
 			menu.addClass('menu--state--closed')
 			menu.removeClass('menu--state--open')
+			filterMenu.removeClass('hidden--dis')
 			
 			// set page content active
 			if (pageLocation.attr('data-namespace').indexOf('home') > -1) {
