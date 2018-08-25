@@ -46,6 +46,11 @@ $('document').ready(function(){
 								}
 							});
             });
+            // Set up separate tag-filter
+            $('.filters--tag').on( 'click', 'button', function() {
+              var filterValue = $( this ).attr('data-filter');
+              $grid.isotope({ filter: filterValue });          
+            });
 					console.log('… grid running!');
           /////////////////////////
           console.log('%cpage content ready.', 'background:orchid ; color: white');
