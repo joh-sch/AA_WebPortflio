@@ -45,7 +45,8 @@ $projects = page('aa-projekte')->children()->visible();
 						<!-- –––––––––––––––––– -->
 
 					</div>
-				<img src="<?= $thumb->url() ?>" alt="Thumbnail for <?= $project->title()->html() ?>" class="showcase-image" />
+
+				<img src="<?= $project->file('cover.jpg')->url() ?>" alt="Thumbnail for <?= $project->title()->html() ?>" class="showcase-image" />
 		  </div>
 
 		<?php endif ?>
