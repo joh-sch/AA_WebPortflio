@@ -1,0 +1,29 @@
+Title: Fantoche
+
+----
+
+Context: 
+
+----
+
+Client: Cool Client
+
+----
+
+Style: vector
+
+----
+
+Year: 2018
+
+----
+
+Additional: 
+
+----
+
+Description: Something about the project. And something more.
+
+----
+
+Similar: 
