@@ -1,0 +1,240 @@
+/*	AA Web Portfolio					*/
+/*	Stylesheet: Main Styling 	*/
+
+/*––––––––––––––––––––––––––––––––––––––––––––––––––––*/
+/*––––––––––––––––––––––––––––––––––––––––––––––––––––*/
+
+
+	/*–––––––––––– LAYOUT ––––––––––––*/
+	/*––––––––––––––––––––––––––––––––*/
+
+		/*– Wrappers/Containers –*/
+
+			.wrapper--overlay {
+				position: fixed;
+				top: 0;
+				right: 0;
+
+				width: 100%;
+				height: 100%
+			}
+		/*–––––––––––––––––––––––*/
+
+
+		/*–– Z-Axial Alignment ––*/
+			.z--topult {
+				z-index: 99999;
+			}
+
+			.z--topmost {
+				z-index: 9999;
+			}
+
+			.z--top {
+				z-index: 999;
+			}
+
+			.z--high {
+				z-index: 99
+			}
+
+			.z--default {
+				z-index: 0;
+			}
+
+			.z--low {
+				z-index: -99;
+			}
+
+			.z--bottom {
+				z-index: -999;
+			}
+
+			.z--bottomMost {
+				z-index: -9999;
+			}
+		/*–––––––––––––––––––––––*/
+		
+	/*––––––––––––––––––––––––––––––––*/
+	/*––––––––––––––––––––––––––––––––*/
+
+
+/* ************************************************** */
+/* ************************************************** */
+
+
+	/*–––––––––––– LINKS ––––––––––––*/
+	/*–––––––––––––––––––––––––––––––*/
+
+		a {}
+
+		a:hover {
+			cursor: url(/assets/cursor/aa-pointer_45deg.svg), auto !important;
+		}
+
+	/*–––––––––––––––––––––––––––––––*/
+	/*–––––––––––––––––––––––––––––––*/
+
+
+/* ************************************************** */
+/* ************************************************** */
+
+
+	/*––––––– CONDITIONS/STATES –––––––*/
+	/*–––––––––––––––––––––––––––––––––*/
+
+		.hidden--op {
+			opacity: 0;
+		}
+
+		.hidden--vis {
+			visibility: hidden;
+		}
+
+		.hidden--dis {
+			display: none !important;
+		}
+
+		.hidden--interact {
+			pointer-events: none;
+		}
+
+	/*–––––––––––––––––––––––––––––––––*/
+	/*–––––––––––––––––––––––––––––––––*/
+
+
+/* ************************************************** */
+/* ************************************************** */
+
+
+	/*–––––––––– TYPOGRAPHY ––––––––––*/
+	/*––––––––––––––––––––––––––––––––*/
+
+		/*–––––– Typefaces ––––––*/
+
+			/* GT Eesti */
+				@font-face {
+					font-family: Eesti-Regular;
+					font-style: normal;
+					src: url('../fonts/GTEestiProDisplay-Regular.otf');
+				}
+
+				@font-face {
+					font-family: Eesti-Regular-Italic;
+					font-style: italic;
+					src: url('../fonts/GTEestiProDisplay-RegularItalic.otf');
+				}
+
+			/* Ginto */
+				@font-face {
+					font-family: Ginto-Regular;
+					font-style: normal;
+					src: url('../fonts/Ginto-Regular.ttf');
+				}
+				@font-face {
+					font-family: Ginto-Medium;
+					font-style: medium;
+					src: url('../fonts/Ginto-Medium.ttf');
+				}
+		/*–––––––––––––––––––––––*/
+
+
+		html, body {
+			font-family: 'Eesti-Regular';
+			font-size: 68px;
+			-webkit-font-smoothing: antialiased;
+			text-rendering: optimizeLegibility;
+		}
+
+		/*––––––––– Text –––––––––*/
+			.text--project {
+				font-size: 38px;
+			}
+
+			.text--description {
+				font-size: 38px;
+				line-height: 42px !important;
+			}
+
+			.text--project2 {
+				font-size: 22px;
+				line-height: 25px;
+			}
+
+			.text--italic {
+				font-family: 'Eesti-Regular-Italic' !important;
+			}
+		/*––––––––––––––––––––––––*/
+
+
+		/*–––––– Headlines ––––––*/
+
+		/*–––––––––––––––––––––––*/
+
+
+		/*––– Special Formats –––*/
+			#FooterMenu, #FilterMenu {
+				font-size: 38px;
+			}
+
+			.slider--counter-container {
+				font-size: 68px;
+				line-height: 1;
+				text-align: right;
+			}
+
+			.menu--navbar--section_md.active {
+				font-family: 'Eesti-Regular-Italic';
+			}
+
+			.checked {
+				font-family: 'Eesti-Regular-Italic';
+			}
+		/*–––––––––––––––––––––––*/
+
+	/*––––––––––––––––––––––––––––––––*/
+	/*––––––––––––––––––––––––––––––––*/
+
+
+/* ************************************************** */
+/* ************************************************** */
+
+
+	/*–––––––––––– COLORS ––––––––––––*/
+	/*––––––––––––––––––––––––––––––––*/
+
+		/*––––– Backgrounds –––––*/
+			.bg-color--default {
+				background-color: #fff;
+			}
+
+			.bg-color--default-trans {
+				background-color: rgba(255,255,255,0.75);
+			}
+		/*–––––––––––––––––––––––*/
+
+
+		/*––––––––– Text –––––––––*/
+
+		/*––––––––––––––––––––––––*/
+
+	/*––––––––––––––––––––––––––––––––*/
+	/*––––––––––––––––––––––––––––––––*/
+
+
+	/*–––––––––––– EFFECTS –––––––––––*/
+	/*––––––––––––––––––––––––––––––––*/
+
+		/*–––––– Transition –––––*/
+			.fade--op--default {
+				transition: opacity 0.0s;
+			}
+		/*–––––––––––––––––––––––*/
+
+	/*––––––––––––––––––––––––––––––––*/
+	/*––––––––––––––––––––––––––––––––*/
+
+
+
+/* ************************************************** */
+/* ************************************************** */

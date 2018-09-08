@@ -1,0 +1,56 @@
+title: AA-Projekt
+
+files:
+  sortable: true
+
+pages: false
+
+fields:
+  title:
+    label: Titel
+    type:  text
+    width: 1/4
+
+  context:
+    label: Kontext
+    type:  text
+    width: 1/4
+
+  client:
+    label: Kunde
+    type:  text
+    width: 1/4
+
+  style:
+    label: Stil
+    type: checkboxes
+    width: 1/4
+    options:
+      vector: Vektor
+      hand: Handgezeichnet
+    columns: 1
+
+# ////////////////////
+
+  year:
+    label: Jahr
+    type:  text
+    width: 1/4
+
+  additional:
+    label: Zusatzinfo
+    type:  text
+    width: 1/4
+
+# ////////////////////
+ 
+  description:
+    label: Beschreibung
+    type:  textarea
+
+# ////////////////////
+
+  similar:
+    label: Stichworte 
+    type: tags
+    help: Zum Markieren von ähnlichen Projekten

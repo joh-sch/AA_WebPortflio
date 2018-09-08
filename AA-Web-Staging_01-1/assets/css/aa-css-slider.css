@@ -1,0 +1,171 @@
+/*	AA Web Portfolio						*/
+/*	Stylesheet: Slider Styling 	*/
+
+/*––––––––––––––––––––––––––––––––––––––––––––––––––––*/
+/*––––––––––––––––––––––––––––––––––––––––––––––––––––*/
+
+
+	/*––––––––– SLIDER LAYOUT –––––––––*/
+	/*–––––––––––––––––––––––––––––––––*/
+.flickity-slider {
+  
+}
+
+		.carousel-cell {
+		  width: 100%; /* full width */
+		  height: calc(100vh); /* height of carousel */
+
+		/*  margin-top: calc(2.4% + 7vw);*/
+
+		  /* Center images in slides 1*/
+			display: -webkit-box;
+			display: -webkit-flex;
+			display:         flex;
+			-webkit-box-pack: center;
+			-webkit-justify-content: center;
+			justify-content: center;
+			-webkit-align-items: center;
+			align-items: center;
+		}
+
+		.carousel-cell img {
+			position: absolute;
+			height: calc(100% - (1.2vw + 7vw + 1.2vw + 1.2vw));
+			bottom: calc(1.2vw);
+		}
+
+		.slider--last-slide-detector-container {
+			position: absolute;
+			bottom: 0;
+			right: 0;
+		}
+
+		.slider--NextProject-btn-container {
+			position: absolute;
+			top: 50%;
+			right: 1.2%;
+			transform: translateY(-50%);
+		}
+		.slider--PrevProject-btn-container {
+			position: absolute;
+			top: 50%;
+			left: 1.2%;
+			transform: translateY(-50%);
+		}
+
+		/*–– Project Descrip.  ––*/
+
+			.slider--projectDescription-container {
+				position: absolute;
+				left: 0;
+				bottom: 0;
+
+				margin: 1.2%;
+				line-height: 0.6712328767em;
+			}
+
+			.slider--projectDescription-container span p {
+				display: inline-block;
+			}
+			.slider--projectDescription-container span:first-child {
+				font-family: Eesti-Regular-Italic;
+			}
+
+
+			.slider--projectDesc-container {
+				height: 7vw;
+				width: calc(100vw - (2.4% + 3.5vw + 7vw));
+				
+				margin-top: 1.2%;
+				margin-bottom: 1.2%; 
+				margin-left: calc(7vw + 1.2%);
+				margin-right: calc(3.5vw + 1.2%);
+				
+				position: fixed;
+				top: 0;
+				
+				display: flex;
+				justify-content: space-between;
+			}
+
+			#descSection1 {
+				flex: 1;
+				border: 5px solid;
+			}
+			#descSection2 {
+				flex: 12;
+			}
+
+			.slider--projectDesc-item-container {
+				width: auto;
+				height: 100%;
+
+				display: flex;
+				justify-content: space-between;
+
+				margin-left: calc(100% / 24);
+				margin-right: calc(100% / 24);
+			}
+
+			.slider--projectDesc-item-container div {
+				flex: 1;
+				margin-right: calc(100% / 24);
+			}
+			.slider--projectDesc-item-container div:last-child {
+				margin-right: 0;
+			}				
+		/*–––––––––––––––––––––––*/
+	/*–––––––––––––––––––––––––––––––––*/
+	/*–––––––––––––––––––––––––––––––––*/
+
+
+/* ************************************************** */
+/* ************************************************** */
+
+
+	/*–––––––– SLIDER ARROWS ––––––––*/
+	/*–––––––––––––––––––––––––––––––*/
+
+		.flickity-button {
+			color: #000 !important;
+			opacity: 0 !important;
+			background: transparent !important;
+		}
+
+		.flickity-button:hover {
+			opacity: 1 !important;
+		}
+
+		.flickity-button-icon {
+			fill: transparent !important;
+		}
+
+		.flickity-prev-next-button {
+			height: 100% !important;
+			width: 25% !important;
+
+			border-radius: 0% !important;
+		}
+
+		.flickity-prev-next-button.next {
+			right: 1.2% !important;
+			text-align: right;
+		}
+		.flickity-prev-next-button.previous {
+			left: 1.2% !important;
+			text-align: left;
+		}
+
+		.flickity-prev-next-button.next::after {
+			content: '→';
+		}
+		.flickity-prev-next-button.previous::after {
+			content: '←';
+		}
+
+	/*–––––––––––––––––––––––––––––––*/
+	/*–––––––––––––––––––––––––––––––*/
+
+/* ************************************************** */
+/* ************************************************** */
+

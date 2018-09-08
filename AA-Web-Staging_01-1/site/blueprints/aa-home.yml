@@ -1,0 +1,8 @@
+title: AA Home
+
+pages: false
+
+fields:
+  title:
+    label: Title
+    type:  text
