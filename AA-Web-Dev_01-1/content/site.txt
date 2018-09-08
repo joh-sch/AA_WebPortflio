@@ -1,13 +1,13 @@
-Title: Kirby Starterkit
+Title: Anita Allemann
 
 ----
 
-Author: Bastian Allgeier GmbH
+Author: Johannes Schmoll
 
 ----
 
-Description: This is Kirby's Starterkit.
+Description: Portfolio Website of illustrator and graphic designer Anita Allemann
 
 ----
 
-Copyright: © 2009–(date: Year) (link: http://getkirby.com text: The Kirby Team)
+Copyright: © 2009–(date: Year)
