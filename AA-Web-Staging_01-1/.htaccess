@@ -1,3 +1,8 @@
+AuthType Basic
+AuthName "Development Site"
+AuthUserFile "/home/anitwnow/.htpasswds/development.anitaallemann.com/passwd"
+require valid-user
+
 # Kirby .htaccess
 
 # rewrite rules
