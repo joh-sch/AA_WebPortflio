@@ -22,7 +22,7 @@ Additional:
 
 ----
 
-Description: Something about the project. And something more.
+Description: 
 
 ----
 
