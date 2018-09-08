@@ -2,6 +2,7 @@
 <html lang="<?= site()->language() ? site()->language()->code() : 'en' ?>">
 <head>
 
+	<meta name="robots" content="noindex,nofollow">
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1.0">
 
