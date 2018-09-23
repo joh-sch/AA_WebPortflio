@@ -141,11 +141,11 @@ body {
 
 /*––––––––– Text –––––––––*/
 .text--headline {
-  font-size: 38px;
+  font-size: calc(2.17662vw + -0.30772px);
 }
 
 .text--project {
-  font-size: 24px;
+  font-size: calc(1.25vw + 0px);
   line-height: 25px;
 }
 

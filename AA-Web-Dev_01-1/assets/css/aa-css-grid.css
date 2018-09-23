@@ -7,8 +7,9 @@
 /*–––––––––– GRID LAYOUT ––––––––––*/
 /*–––––––––––––––––––––––––––––––––*/
 .masonry {
-  column-count: 4;
-  column-gap: 0px;
+  column-count: 2;
+  column-gap: 5px;
+  column-rule: 5px solid black;
 }
 
 .masonry--item {
@@ -16,7 +17,7 @@
   position: relative;
   margin: 0 0 0px;
   width: 100%;
-  border: 3px solid black;
+  border-bottom: 5px solid black;
   box-sizing: border-box;
 }
 .masonry--item img {

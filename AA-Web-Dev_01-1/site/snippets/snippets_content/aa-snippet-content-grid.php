@@ -29,7 +29,7 @@ $projects = page('aa-projekte')->children()->visible();
 							<?php if($project->freeOrClient()->bool()): ?>
 								<span>Free Work</span>
 								<?php else: ?>
-								<span><?= $project->client()->kirbytext() ?></span>
+								<span>Client: <?= str::unhtml( $project->client()->kirbytext() ) ?></span>
 							<?php endif ?>
 
 						</div>
