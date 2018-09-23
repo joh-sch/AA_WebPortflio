@@ -7,7 +7,7 @@
 /*–––––––––– GRID LAYOUT ––––––––––*/
 /*–––––––––––––––––––––––––––––––––*/
 .masonry {
-  column-count: 4;
+  column-count: 2;
   column-gap: 0px;
 }
 

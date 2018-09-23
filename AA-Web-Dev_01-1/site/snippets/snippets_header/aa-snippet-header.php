@@ -21,6 +21,9 @@
 	
 	<!-- Reset -->
 		<?= css('assets/css/aa-css-reset.css') ?>
+	
+	<!-- Media Queries -->
+		<?= css('assets/css/aa-css-mediaQueries.css') ?>
 
 	<!-- Menus -->
 		<?= css('assets/css/aa-css-menus.css') ?>
