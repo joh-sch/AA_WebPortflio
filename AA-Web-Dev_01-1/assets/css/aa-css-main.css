@@ -27,12 +27,14 @@
 }
 #progress {
   width: 100%;
-  background-color: grey;
+  background-color: white;
 }
 #progressBar {
   width: 1%;
-  height: 30px;
-  background-color: green;
+  height: 5px;
+  background-color: black;
+
+  transition: width 0.4s ease-in-out;
 }
 /*–––––––––––––––––––––––*/
 

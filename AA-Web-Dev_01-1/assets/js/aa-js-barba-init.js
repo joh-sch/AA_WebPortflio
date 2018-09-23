@@ -11,6 +11,7 @@ $("document").ready(function() {
       /////////////////////////
       console.log("… setting Brand-Icon & animation …");
       icon_animate_init();
+      init_preloader();
     },
     onEnterCompleted: function() {
       console.log("… »Home« loaded successfully!");
