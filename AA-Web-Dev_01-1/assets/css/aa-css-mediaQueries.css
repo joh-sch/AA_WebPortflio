@@ -7,19 +7,32 @@
 /*––––––––– GRID LAYOUT –––––––––*/
 /*–––––––––––––––––––––––––––––––*/
 
-/* Reduce columns */
-
 @media only screen and (min-width: 1025px) {
   .masonry {
+    /*Column Count */
     column-count: 3 !important;
+    /* Grid Lines */
+    column-gap: 4px !important;
+    column-rule: 4px solid black !important;
+  }
+  .masonry--item {
+    border-bottom: 4px solid black !important;
   }
 }
 
 @media only screen and (min-width: 1281px) {
   .masonry {
+    /*Column Count */
     column-count: 4 !important;
+    /* Grid Lines */
+    column-gap: 5px !important;
+    column-rule: 5px solid black !important;
+  }
+  .masonry--item {
+    border-bottom: 5px solid black !important;
   }
 }
+
 /*–––––––––––––––––––––––––––––––*/
 /*–––––––––––––––––––––––––––––––*/
 
