@@ -19,9 +19,20 @@ Template name: Home
 
 	<!-- ––––– Module X1 ––––– -->
 	<!--–––– FadeIn-Cover –––––-->
-		<?php snippet('/snippets_overlay/aa-snippet-overlay-fadeCover') ?>
+		<?php //snippet('/snippets_overlay/aa-snippet-overlay-fadeCover') ?>
 	<!-- ––––––––––––––––––––– -->
 	<!-- ––––––––––––––––––––– -->
+
+
+	<!--–––––– Module X2 –––––– -->
+	<!--–––––– Preloader –––––––-->
+		<div id="preloader" class="preloader--wrapper bg-color--default z--topmost"> 
+			<div id="progress">
+				<div id="progressBar"></div>
+			</div>
+		</div>
+	<!-- –––––––––––––––––––––– -->
+	<!-- –––––––––––––––––––––– -->
 
 
 <!-- ************************************************** -->
@@ -85,6 +96,10 @@ Template name: Home
 <!-- init Barba.js -->
 	<?= js('assets/js/aa-js-barba-init.js') ?>
 <!-- –––––––––––––– -->
+
+<!-- –––––– JS ––––––––– -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/3.2.0/imagesloaded.pkgd.min.js"></script>
+<!-- ––––––––––––––––––– -->
 
 </body>
 </html>
