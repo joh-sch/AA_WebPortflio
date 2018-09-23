@@ -53,17 +53,15 @@ Template name: Projekt Page
 					<div class="slider--projectDesc-section" id="descSection2">
 						<div class="slider--projectDesc-item-container">
 							<div>
-								<span><?= $page->title()->kirbytext()?> </span>
-								<span>(<?= str::unhtml( $page->context()->kirbytext() ) ?>) </span>
+								
 							</div>
 
 							<div>
-								<span><?= $page->description()->kirbytext() ?> </span>
+							
 							</div>
 
 							<div>
-								<span><?= $page->year()->kirbytext() ?> </span>
-								<span>(<?= str::unhtml( $page->additional()->kirbytext() ) ?>) </span>
+								
 							</div>
 
 							<!-- –––– Slide Counter –––– -->
@@ -107,13 +105,11 @@ Template name: Projekt Page
 					<!-- ––––––––––––––––––––––– -->
 
 					<!-- – Next Project-Button – -->
-						<?php if($page->hasNext()) { ?>
-							<div class="slider--NextProject-btn-container hidden--dis">
-								<a href="<?= $page->nextVisible()->url() ?>" class="slider--NextProject-btn">
-									next
-								</a>
-							</div>
-						<?php } ?>	
+						<div class="slider--NextProject-btn-container hidden--dis">
+							<a href="<?= $page->nextVisible()->url() ?>" class="slider--NextProject-btn">
+								next
+							</a>
+						</div>
 					<!-- ––––––––––––––––––––––– -->
 
 				<!-- ––––––––––––––––––––– -->

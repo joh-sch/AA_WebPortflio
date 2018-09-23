@@ -107,11 +107,13 @@ Template name: Projekt Page
 					<!-- ––––––––––––––––––––––– -->
 
 					<!-- – Next Project-Button – -->
+						<?php if($page->hasNext()) { ?>
 						<div class="slider--NextProject-btn-container hidden--dis">
 							<a href="<?= $page->nextVisible()->url() ?>" class="slider--NextProject-btn">
 								next
 							</a>
 						</div>
+						<?php } ?>				
 					<!-- ––––––––––––––––––––––– -->
 
 				<!-- ––––––––––––––––––––– -->
