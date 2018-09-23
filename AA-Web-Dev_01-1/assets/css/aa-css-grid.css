@@ -13,6 +13,7 @@
 
 .masonry--item {
   display: inline-block;
+  position: relative;
   margin: 0 0 0px;
   width: 100%;
   border: 3px solid black;
@@ -105,11 +106,12 @@
   background-color: #fff;
   color: #000;
 
-  line-height: 1.5;
+  line-height: 1.1;
 }
 
 .grid-item--overlay--text:last-child {
   margin-bottom: 0;
+  line-height: 1.2916666667;
 }
 /*–––––––––––––––––––––––––––––––––*/
 /*–––––––––––––––––––––––––––––––––*/
