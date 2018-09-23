@@ -25,7 +25,13 @@ $projects = page('aa-projekte')->children()->visible();
 						</div>
 
 						<div class="grid-item--overlay--text text--project text--italic ">
-							<span><?= $project->client()->kirbytext() ?></span>
+
+							<?php if($project->freeOrClient()->bool()): ?>
+								<span>Free Work</span>
+								<?php else: ?>
+								<span><?= $project->client()->kirbytext() ?></span>
+							<?php endif ?>
+
 						</div>
 						<div class="grid-item--overlay--text text--project">
 							<span><?= $project->description()->kirbytext() ?></span>

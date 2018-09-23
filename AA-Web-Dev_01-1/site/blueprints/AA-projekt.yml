@@ -8,17 +8,37 @@ pages: false
 fields:
   title:
     label: Titel
-    type:  text
+    type: text
     width: 1/4
 
   context:
     label: Kontext
-    type:  text
+    type: text
     width: 1/4
 
+  year:
+    label: Jahr
+    type: text
+    width: 1/4
+
+  additional:
+    label: Zusatzinfo
+    type: text
+    width: 1/4
+
+  # ////////////////////
+  line-a:
+    type: line
+  # ////////////////////
+
+  freeOrClient:
+    label: Freie Arbeit?
+    type: checkbox
+    width: 1/4
+    text: Freie Arbeit
   client:
     label: Kunde
-    type:  text
+    type: text
     width: 1/4
 
   style:
@@ -30,27 +50,18 @@ fields:
       hand: Handgezeichnet
     columns: 1
 
-# ////////////////////
+  # ////////////////////
+  line-b:
+    type: line
+  # ////////////////////
 
-  year:
-    label: Jahr
-    type:  text
-    width: 1/4
-
-  additional:
-    label: Zusatzinfo
-    type:  text
-    width: 1/4
-
-# ////////////////////
- 
   description:
     label: Beschreibung
-    type:  textarea
+    type: textarea
 
-# ////////////////////
+  # ////////////////////
 
   similar:
-    label: Stichworte 
+    label: Stichworte
     type: tags
     help: Zum Markieren von ähnlichen Projekten
