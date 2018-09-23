@@ -1,0 +1,29 @@
+Title: Umzug
+
+----
+
+Context: Something
+
+----
+
+Client: UBS
+
+----
+
+Style: vector
+
+----
+
+Year: 2017
+
+----
+
+Additional: made at Raffinerie
+
+----
+
+Description: Swiss Board Magazine, Editorial Illustration about Alpine Flower Finder, Expo Milano, Chefs Feed (restaurant recommendation app)
+
+----
+
+Similar: UBS
