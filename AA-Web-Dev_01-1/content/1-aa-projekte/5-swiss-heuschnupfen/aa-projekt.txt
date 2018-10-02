@@ -1,0 +1,33 @@
+Title: Hay fever
+
+----
+
+Context: 
+
+----
+
+Client: Swiss
+
+----
+
+Style: vector
+
+----
+
+Year: 2018
+
+----
+
+Additional: 
+
+----
+
+Description: An Illustration about flying with hay fever. Made for Swiss Magazine.
+
+----
+
+Similar: Swiss Wellcome Aboard
+
+----
+
+Freeorclient: 0

@@ -1,0 +1,41 @@
+Title: Viel Spass
+
+----
+
+Context: 
+
+----
+
+Year: 2018
+
+----
+
+Additional: 
+
+----
+
+Line-a: 
+
+----
+
+Freeorclient: 1
+
+----
+
+Client: 
+
+----
+
+Style: hand
+
+----
+
+Line-b: 
+
+----
+
+Description: A selection of illustrations for the book «Viel Spass». Florian Streit and Rainer Brenner made a book about funny places for kids to play in Zurich. Photos are made by Florian Streit, Miriam Künzli and Susanne Völlm. Presented at Limmat Verlag, Zurich.
+
+----
+
+Similar: Have fun
