@@ -10,7 +10,15 @@ $projects = page('aa-projekte')->children()->visible();
 	<?php foreach($projects as $project): ?>
 
 		<?php if($image = $project->images()->sortBy('sort', 'asc')->first()): $thumb = $image ?>
-			<div class="masonry--item <?= $project->style() ?> <?= $project->similar() ?>">		
+			<div class="masonry--item <?= $project->style() ?> <?= $project->similar() ?>">
+				<!-- Slide Counter -->
+				<div class="grid-item--counter-container">
+					<div class="text--headline">
+						<span>1/2</span>
+					</div>
+				</div>
+
+				<!-- Overlay -->
 				<div class="grid-item--overlay">
 					<!-- –– Project Link –– -->
 						<a href="<?= $project->url() ?>"></a>
