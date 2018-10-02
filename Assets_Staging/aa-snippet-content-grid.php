@@ -5,50 +5,51 @@ $projects = page('aa-projekte')->children()->visible();
 
 ?>
 
-<div class="grid" id="contentHome">
+<div class="masonry" id="contentHome">
 
 	<?php foreach($projects as $project): ?>
 
 		<?php if($image = $project->images()->sortBy('sort', 'asc')->first()): $thumb = $image ?>
+			<div class="masonry--item <?= $project->style() ?> <?= $project->similar() ?>">		
+				<div class="grid-item--overlay">
+					<!-- –– Project Link –– -->
+						<a href="<?= $project->url() ?>"></a>
+					<!-- –––––––––––––––––– -->
 
-			<div class="grid-item <?= $project->style() ?> <?= $project->similar() ?>">
-					<div class="grid-item--overlay">
+					<!-- – Project Info –– -->
+					<div class="grid-item--overlay--text-container">
 
-						<!-- –– Project Link –– -->
-							<a href="<?= $project->url() ?>"></a>
-						<!-- –––––––––––––––––– -->
+						<div class="grid-item--overlay--text text--headline">
+							<span><?= $project->title()->kirbytext() ?></span>
+							<span><?= $project->year()->kirbytext() ?></span>
+						</div>
 
-						<!-- – Project Info –– -->
-						<div class="grid-item--overlay--text-container">
+						<div class="grid-item--overlay--text text--project text--italic ">
 
-							<div class="grid-item--overlay--text text--project">
-								<span><?= $project->title()->kirbytext() ?></span>
-								<span><?= $project->year()->kirbytext() ?></span>
-							</div>
-
-							<div class="grid-item--overlay--text text--project text--italic ">
-								<span><?= $project->client()->kirbytext() ?></span>
-							</div>
-							<div class="grid-item--overlay--text text--description">
-								<span><?= $project->description()->kirbytext() ?></span>
-							</div>
+							<?php if($project->freeOrClient()->bool()): ?>
+								<span>Free Work</span>
+								<?php else: ?>
+								<span>Client: <?= str::unhtml( $project->client()->kirbytext() ) ?></span>
+							<?php endif ?>
 
 						</div>
-						<!-- –––––––––––––––––– -->
-
-						<!-- »Show similar« Btn -->
-							<div class="grid-item--overlay--btn text--project z--high filters--tag" onClick="">
-								<button data-filter=".<?= $project->similar() ?>">
-									<span>show similar</span>
-								</button>
-							</div>
-						<!-- –––––––––––––––––– -->
+						<div class="grid-item--overlay--text text--project">
+							<span><?= $project->description()->kirbytext() ?></span>
+						</div>
 
 					</div>
+					<!-- –––––––––––––––––– -->
 
-				<img src="<?= $project->file('cover.jpg')->url() ?>" alt="Thumbnail for <?= $project->title()->html() ?>" class="showcase-image" />
-		  </div>
-
+					<!-- »Show similar« Btn -->
+						<div class="grid-item--overlay--btn text--headline z--high filters--tag" onClick="">
+							<button data-filter=".<?= $project->similar() ?>">
+								<span>show similar</span>
+							</button>
+						</div>
+					<!-- –––––––––––––––––– -->
+				</div>
+				<img src="<?= $project->images()->filterBy('filename', '*=', 'cover')->first()->url() ?>" alt="Thumbnail for <?= $project->title()->html() ?>" class="showcase-image" />
+			</div>
 		<?php endif ?>
 
 	<?php endforeach ?>
