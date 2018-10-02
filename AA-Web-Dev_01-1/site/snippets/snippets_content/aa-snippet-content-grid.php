@@ -13,9 +13,20 @@ $projects = page('aa-projekte')->children()->visible();
 			<div class="masonry--item <?= $project->style() ?> <?= $project->similar() ?>">
 				<!-- Slide Counter -->
 				<div class="grid-item--counter-container">
-					<div class="text--headline">
-						<span>1/2</span>
-					</div>
+					<!-- Count images -->
+					<?php
+					$slideCount = $project->images()->count();
+					?>
+					<!-- Place counter if more than cover -->
+					<?php if($slideCount > 2) { ?>
+						<div class="text--headline">
+							<span>
+								<?php
+								echo $project->images()->count();
+								?>
+							</span>
+						</div>
+					<?php } ?>	
 				</div>
 
 				<!-- Overlay -->
