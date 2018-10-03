@@ -20,10 +20,7 @@ $projects = page('aa-projekte')->children()->visible();
 					<!-- Place counter if more than cover -->
 					<?php if($slideCount > 2) { ?>
 						<div class="text--headline">
-							<span>
-								<?php
-								echo $project->images()->count();
-								?>
+							<span>1/<?php echo $project->images()->count();?>
 							</span>
 						</div>
 					<?php } ?>	
