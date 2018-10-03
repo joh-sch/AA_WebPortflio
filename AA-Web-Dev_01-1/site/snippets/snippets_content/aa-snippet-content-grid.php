@@ -44,27 +44,28 @@ $projects = page('aa-projekte')->children()->visible();
 						</div>
 
 						<div class="grid-item--overlay--text text--project text--italic ">
-
 							<?php if($project->freeOrClient()->bool()): ?>
 								<span>Free Work</span>
 								<?php else: ?>
 								<span>Client: <?= str::unhtml( $project->client()->kirbytext() ) ?></span>
 							<?php endif ?>
-
 						</div>
+						
 						<div class="grid-item--overlay--text text--project">
 							<span><?= $project->description()->kirbytext() ?></span>
 						</div>
 
 					</div>
 					<!-- –––––––––––––––––– -->
-
+						
 					<!-- »Show similar« Btn -->
+					<?php if($project->similar()->isNotEmpty()): ?>
 						<div class="grid-item--overlay--btn text--headline z--high filters--tag" onClick="">
 							<button data-filter=".<?= $project->similar() ?>">
 								<span>show similar</span>
 							</button>
 						</div>
+					<?php endif ?>
 					<!-- –––––––––––––––––– -->
 				</div>
 				<img src="<?= $project->images()->filterBy('filename', '*=', 'cover')->first()->url() ?>" alt="Thumbnail for <?= $project->title()->html() ?>" class="showcase-image" />
