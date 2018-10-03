@@ -1,0 +1,41 @@
+Title: Die Börse
+
+----
+
+Context: 
+
+----
+
+Year: 2013
+
+----
+
+Additional: made at Raffinerie
+
+----
+
+Line-a: 
+
+----
+
+Freeorclient: 0
+
+----
+
+Client: SIX Swiss Exchange
+
+----
+
+Style: hand
+
+----
+
+Line-b: 
+
+----
+
+Description: Various infografics for the book "Die Börse", presented at NZZ Libero.
+
+----
+
+Similar: Infografiken

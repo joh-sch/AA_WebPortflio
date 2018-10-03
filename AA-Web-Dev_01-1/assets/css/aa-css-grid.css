@@ -6,6 +6,7 @@
 
 /*–––––––––– GRID LAYOUT ––––––––––*/
 /*–––––––––––––––––––––––––––––––––*/
+/* Grid Items */
 .masonry {
   column-count: 2;
   column-gap: 5px;
@@ -25,9 +26,6 @@
   vertical-align: bottom;
 }
 
-.grid {
-}
-
 .grid-item {
   width: 25%;
   height: auto;
@@ -41,17 +39,29 @@
   line-height: 0;
 }
 
-.grid-item img {
+/* Slide Counter (in grid) */
+.grid-item--counter-container {
   width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 0.33rem;
+  box-sizing: border-box;
+
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
 }
 
+/* Overlay */
 .grid-item--overlay {
   position: absolute;
   width: 100%;
   height: 100%;
 
   opacity: 0;
-  background-color: rgba(255, 255, 255, 1);
+  background-color: rgb(0, 0, 0);
 
   display: flex;
   flex-direction: column;
@@ -104,8 +114,8 @@
   display: flex;
   justify-content: space-between;
 
-  background-color: #fff;
-  color: #000;
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
 
   line-height: 1.1;
 }

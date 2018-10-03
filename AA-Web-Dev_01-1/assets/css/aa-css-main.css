@@ -80,6 +80,7 @@ a:hover {
 
 .hidden--op {
   opacity: 0;
+  pointer-events: none;
 }
 
 .hidden--vis {
