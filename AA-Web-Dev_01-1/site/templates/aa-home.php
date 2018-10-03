@@ -50,7 +50,7 @@ Template name: Home
 
 				<!-- ––––– Module A3 ––––– -->
 				<!-- –––– Filter Menu –––– -->
-					<?php //snippet('/snippets_menus/aa-snippet-menu-filter') ?>
+					<?php snippet('/snippets_menus/aa-snippet-menu-filter') ?>
 				<!-- ––––––––––––––––––––– -->
 				<!-- ––––––––––––––––––––– -->
 
