@@ -72,6 +72,31 @@ function filtermenu_toggle() {
   button.siblings(".menu--navbar--bottom--button").toggleClass("hidden--op");
 }
 
+// Close menu if click occurs outside of menu
+function mainmenu_close() {
+  var menu = $("#MainMenu");
+
+  $("html").on("click.closeMenu", function(e) {
+    // Check if menu is open…
+    if (menu.hasClass("menu--state--open")) {
+      if (
+        !$(e.target)
+          .parent()
+          .hasClass("menu--navbar--top-wrapper")
+      ) {
+        mainmenu_toggle();
+      }
+    }
+    // …in case menu is closed
+    else {
+      console.log("Main Menu closed");
+      console.log(e.target);
+      if ($(e.target).is("#brandIcon", "#MainMenuButton")) {
+        mainmenu_toggle();
+      }
+    }
+  });
+}
 //	––––––––––––––––––––––––––––––––
 //	––––––––––––––––––––––––––––––––
 
