@@ -69,16 +69,13 @@
 }
 
 .grid-item--overlay--btn {
-  width: calc(100% - ((100% - 20px) * 0.012) * 8);
   height: 3.5vw;
-
+  padding: 0 var(--margin-default);
   background-color: #fff;
   border: 5px solid var(--color-black-default);
   box-sizing: border-box;
 
-  margin: calc(((100% - 20px) * 0.012) * 4);
-
-  display: flex;
+  display: inline-flex;
   justify-content: space-around;
 
   line-height: 1.5;
@@ -96,14 +93,25 @@
 
 .grid-item--overlay--text {
   width: 100%;
-  margin-bottom: 1em;
-
-  display: flex;
-  justify-content: space-between;
+  margin-bottom: var(--margin-default);
 
   color: rgb(255, 255, 255);
 
-  line-height: 1.1;
+  line-height: 1.15;
+}
+
+/* Overlay Title */
+.grid-item--overlay--text.title {
+  margin-bottom: calc(var(--margin-default) * 2);
+}
+.grid-item--overlay--text.title span:first-of-type {
+  line-height: 1.5;
+}
+
+/* Overlay Year */
+.grid-item--overlay--text.year p {
+  width: 100%;
+  text-align: right;
 }
 
 .grid-item--overlay--text:last-child {

@@ -28,34 +28,34 @@ $projects = page('aa-projekte')->children()->visible();
 
 				<!-- Overlay -->
 				<div class="grid-item--overlay">
-					<!-- –– Project Link –– -->
+					<!-- Project Link -->
 						<a href="<?= $project->url() ?>"></a>
-					<!-- –––––––––––––––––– -->
 
-					<!-- – Project Info –– -->
+					<!-- Project Year -->
+					<div class="grid-item--overlay--text-container">
+						<div class="grid-item--overlay--text text--sm year">
+							<?= $project->year()->kirbytext() ?>
+						</div>
+					</div>
+
+					<!-- – Project Description –– -->
 					<div class="grid-item--overlay--text-container">
 
-						<div class="grid-item--overlay--text text--headline">
-							<span><?= $project->title()->kirbytext() ?></span>
-							<span><?= $project->year()->kirbytext() ?></span>
-						</div>
-
-						<div class="grid-item--overlay--text text--project text--italic ">
+						<div class="grid-item--overlay--text title">
+							<!-- Title -->
+							<span class="text--md"><?= str::unhtml( $project->title()->kirbytext() ) ?> </span>
+							<!-- Client/Free Work -->
 							<?php if($project->freeOrClient()->bool()): ?>
-								<span>Free Work</span>
+								<p class="text--sm">(Personal Work)</p>
 								<?php else: ?>
-								<span>Client: <?= str::unhtml( $project->client()->kirbytext() ) ?></span>
+								<p class="text--sm">(<?= str::unhtml( $project->client()->kirbytext() ) ?>)</p>
 							<?php endif ?>
 						</div>
 						
-						<div class="grid-item--overlay--text text--project">
+						<div class="grid-item--overlay--text text--md description">
 							<span><?= $project->description()->kirbytext() ?></span>
 						</div>
-
-					</div>
-					<!-- –––––––––––––––––– -->
-						
-					<!-- »Show similar« Btn -->
+						<!-- »Show similar« Btn -->
 					<?php if($project->similar()->isNotEmpty()): ?>
 						<div class="grid-item--overlay--btn text--headline z--high filters--tag" onClick="">
 							<button data-filter=".<?= $project->similar() ?>">
@@ -63,6 +63,9 @@ $projects = page('aa-projekte')->children()->visible();
 							</button>
 						</div>
 					<?php endif ?>
+					<!-- –––––––––––––––––– -->
+
+					</div>
 					<!-- –––––––––––––––––– -->
 				</div>
 				<img src="<?= $project->images()->filterBy('filename', '*=', 'cover')->first()->url() ?>" alt="Thumbnail for <?= $project->title()->html() ?>" class="showcase-image" />

@@ -146,17 +146,17 @@ body {
 
 /*––––––––– Text –––––––––*/
 .text--headline {
-  font-size: calc(2.17662vw + -0.30772px);
+  font-size: var(--typesize--md);
 }
 
-.text--project {
-  font-size: calc(1.25vw + 0px);
-  line-height: 25px;
+.text--lg {
+  font-size: var(--typesize--lg);
 }
-
-.text--description {
-  font-size: 38px;
-  line-height: 42px !important;
+.text--md {
+  font-size: var(--typesize--md);
+}
+.text--sm {
+  font-size: var(--typesize--sm) !important;
 }
 
 .text--italic {
