@@ -35,15 +35,15 @@ $projects = page('aa-projekte')->children()->visible();
 					<!-- – Project Info –– -->
 					<div class="grid-item--overlay--text-container">
 
-						<div class="grid-item--overlay--text text--headline">
-							<span><?= $project->title()->kirbytext() ?></span>
-							<span><?= $project->year()->kirbytext() ?></span>
+						<div class="grid-item--overlay--text">
+							<span class="text--headline"><?= $project->title()->kirbytext() ?></span>
+							<span class="text--project"><?= $project->year()->kirbytext() ?></span>
 						</div>
 
 						<div class="grid-item--overlay--text text--project text--italic ">
 							<?php if($project->freeOrClient()->bool()): ?>
 								<span>Free Work</span>
-								<?php else: ?>
+							<?php else: ?>
 								<span>Client: <?= str::unhtml( $project->client()->kirbytext() ) ?></span>
 							<?php endif ?>
 						</div>
