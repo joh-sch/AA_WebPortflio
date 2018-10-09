@@ -85,7 +85,7 @@
   color: #000;
 }
 .grid-item--overlay--btn:hover {
-  background-color: #000;
+  background-color: var(--color-black-default);
   color: #fff;
 }
 
