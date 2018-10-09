@@ -33,6 +33,7 @@ function mainmenu_toggle() {
     // set page content inactive
     if (pageLocation.attr("data-namespace").indexOf("home") > -1) {
       $("#contentHome").addClass("hidden--interact");
+      $("body").addClass("scroll--none");
     } else {
       if (pageLocation.attr("data-namespace").indexOf("projekt") > -1) {
         $(".main-carousel").addClass("hidden--interact");
@@ -53,6 +54,7 @@ function mainmenu_toggle() {
     // set page content active
     if (pageLocation.attr("data-namespace").indexOf("home") > -1) {
       $("#contentHome").removeClass("hidden--interact");
+      $("body").removeClass("scroll--none");
     } else {
       if (pageLocation.attr("data-namespace").indexOf("projekt") > -1) {
         $(".main-carousel").removeClass("hidden--interact");

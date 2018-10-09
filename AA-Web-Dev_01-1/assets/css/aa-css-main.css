@@ -95,6 +95,10 @@ a:hover {
   pointer-events: none;
 }
 
+.scroll--none {
+  overflow: hidden;
+}
+
 /*–––––––––––––––––––––––––––––––––*/
 /*–––––––––––––––––––––––––––––––––*/
 
