@@ -75,7 +75,7 @@
   position: fixed;
   bottom: 0;
 
-  border: var(--border-default) solid black;
+  border: var(--border-default) solid var(--color-black-default);
   box-sizing: border-box;
   background-color: white;
 
@@ -90,7 +90,7 @@
   justify-content: center;
   align-items: center;
 
-  border-right: var(--border-default) solid black;
+  border-right: var(--border-default) solid var(--color-black-default);
   background-color: white;
 
   cursor: pointer;
@@ -102,7 +102,7 @@
   flex: 1;
 }
 .menu--navbar--bottom--button:hover {
-  background-color: black;
+  background-color: var(--color-black-default);
   color: white;
 }
 /*–––––––––––––––––––––––*/
@@ -131,14 +131,14 @@
   user-select: none;
 }
 .menu--navbar--filter-wrapper div:first-of-type {
-  border: var(--border-default) solid black;
+  border: var(--border-default) solid var(--color-black-default);
 }
 .menu--navbar--filter-wrapper div {
-  border-top: var(--border-default) solid black;
-  border-bottom: var(--border-default) solid black;
+  border-top: var(--border-default) solid var(--color-black-default);
+  border-bottom: var(--border-default) solid var(--color-black-default);
 }
 .menu--navbar--filter-wrapper div:last-of-type {
-  border-right: var(--border-default) solid black;
+  border-right: var(--border-default) solid var(--color-black-default);
 }
 
 .menu--navbar--bottom--button.filter {
@@ -160,35 +160,35 @@ div[class^="menu--navbar--section_"] {
 }
 
 div[class^="menu--navbar--section_"] a {
-  color: #000;
+  color: var(--color-black-default);
 }
 
 .menu--navbar--section_sm {
   flex: 1;
-  border: 6px solid #000;
+  border: 6px solid var(--color-black-default);
 }
 
 .menu--navbar--section_md {
   flex: 4;
-  border-right: 0px solid #000;
-  border-left: 0px solid #000;
-  border-bottom: 6px solid #000;
-  border-top: 6px solid #000;
+  border-right: 0px solid var(--color-black-default);
+  border-left: 0px solid var(--color-black-default);
+  border-bottom: 6px solid var(--color-black-default);
+  border-top: 6px solid var(--color-black-default);
 }
 .menu--navbar--section_md:nth-child(1) {
-  border-left: 0px solid #000;
+  border-left: 0px solid var(--color-black-default);
 }
 
 .menu--navbar--section_md:last-child {
-  border-right: 6px solid #000;
+  border-right: 6px solid var(--color-black-default);
 }
 
 .menu--navbar--section_md_filter {
   flex: 1;
-  border-right: 6px solid #000;
-  border-left: 6px solid #000;
-  border-bottom: 6px solid #000;
-  border-top: 6px solid #000;
+  border-right: 6px solid var(--color-black-default);
+  border-left: 6px solid var(--color-black-default);
+  border-bottom: 6px solid var(--color-black-default);
+  border-top: 6px solid var(--color-black-default);
 }
 
 .menu--navbar--section_md_filter_blank {
@@ -204,30 +204,30 @@ div[class^="menu--navbar--section_"] a {
 
 .menu--navbar--section_md_filter_sub {
   flex: 5.5;
-  border-right: 0px solid #000;
-  border-left: 6px solid #000;
-  border-bottom: 6px solid #000;
-  border-top: 6px solid #000;
+  border-right: 0px solid var(--color-black-default);
+  border-left: 6px solid var(--color-black-default);
+  border-bottom: 6px solid var(--color-black-default);
+  border-top: 6px solid var(--color-black-default);
   user-select: none;
   background-color: transparent;
 }
 
 .menu--navbar--section_md_filter_sub:hover {
-  color: #000 !important;
+  color: var(--color-black-default) !important;
   background-color: #fff !important;
   cursor: default !important;
 }
 
 .menu--navbar--section_md_filter_sub button:first-child {
-  border-right: 3px solid #000;
+  border-right: 3px solid var(--color-black-default);
 }
 .menu--navbar--section_md_filter_sub button:nth-child(2) {
-  border-left: 3px solid #000;
-  border-right: 3px solid #000;
+  border-left: 3px solid var(--color-black-default);
+  border-right: 3px solid var(--color-black-default);
 }
 
 .menu--navbar--section_md_filter_sub button:nth-child(3) {
-  border-left: 3px solid #000;
+  border-left: 3px solid var(--color-black-default);
 }
 
 .menu--navbar--section_md_filter_sub button {
@@ -236,7 +236,7 @@ div[class^="menu--navbar--section_"] a {
 }
 .menu--navbar--section_md_filter_sub button:hover {
   color: #fff;
-  background-color: #000;
+  background-color: var(--color-black-default);
   cursor: url(/assets/cursor/aa-pointer_45deg.svg), auto !important;
 }
 
@@ -275,7 +275,7 @@ div[class^="menu--navbar--section_"] a {
 
 div[class^="menu--navbar--section_"]:hover {
   color: #fff;
-  background-color: #000;
+  background-color: var(--color-black-default);
   cursor: url(/assets/cursor/aa-pointer_45deg.svg), auto !important;
 }
 
@@ -284,13 +284,13 @@ div[class^="menu--navbar--section_"]:hover a {
 }
 
 div[class^="menu--navbar--section_"].active {
-  color: #000;
+  color: var(--color-black-default);
   background-color: #fff;
   cursor: url(/assets/cursor/aa-pointer_45deg.svg), auto !important;
 }
 
 div[class^="menu--navbar--section_"].active a {
-  color: #000;
+  color: var(--color-black-default);
 }
 
 .menu--close-button:hover {
