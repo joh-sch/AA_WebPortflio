@@ -139,22 +139,17 @@ $("document").ready(function() {
         // Merge matched & unmatched items
         var allItems = $.merge(unmatched, matched);
         // Sort all items back into columns
-        var columnCounter = 1;
-        //
         $.each(allItems, function(i, v) {
-          if (columnCounter == 1) {
-            column1.append(v);
-            columnCounter++;
-          } else {
-            if (columnCounter == 2) {
-              column2.append(v);
-              columnCounter++;
-            } else {
-              if (columnCounter == 3) {
-                column3.append(v);
-                columnCounter = 1;
-              }
-            }
+          var column = $(this).data("column");
+          //
+          if (column == "column1") {
+            $("#column1").append(v);
+          }
+          if (column == "column2") {
+            $("#column2").append(v);
+          }
+          if (column == "column3") {
+            $("#column3").append(v);
           }
         });
       } else {

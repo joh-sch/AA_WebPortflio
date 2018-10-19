@@ -12,7 +12,7 @@ $projects_col3 = page('aa-projekte')->children()->visible()->filterBy('column', 
   <div class="grid--column" id="column1">
     <?php foreach($projects_col1 as $project): ?>
       <?php if($image = $project->images()->sortBy('sort', 'asc')->first()): $thumb = $image ?>
-      <div class="grid--item <?= $project->style() ?> <?= $project->similar() ?>" id="<?= $project->UID() ?>">
+      <div class="grid--item <?= $project->style() ?> <?= $project->similar() ?>" id="<?= $project->UID() ?>" data-column="<?= $project->column() ?>">
         <!-- Slide Counter -->
         <div class="grid-item--counter-container">
           <!-- Count images -->
@@ -79,7 +79,7 @@ $projects_col3 = page('aa-projekte')->children()->visible()->filterBy('column', 
   <div class="grid--column" id="column2">
     <?php foreach($projects_col2 as $project): ?>
       <?php if($image = $project->images()->sortBy('sort', 'asc')->first()): $thumb = $image ?>
-      <div class="grid--item <?= $project->style() ?> <?= $project->similar() ?>">
+      <div class="grid--item <?= $project->style() ?> <?= $project->similar() ?>" data-column="<?= $project->column() ?>">
         <!-- Slide Counter -->
         <div class="grid-item--counter-container">
           <!-- Count images -->
@@ -146,7 +146,7 @@ $projects_col3 = page('aa-projekte')->children()->visible()->filterBy('column', 
   <div class="grid--column" id="column3">
     <?php foreach($projects_col3 as $project): ?>
       <?php if($image = $project->images()->sortBy('sort', 'asc')->first()): $thumb = $image ?>
-      <div class="grid--item <?= $project->style() ?> <?= $project->similar() ?>">
+      <div class="grid--item <?= $project->style() ?> <?= $project->similar() ?>" data-column="<?= $project->column() ?>">
         <!-- Slide Counter -->
         <div class="grid-item--counter-container">
           <!-- Count images -->
@@ -209,6 +209,4 @@ $projects_col3 = page('aa-projekte')->children()->visible()->filterBy('column', 
     <?php endforeach ?>
   </div>
 </div>
-
-
 
