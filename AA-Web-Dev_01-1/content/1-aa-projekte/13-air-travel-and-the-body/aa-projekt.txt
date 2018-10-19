@@ -39,3 +39,7 @@ Description: Several illustrations for Swiss Magazine.
 ----
 
 Similar: Swiss Wellcome Aboard
+
+----
+
+Column: column3

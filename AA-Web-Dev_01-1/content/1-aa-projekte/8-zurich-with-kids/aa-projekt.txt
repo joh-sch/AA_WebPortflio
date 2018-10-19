@@ -39,3 +39,7 @@ Description: A selection of illustrations for the book «Viel Spass». Florian S
 ----
 
 Similar: Have fun
+
+----
+
+Column: column2
