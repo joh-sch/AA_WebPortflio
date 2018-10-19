@@ -129,6 +129,30 @@ $("document").ready(function() {
     var matched = gridItems.filter(filter);
     //
     if (filter == ".all") {
+      // Reset all filter buttons
+      $("#FilterMenu .menu--navbar--bottom--button.default")
+        .not($(this))
+        .removeClass("active");
+      // Remove all items from grid
+      unmatched.detach();
+      matched.detach();
+      // Merge matched & unmatched items
+      var allItems = $.merge(unmatched, matched);
+      var allItemsOrdered = allItems.prevObject;
+      // Sort all items back into columns
+      $.each(allItemsOrdered, function(i, v) {
+        var column = $(this).data("column");
+        //
+        if (column == "column1") {
+          $("#column1").append(v);
+        }
+        if (column == "column2") {
+          $("#column2").append(v);
+        }
+        if (column == "column3") {
+          $("#column3").append(v);
+        }
+      });
     } else {
       if ($(this).hasClass("active")) {
         // Remove all items from grid
