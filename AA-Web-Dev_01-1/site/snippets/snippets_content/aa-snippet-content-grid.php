@@ -6,8 +6,7 @@ $projects_col2 = page('aa-projekte')->children()->visible()->filterBy('column', 
 $projects_col3 = page('aa-projekte')->children()->visible()->filterBy('column', 'column3');
 ?>
 
-<div class="grid" id="contentHome">
-
+<div class="grid original" id="contentHome">
   <!-- Column 1 -->
   <div class="grid--column" id="column1">
     <?php foreach($projects_col1 as $project): ?>
@@ -209,6 +208,5 @@ $projects_col3 = page('aa-projekte')->children()->visible()->filterBy('column', 
     <?php endforeach ?>
   </div>
 </div>
-
 
 

@@ -106,83 +106,29 @@ function mainmenu_close() {
 //	––––––––––––––––––––––––––––––––
 
 // Filter-Button(s)
-var unmatched = $();
-var matched = $();
-
-var detached_matched = [];
-var detached_unmatched = [];
-
 $("document").ready(function() {
+  // Elements
+  var container_grid_col1 = $("#column1");
   var button = $("#FilterMenu").children(
     ".menu--navbar--bottom--button.default"
   );
-  //
-  var gridItems = $(".grid--item");
-  var column1 = $("#column1");
-  var column2 = $("#column2");
-  var column3 = $("#column3");
-  //
+  // Listen for button-click
   button.click(function() {
+    // Filter Value
     var filter = "." + $(this).data("filter");
-    // Filter items
-    var unmatched = gridItems.not(filter);
-    var matched = gridItems.filter(filter);
+    // Clear current grid
+    $(".grid--column").empty();
     //
-    if (filter == ".all") {
-    } else {
-      if ($(this).hasClass("active")) {
-        // Remove all items from grid
-        unmatched.detach();
-        matched.detach();
-        // Set button inactive
-        $(this).removeClass("active");
-        // Merge matched & unmatched items
-        var allItems = $.merge(unmatched, matched);
-        // Sort all items back into columns
-        var columnCounter = 1;
-        //
-        $.each(allItems, function(i, v) {
-          if (columnCounter == 1) {
-            column1.append(v);
-            columnCounter++;
-          } else {
-            if (columnCounter == 2) {
-              column2.append(v);
-              columnCounter++;
-            } else {
-              if (columnCounter == 3) {
-                column3.append(v);
-                columnCounter = 1;
-              }
-            }
-          }
-        });
-      } else {
-        // Remove all items from grid
-        unmatched.detach();
-        matched.detach();
-        // Set button active
-        $(this).addClass("active");
-        // Sort matched items back into columns
-        var columnCounter = 1;
-        //
-        $.each(matched, function(i, v) {
-          if (columnCounter == 1) {
-            column1.append(v);
-            columnCounter++;
-          } else {
-            if (columnCounter == 2) {
-              column2.append(v);
-              columnCounter++;
-            } else {
-              if (columnCounter == 3) {
-                column3.append(v);
-                columnCounter = 1;
-              }
-            }
-          }
-        });
-      }
+    if (filter == ".vector") {
+      $.ajax({
+        type: "POST",
+        url: "aa-projekte.json",
+        data: { filter: "vector" },
+        success: function(data) {
+          container_grid_col1.html(data.html);
+          console.log(data.html);
+        }
+      });
     }
   });
 });
