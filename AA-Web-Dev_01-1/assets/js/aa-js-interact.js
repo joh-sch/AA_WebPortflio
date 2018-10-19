@@ -90,7 +90,6 @@ function mainmenu_close() {
     // …in case menu is closed
     else {
       console.log("Main Menu closed");
-      console.log(e.target);
       if ($(e.target).is("#brandIcon", "#MainMenuButton")) {
         mainmenu_toggle();
       }
@@ -106,6 +105,25 @@ function mainmenu_close() {
 //	–––––– BUTTON INTERACTION ––––––
 //	––––––––––––––––––––––––––––––––
 
+// Filter-Button(s)
+$("document").ready(function() {
+  var button = $("#FilterMenu").children(
+    ".menu--navbar--bottom--button.default"
+  );
+
+  button.click(function() {
+    var gridItems = $(".grid--item");
+    var filter = "." + $(this).data("filter");
+    //
+    var unmatched = gridItems.not(filter);
+    //
+    if (filter == ".all") {
+      gridItems.removeClass("hidden--dis");
+    } else {
+      unmatched.addClass("hidden--dis");
+    }
+  });
+});
 //	––––––––––––––––––––––––––––––––
 //	––––––––––––––––––––––––––––––––
 
