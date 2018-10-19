@@ -138,8 +138,9 @@ $("document").ready(function() {
         $(this).removeClass("active");
         // Merge matched & unmatched items
         var allItems = $.merge(unmatched, matched);
+        var allItemsOrdered = allItems.prevObject;
         // Sort all items back into columns
-        $.each(allItems, function(i, v) {
+        $.each(allItemsOrdered, function(i, v) {
           var column = $(this).data("column");
           //
           if (column == "column1") {
