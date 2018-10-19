@@ -6,6 +6,21 @@ files:
 pages: false
 
 fields:
+  column:
+    label: Sitzt in welcher Spalte im Raster?
+    type: select
+    default: column1
+    width: 1/4
+    options:
+      column1: 1
+      column2: 2
+      column3: 3
+
+  # ////////////////////
+  line-c:
+    type: line
+  # ////////////////////
+
   title:
     label: Titel
     type: text
@@ -58,8 +73,6 @@ fields:
   description:
     label: Beschreibung
     type: textarea
-
-  # ////////////////////
 
   similar:
     label: Stichworte

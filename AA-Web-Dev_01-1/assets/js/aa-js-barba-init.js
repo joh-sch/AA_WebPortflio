@@ -10,50 +10,12 @@ $("document").ready(function() {
       console.log("Entering »Home« …");
       /////////////////////////
       console.log("… setting Brand-Icon & animation …");
-      icon_animate_init();
+      //icon_animate_init();
     },
     onEnterCompleted: function() {
       console.log("… »Home« loaded successfully!");
       // Set up click-listener for main menu
       mainmenu_close();
-      // Init grid
-      console.log("Initializing grid …");
-      var $grid = $(".grid").isotope({
-        // options
-        itemSelector: ".grid-item",
-        layoutMode: "masonry",
-        transitionDuration: 0
-      });
-      // bind filter button click
-      $(".filters").on("click", "button", function() {
-        if ($(this).hasClass("checked")) {
-          $grid.isotope({ filter: "*" });
-        } else {
-          var filterValue = $(this).attr("data-filter");
-          $grid.isotope({ filter: filterValue });
-        }
-      });
-      // Change checked class on filter-buttons
-      $(".filters").each(function(i, filters) {
-        var $buttonGroup = $(filters);
-
-        $buttonGroup.on("click", "button", function() {
-          if ($(this).hasClass("checked")) {
-            $(this).removeClass("checked");
-          } else {
-            $(this).addClass("checked");
-            $(this)
-              .siblings()
-              .removeClass("checked");
-          }
-        });
-      });
-      // Set up separate tag-filter
-      $(".filters--tag").on("click", "button", function() {
-        var filterValue = $(this).attr("data-filter");
-        $grid.isotope({ filter: filterValue });
-      });
-      console.log("… grid running!");
       /////////////////////////
       console.log("%cpage content ready.", "background:orchid ; color: white");
       /////////////////////////
@@ -82,7 +44,7 @@ $("document").ready(function() {
       console.log("Entering project page …");
       /////////////////////////
       console.log("… setting Brand-Icon & animation …");
-      icon_animate_init();
+      //icon_animate_init();
     },
     onEnterCompleted: function() {
       console.log("… project page loaded successfully!");

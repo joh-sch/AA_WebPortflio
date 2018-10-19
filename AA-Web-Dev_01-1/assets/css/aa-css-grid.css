@@ -6,24 +6,34 @@
 
 /*–––––––––– GRID LAYOUT ––––––––––*/
 /*–––––––––––––––––––––––––––––––––*/
-/* Grid Items */
-.masonry {
-  column-count: 2;
-  column-gap: 5px;
-  column-rule: 5px solid var(--color-black-default);
+
+.grid {
+  display: flex;
+  flex-direction: row;
+  line-height: 0;
 }
 
-.masonry--item {
-  display: inline-block;
-  position: relative;
-  margin: 0 0 0px;
-  width: 100%;
-  border-bottom: 5px solid var(--color-black-default);
-  box-sizing: border-box;
+/* Grid Columns */
+.grid--column {
+  display: flex;
+  flex-direction: column;
+  width: calc(100% / 3);
 }
-.masonry--item img {
-  max-width: 100%;
-  vertical-align: bottom;
+.grid--column#column2 {
+  border-left: 5px solid var(--color-black-default);
+  border-right: 5px solid var(--color-black-default);
+}
+
+/* Grid Items */
+.grid--item {
+  position: relative;
+  box-sizing: border-box;
+  padding: 0;
+
+  border-bottom: 5px solid var(--color-black-default);
+}
+.grid--item img {
+  width: 100%;
 }
 
 /* Slide Counter (in grid) */
@@ -118,6 +128,7 @@
   margin-bottom: 0;
   line-height: 1.2916666667;
 }
+
 /*–––––––––––––––––––––––––––––––––*/
 /*–––––––––––––––––––––––––––––––––*/
 

@@ -31,3 +31,7 @@ Similar: Swiss Wellcome Aboard
 ----
 
 Freeorclient: 0
+
+----
+
+Column: column2

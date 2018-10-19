@@ -39,3 +39,7 @@ Description: Various infografics for the book "Die Börse", presented at NZZ Lib
 ----
 
 Similar: Infografiken
+
+----
+
+Column: column2

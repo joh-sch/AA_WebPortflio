@@ -90,7 +90,6 @@ function mainmenu_close() {
     // …in case menu is closed
     else {
       console.log("Main Menu closed");
-      console.log(e.target);
       if ($(e.target).is("#brandIcon", "#MainMenuButton")) {
         mainmenu_toggle();
       }
@@ -106,6 +105,113 @@ function mainmenu_close() {
 //	–––––– BUTTON INTERACTION ––––––
 //	––––––––––––––––––––––––––––––––
 
+// Filter-Button(s)
+var unmatched = $();
+var matched = $();
+
+var detached_matched = [];
+var detached_unmatched = [];
+
+$("document").ready(function() {
+  var button = $("#FilterMenu").children(
+    ".menu--navbar--bottom--button.default"
+  );
+  //
+  var gridItems = $(".grid--item");
+  var column1 = $("#column1");
+  var column2 = $("#column2");
+  var column3 = $("#column3");
+  //
+  button.click(function() {
+    var filter = "." + $(this).data("filter");
+    // Filter items
+    var unmatched = gridItems.not(filter);
+    var matched = gridItems.filter(filter);
+    //
+    if (filter == ".all") {
+      // Set button active
+      $(this).addClass("active");
+      // Reset all filter buttons
+      $("#FilterMenu .menu--navbar--bottom--button.default")
+        .not($(this))
+        .removeClass("active");
+      // Remove all items from grid
+      unmatched.detach();
+      matched.detach();
+      // Merge matched & unmatched items
+      var allItems = $.merge(unmatched, matched);
+      var allItemsOrdered = allItems.prevObject;
+      // Sort all items back into columns
+      $.each(allItemsOrdered, function(i, v) {
+        var column = $(this).data("column");
+        //
+        if (column == "column1") {
+          $("#column1").append(v);
+        }
+        if (column == "column2") {
+          $("#column2").append(v);
+        }
+        if (column == "column3") {
+          $("#column3").append(v);
+        }
+      });
+    } else {
+      if ($(this).hasClass("active")) {
+        // Remove all items from grid
+        unmatched.detach();
+        matched.detach();
+        // Set button inactive
+        $(this).removeClass("active");
+        // Merge matched & unmatched items
+        var allItems = $.merge(unmatched, matched);
+        var allItemsOrdered = allItems.prevObject;
+        // Sort all items back into columns
+        $.each(allItemsOrdered, function(i, v) {
+          var column = $(this).data("column");
+          //
+          if (column == "column1") {
+            $("#column1").append(v);
+          }
+          if (column == "column2") {
+            $("#column2").append(v);
+          }
+          if (column == "column3") {
+            $("#column3").append(v);
+          }
+        });
+      } else {
+        // Remove all items from grid
+        unmatched.detach();
+        matched.detach();
+        // Set button active
+        $(this).addClass("active");
+        // Reset all filter buttons
+        $("#FilterMenu .menu--navbar--bottom--button.default")
+          .not($(this))
+          .removeClass("active");
+        // Sort matched items back into columns
+        var columnCounter = 1;
+        //
+        $.each(matched, function(i, v) {
+          if (columnCounter == 1) {
+            column1.append(v);
+            columnCounter++;
+          } else {
+            if (columnCounter == 2) {
+              column2.append(v);
+              columnCounter++;
+            } else {
+              if (columnCounter == 3) {
+                column3.append(v);
+                columnCounter = 1;
+              }
+            }
+          }
+        });
+      }
+    }
+  });
+});
 //	––––––––––––––––––––––––––––––––
 //	––––––––––––––––––––––––––––––––
 

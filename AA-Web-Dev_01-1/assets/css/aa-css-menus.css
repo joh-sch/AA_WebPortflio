@@ -100,6 +100,9 @@
 .menu--navbar--bottom--button.filter {
   padding: 0 0;
 }
+.menu--navbar--bottom--button.active {
+  font-family: Eesti-Regular-Italic;
+}
 .menu--navbar--bottom--button:last-of-type {
   border-right: none;
 }
