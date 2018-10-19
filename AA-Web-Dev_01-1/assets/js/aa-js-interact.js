@@ -129,6 +129,8 @@ $("document").ready(function() {
     var matched = gridItems.filter(filter);
     //
     if (filter == ".all") {
+      // Set button active
+      $(this).addClass("active");
       // Reset all filter buttons
       $("#FilterMenu .menu--navbar--bottom--button.default")
         .not($(this))
@@ -183,6 +185,10 @@ $("document").ready(function() {
         matched.detach();
         // Set button active
         $(this).addClass("active");
+        // Reset all filter buttons
+        $("#FilterMenu .menu--navbar--bottom--button.default")
+          .not($(this))
+          .removeClass("active");
         // Sort matched items back into columns
         var columnCounter = 1;
         //

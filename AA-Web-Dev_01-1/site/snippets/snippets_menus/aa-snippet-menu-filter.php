@@ -4,7 +4,7 @@
 		<span>Filter</span>
 	</div>
 
-	<div class="menu--navbar--bottom--button default hidden--op" data-filter="all">
+	<div class="menu--navbar--bottom--button default hidden--op active" data-filter="all">
 		<span>All</span>
 	</div>
 	<div class="menu--navbar--bottom--button default hidden--op" data-filter="vector">
