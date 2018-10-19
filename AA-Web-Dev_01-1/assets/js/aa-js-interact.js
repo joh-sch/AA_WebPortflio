@@ -110,17 +110,39 @@ $("document").ready(function() {
   var button = $("#FilterMenu").children(
     ".menu--navbar--bottom--button.default"
   );
-
+  //
+  var column1 = $("#column1");
+  var column2 = $("#column2");
+  var column3 = $("#column3");
+  //
   button.click(function() {
     var gridItems = $(".grid--item");
     var filter = "." + $(this).data("filter");
     //
     var unmatched = gridItems.not(filter);
+    var matched = gridItems.filter(filter);
     //
     if (filter == ".all") {
-      gridItems.removeClass("hidden--dis");
+      alert(filter);
     } else {
-      unmatched.addClass("hidden--dis");
+      var columnCounter = 1;
+      //
+      $.each(matched, function(i, v) {
+        if (columnCounter == 1) {
+          column1.append(v);
+          columnCounter++;
+        } else {
+          if (columnCounter == 2) {
+            column2.append(v);
+            columnCounter++;
+          } else {
+            if (columnCounter == 3) {
+              column3.append(v);
+              columnCounter = 1;
+            }
+          }
+        }
+      });
     }
   });
 });

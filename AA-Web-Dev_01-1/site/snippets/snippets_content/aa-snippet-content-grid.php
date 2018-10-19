@@ -12,7 +12,7 @@ $projects_col3 = page('aa-projekte')->children()->visible()->filterBy('column', 
   <div class="grid--column" id="column1">
     <?php foreach($projects_col1 as $project): ?>
       <?php if($image = $project->images()->sortBy('sort', 'asc')->first()): $thumb = $image ?>
-      <div class="grid--item <?= $project->style() ?> <?= $project->similar() ?>">
+      <div class="grid--item <?= $project->style() ?> <?= $project->similar() ?>" id="<?= $project->UID() ?>">
         <!-- Slide Counter -->
         <div class="grid-item--counter-container">
           <!-- Count images -->
