@@ -116,17 +116,17 @@ $("document").ready(function() {
   button.click(function() {
     // Filter Value
     var filter = "." + $(this).data("filter");
-    // Clear current grid
-    $(".grid--column").empty();
     //
     if (filter == ".vector") {
+      // Clear current grid
+      $(".grid--column").empty();
+      // Fetch html for items matching filter value
       $.ajax({
         type: "POST",
         url: "aa-projekte.json",
         data: { filter: "vector" },
         success: function(data) {
           container_grid_col1.html(data.html);
-          console.log(data.html);
         }
       });
     }
