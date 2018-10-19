@@ -122,18 +122,6 @@ a:hover {
   font-style: italic;
   src: url("../fonts/GTEestiProDisplay-RegularItalic.otf");
 }
-
-/* Ginto */
-@font-face {
-  font-family: Ginto-Regular;
-  font-style: normal;
-  src: url("../fonts/Ginto-Regular.ttf");
-}
-@font-face {
-  font-family: Ginto-Medium;
-  font-style: medium;
-  src: url("../fonts/Ginto-Medium.ttf");
-}
 /*–––––––––––––––––––––––*/
 
 html,
