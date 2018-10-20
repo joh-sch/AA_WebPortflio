@@ -336,7 +336,6 @@ function icon_animate_init() {
 
 //	–––––– INFINITE SCROLLING ––––––
 //	––––––––––––––––––––––––––––––––
-
 function copy_grid() {
   // Elements
   var column1_org = $("#column1");
@@ -367,7 +366,6 @@ function extend_grid() {
   col2_items_copy.clone().appendTo(column2_org);
   col3_items_copy.clone().appendTo(column3_org);
 }
-
 //	––––––––––––––––––––––––––––––––
 //	––––––––––––––––––––––––––––––––
 

@@ -10,7 +10,7 @@ $("document").ready(function() {
       console.log("Entering »Home« …");
       /////////////////////////
       console.log("… setting Brand-Icon & animation …");
-      //icon_animate_init();
+      icon_animate_init();
     },
     onEnterCompleted: function() {
       console.log("… »Home« loaded successfully!");
@@ -62,7 +62,7 @@ $("document").ready(function() {
       console.log("Entering project page …");
       /////////////////////////
       console.log("… setting Brand-Icon & animation …");
-      //icon_animate_init();
+      icon_animate_init();
     },
     onEnterCompleted: function() {
       console.log("… project page loaded successfully!");
