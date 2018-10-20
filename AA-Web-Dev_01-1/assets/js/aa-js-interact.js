@@ -139,21 +139,6 @@ $("document").ready(function() {
   //
   button.click(function() {
     var filter = "." + $(this).data("filter");
-    // Filter items from originals & copies
-    var copies_unmatched_col1 = col1_items_copy.not(filter);
-    var copies_matched_col1 = col1_items_copy.filter(filter);
-    var unmatched_col1 = col1_items_org.not(filter);
-    var matched_col1 = col1_items_org.filter(filter);
-
-    var copies_unmatched_col2 = col2_items_copy.not(filter);
-    var copies_matched_col2 = col2_items_copy.filter(filter);
-    var unmatched_col2 = col2_items_org.not(filter);
-    var matched_col2 = col2_items_org.filter(filter);
-
-    var copies_unmatched_col3 = col3_items_copy.not(filter);
-    var copies_matched_col3 = col3_items_copy.filter(filter);
-    var unmatched_col3 = col3_items_org.not(filter);
-    var matched_col3 = col3_items_org.filter(filter);
     //
     if (filter == ".all") {
       // Set button active
@@ -185,57 +170,43 @@ $("document").ready(function() {
             column3_org.append($(this).clone());
           }
         });
-      }, 10);
+      }, 0);
       // Reset infinite scroll waypoint
       Waypoint.refreshAll();
     } else {
       if ($(this).hasClass("active")) {
-        // Remove all items from grid
-        unmatched.detach();
-        matched.detach();
-        // Set button inactive
-        $(this).removeClass("active");
-        // Merge matched & unmatched items
-        var allItems = $.merge(unmatched, matched);
-        var allItemsOrdered = allItems.prevObject;
-        // Sort all items back into columns
-        $.each(allItemsOrdered, function(i, v) {
-          var column = $(this).data("column");
-          //
-          if (column == "column1") {
-            $("#column1").append(v);
-          }
-          if (column == "column2") {
-            $("#column2").append(v);
-          }
-          if (column == "column3") {
-            $("#column3").append(v);
-          }
-        });
+        // Leave as is...
       } else {
-        // Remove all items from grid
-        unmatched.detach();
-        matched.detach();
         // Set button active
         $(this).addClass("active");
         // Reset all filter buttons
         $("#FilterMenu .menu--navbar--bottom--button.default")
           .not($(this))
           .removeClass("active");
+        // Empty the visible grid
+        var allOriginals = orgContainer
+          .children(".grid--column")
+          .children(".grid--item");
+        allOriginals.remove();
+        // Get matching copies
+        var allCopiesMatching = copyContainer
+          .children(".grid--column")
+          .children(".grid--item")
+          .filter(filter);
         // Sort matched items back into columns
         var columnCounter = 1;
         //
-        $.each(matched, function(i, v) {
+        $.each(allCopiesMatching, function(i, v) {
           if (columnCounter == 1) {
-            column1.append(v);
+            column1_org.append($(this).clone());
             columnCounter++;
           } else {
             if (columnCounter == 2) {
-              column2.append(v);
+              column2_org.append($(this).clone());
               columnCounter++;
             } else {
               if (columnCounter == 3) {
-                column3.append(v);
+                column3_org.append($(this).clone());
                 columnCounter = 1;
               }
             }
