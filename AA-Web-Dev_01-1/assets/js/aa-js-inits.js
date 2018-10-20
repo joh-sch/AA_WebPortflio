@@ -369,5 +369,28 @@ function extend_grid() {
 //	––––––––––––––––––––––––––––––––
 //	––––––––––––––––––––––––––––––––
 
+//	–– RESIZE LAST ITEM IN COLUMN ––
+//	––––––––––––––––––––––––––––––––
+function resize_lastGridItem(col) {
+  // Elements
+  var grid = $("#contentHome");
+  var col = grid.children("#column" + col);
+  var col_items = col.children(".grid--item");
+  var col_lastItem = col.children(".grid--item").last();
+
+  var fullHeight_col = col.innerHeight();
+  var itemsHeight_col = 0;
+  //
+  col_items.each(function() {
+    itemsHeight_col += $(this).outerHeight();
+  });
+  //
+  var restHeight_col = fullHeight_col - itemsHeight_col;
+  //
+  col_lastItem.innerHeight(col_lastItem.innerHeight() + restHeight_col);
+}
+//	––––––––––––––––––––––––––––––––
+//	––––––––––––––––––––––––––––––––
+
 // **************************************************
 // **************************************************
