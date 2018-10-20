@@ -29,7 +29,7 @@ $("document").ready(function() {
             extend_grid();
             setTimeout(function() {
               Waypoint.refreshAll();
-            }, 2000);
+            }, 1000);
           }
         },
         offset: "bottom-in-view"
