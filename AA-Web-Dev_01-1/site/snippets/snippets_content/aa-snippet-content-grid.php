@@ -7,7 +7,6 @@ $projects_col3 = page('aa-projekte')->children()->visible()->filterBy('column', 
 ?>
 
 <div class="grid" id="contentHome">
-
   <!-- Column 1 -->
   <div class="grid--column" id="column1">
     <?php foreach($projects_col1 as $project): ?>
@@ -208,5 +207,14 @@ $projects_col3 = page('aa-projekte')->children()->visible()->filterBy('column', 
       <?php endif ?>
     <?php endforeach ?>
   </div>
+  <!-- Infinite Scroll Waypoint -->
+  
 </div>
 
+<div  id="waypoint"
+        style=" 
+              z-index: 99999;
+              height: 100px; 
+              width: 100px; 
+              background-color: red;">
+  </div>

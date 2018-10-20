@@ -8,6 +8,7 @@
 /*–––––––––––––––––––––––––––––––––*/
 
 .grid {
+  position: relative;
   display: flex;
   flex-direction: row;
   line-height: 0;

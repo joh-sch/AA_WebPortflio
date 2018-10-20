@@ -19,6 +19,22 @@ $("document").ready(function() {
       /////////////////////////
       console.log("%cpage content ready.", "background:orchid ; color: white");
       /////////////////////////
+      var marker = $("#waypoint");
+      var waypoint = new Waypoint({
+        element: document.getElementById("waypoint"),
+        handler: function(direction) {
+          if (direction == "down") {
+            console.log("Waypoint reached.");
+            // Copy+Paste grid items
+            extend_grid();
+            setTimeout(function() {
+              Waypoint.refreshAll();
+            }, 2000);
+          }
+        },
+        offset: "bottom-in-view"
+      });
+      /////////////////////////
       setTimeout(fadeInCover_toggle_hardbreak, 100);
     },
     onLeave: function() {

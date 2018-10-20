@@ -333,3 +333,26 @@ function icon_animate_init() {
 
 // **************************************************
 // **************************************************
+
+//	–––––– INFINITE SCROLLING ––––––
+//	––––––––––––––––––––––––––––––––
+
+function extend_grid() {
+  // elements
+  var column1 = $("#column1");
+  var column2 = $("#column2");
+  var column3 = $("#column3");
+  var col1_items = column1.children(".grid--item");
+  var col2_items = column2.children(".grid--item");
+  var col3_items = column3.children(".grid--item");
+
+  col1_items.clone().appendTo(column1);
+  col2_items.clone().appendTo(column2);
+  col3_items.clone().appendTo(column3);
+}
+
+//	––––––––––––––––––––––––––––––––
+//	––––––––––––––––––––––––––––––––
+
+// **************************************************
+// **************************************************
