@@ -60,6 +60,8 @@
 	<!-- PLUGINS -->
 		<!-- Waypoints -->
 			<?= js('assets/js/noframework.waypoints.min.js') ?>
+		<!-- Endless.js -->
+			<?= js('assets/js/endless.min.js') ?>
 		<!-- Flickity -->
 			<?= js('assets/js/flickity.pkgd.min.js') ?>
 
