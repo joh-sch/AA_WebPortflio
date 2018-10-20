@@ -8,9 +8,12 @@
 /*–––––––––––––––––––––––––––––––––*/
 
 .grid {
+  position: relative;
   display: flex;
   flex-direction: row;
   line-height: 0;
+}
+.grid-copy {
 }
 
 /* Grid Columns */

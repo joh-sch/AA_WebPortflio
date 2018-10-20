@@ -10,14 +10,32 @@ $("document").ready(function() {
       console.log("Entering »Home« …");
       /////////////////////////
       console.log("… setting Brand-Icon & animation …");
-      //icon_animate_init();
+      icon_animate_init();
     },
     onEnterCompleted: function() {
       console.log("… »Home« loaded successfully!");
       // Set up click-listener for main menu
       mainmenu_close();
+      // Copy original grid content
+      copy_grid();
       /////////////////////////
       console.log("%cpage content ready.", "background:orchid ; color: white");
+      /////////////////////////
+      var marker = $("#waypoint");
+      var waypoint = new Waypoint({
+        element: document.getElementById("waypoint"),
+        handler: function(direction) {
+          if (direction == "down") {
+            console.log("Waypoint reached.");
+            // Copy+Paste grid items
+            extend_grid();
+            setTimeout(function() {
+              Waypoint.refreshAll();
+            }, 1000);
+          }
+        },
+        offset: "100%"
+      });
       /////////////////////////
       setTimeout(fadeInCover_toggle_hardbreak, 100);
     },
@@ -44,7 +62,7 @@ $("document").ready(function() {
       console.log("Entering project page …");
       /////////////////////////
       console.log("… setting Brand-Icon & animation …");
-      //icon_animate_init();
+      icon_animate_init();
     },
     onEnterCompleted: function() {
       console.log("… project page loaded successfully!");

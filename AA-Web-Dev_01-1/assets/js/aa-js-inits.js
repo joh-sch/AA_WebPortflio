@@ -333,3 +333,41 @@ function icon_animate_init() {
 
 // **************************************************
 // **************************************************
+
+//	–––––– INFINITE SCROLLING ––––––
+//	––––––––––––––––––––––––––––––––
+function copy_grid() {
+  // Elements
+  var column1_org = $("#column1");
+  var column2_org = $("#column2");
+  var column3_org = $("#column3");
+  var copyContainer = $("#grid-copy");
+  //
+  copyContainer.append(column1_org.clone());
+  copyContainer.append(column2_org.clone());
+  copyContainer.append(column3_org.clone());
+}
+
+function extend_grid() {
+  // Elements
+  var orgContainer = $("#contentHome");
+  var column1_org = orgContainer.children("#column1");
+  var column2_org = orgContainer.children("#column2");
+  var column3_org = orgContainer.children("#column3");
+  var copyContainer = $("#grid-copy");
+  var column1_copy = copyContainer.children("#column1");
+  var column2_copy = copyContainer.children("#column2");
+  var column3_copy = copyContainer.children("#column3");
+  var col1_items_copy = column1_copy.children(".grid--item");
+  var col2_items_copy = column2_copy.children(".grid--item");
+  var col3_items_copy = column3_copy.children(".grid--item");
+
+  col1_items_copy.clone().appendTo(column1_org);
+  col2_items_copy.clone().appendTo(column2_org);
+  col3_items_copy.clone().appendTo(column3_org);
+}
+//	––––––––––––––––––––––––––––––––
+//	––––––––––––––––––––––––––––––––
+
+// **************************************************
+// **************************************************

@@ -113,20 +113,32 @@ var detached_matched = [];
 var detached_unmatched = [];
 
 $("document").ready(function() {
+  // Define button
   var button = $("#FilterMenu").children(
     ".menu--navbar--bottom--button.default"
   );
-  //
-  var gridItems = $(".grid--item");
-  var column1 = $("#column1");
-  var column2 = $("#column2");
-  var column3 = $("#column3");
+  // Elements
+  var orgContainer = $("#contentHome");
+  var column1_org = orgContainer.children("#column1");
+  var column2_org = orgContainer.children("#column2");
+  var column3_org = orgContainer.children("#column3");
+  var col1_items_org = column1_org.children(".grid--item");
+  var col2_items_org = column2_org.children(".grid--item");
+  var col3_items_org = column3_org.children(".grid--item");
+
+  var copyContainer = $("#grid-copy");
+  var column1_copy = copyContainer.children("#column1");
+  var column2_copy = copyContainer.children("#column2");
+  var column3_copy = copyContainer.children("#column3");
+  var col1_items_copy = column1_copy.children(".grid--item");
+  var col2_items_copy = column2_copy.children(".grid--item");
+  var col3_items_copy = column3_copy.children(".grid--item");
+  var allCopies = copyContainer
+    .children(".grid--column")
+    .children(".grid--item");
   //
   button.click(function() {
     var filter = "." + $(this).data("filter");
-    // Filter items
-    var unmatched = gridItems.not(filter);
-    var matched = gridItems.filter(filter);
     //
     if (filter == ".all") {
       // Set button active
@@ -135,74 +147,66 @@ $("document").ready(function() {
       $("#FilterMenu .menu--navbar--bottom--button.default")
         .not($(this))
         .removeClass("active");
-      // Remove all items from grid
-      unmatched.detach();
-      matched.detach();
-      // Merge matched & unmatched items
-      var allItems = $.merge(unmatched, matched);
-      var allItemsOrdered = allItems.prevObject;
-      // Sort all items back into columns
-      $.each(allItemsOrdered, function(i, v) {
-        var column = $(this).data("column");
-        //
-        if (column == "column1") {
-          $("#column1").append(v);
-        }
-        if (column == "column2") {
-          $("#column2").append(v);
-        }
-        if (column == "column3") {
-          $("#column3").append(v);
-        }
-      });
-    } else {
-      if ($(this).hasClass("active")) {
-        // Remove all items from grid
-        unmatched.detach();
-        matched.detach();
-        // Set button inactive
-        $(this).removeClass("active");
-        // Merge matched & unmatched items
-        var allItems = $.merge(unmatched, matched);
-        var allItemsOrdered = allItems.prevObject;
-        // Sort all items back into columns
-        $.each(allItemsOrdered, function(i, v) {
+      // Empty the visible grid
+      var allOriginals = orgContainer
+        .children(".grid--column")
+        .children(".grid--item");
+      allOriginals.remove();
+      // Refill with copies
+      var allCopies = copyContainer
+        .children(".grid--column")
+        .children(".grid--item");
+      setTimeout(function() {
+        $.each(allCopies, function(i, v) {
           var column = $(this).data("column");
           //
           if (column == "column1") {
-            $("#column1").append(v);
+            column1_org.append($(this).clone());
           }
           if (column == "column2") {
-            $("#column2").append(v);
+            column2_org.append($(this).clone());
           }
           if (column == "column3") {
-            $("#column3").append(v);
+            column3_org.append($(this).clone());
           }
         });
+      }, 0);
+      // Reset infinite scroll waypoint
+      Waypoint.refreshAll();
+    } else {
+      if ($(this).hasClass("active")) {
+        // Leave as is...
       } else {
-        // Remove all items from grid
-        unmatched.detach();
-        matched.detach();
         // Set button active
         $(this).addClass("active");
         // Reset all filter buttons
         $("#FilterMenu .menu--navbar--bottom--button.default")
           .not($(this))
           .removeClass("active");
+        // Empty the visible grid
+        var allOriginals = orgContainer
+          .children(".grid--column")
+          .children(".grid--item");
+        allOriginals.remove();
+        // Get matching copies
+        var allCopiesMatching = copyContainer
+          .children(".grid--column")
+          .children(".grid--item")
+          .filter(filter);
         // Sort matched items back into columns
         var columnCounter = 1;
         //
-        $.each(matched, function(i, v) {
+        $.each(allCopiesMatching, function(i, v) {
           if (columnCounter == 1) {
-            column1.append(v);
+            column1_org.append($(this).clone());
             columnCounter++;
           } else {
             if (columnCounter == 2) {
-              column2.append(v);
+              column2_org.append($(this).clone());
               columnCounter++;
             } else {
               if (columnCounter == 3) {
-                column3.append(v);
+                column3_org.append($(this).clone());
                 columnCounter = 1;
               }
             }

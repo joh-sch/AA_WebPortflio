@@ -7,7 +7,6 @@ $projects_col3 = page('aa-projekte')->children()->visible()->filterBy('column', 
 ?>
 
 <div class="grid" id="contentHome">
-
   <!-- Column 1 -->
   <div class="grid--column" id="column1">
     <?php foreach($projects_col1 as $project): ?>
@@ -210,3 +209,13 @@ $projects_col3 = page('aa-projekte')->children()->visible()->filterBy('column', 
   </div>
 </div>
 
+<!-- Copies of original grid content -->
+<div id="grid-copy" style="display: none;"></div>
+
+<!-- Infinite Scroll Waypoint -->
+<div  id="waypoint"
+      style="z-index: 99999;
+        height: 10px; 
+        width: 10px; 
+        background-color: red;">
+</div>

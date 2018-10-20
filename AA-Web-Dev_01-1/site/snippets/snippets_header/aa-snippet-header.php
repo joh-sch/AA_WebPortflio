@@ -58,8 +58,10 @@
 		<?= js('assets/js/aa-js-barba.js') ?>
 
 	<!-- PLUGINS -->
-		<!-- Isotope -->
-			<?= js('assets/js/isotope.min.js') ?>
+		<!-- Waypoints -->
+			<?= js('assets/js/noframework.waypoints.min.js') ?>
+		<!-- Endless.js -->
+			<?= js('assets/js/endless.min.js') ?>
 		<!-- Flickity -->
 			<?= js('assets/js/flickity.pkgd.min.js') ?>
 
