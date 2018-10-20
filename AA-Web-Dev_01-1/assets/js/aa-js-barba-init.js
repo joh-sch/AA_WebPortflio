@@ -18,9 +18,9 @@ $("document").ready(function() {
       mainmenu_close();
       // Copy original grid content
       //copy_grid();
-      resize_lastGridItem(1);
-      resize_lastGridItem(2);
-      resize_lastGridItem(3);
+      //resize_lastGridItem(1);
+      //resize_lastGridItem(2);
+      //resize_lastGridItem(3);
       /////////////////////////
       console.log("%cpage content ready.", "background:orchid ; color: white");
       /////////////////////////
