@@ -64,6 +64,8 @@
 			<?= js('assets/js/endless.min.js') ?>
 		<!-- Flickity -->
 			<?= js('assets/js/flickity.pkgd.min.js') ?>
+		<!-- NiceScroll -->
+			<?= js('assets/js/jquery.nicescroll.min.js') ?>
 
 <!-- ––––––––––––––––––– -->
 
