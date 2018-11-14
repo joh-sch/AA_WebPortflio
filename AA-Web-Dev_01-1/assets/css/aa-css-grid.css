@@ -49,7 +49,6 @@
   position: absolute;
   top: 0;
   left: 0;
-  padding: 20px;
   box-sizing: border-box;
 
   display: flex;
@@ -140,25 +139,29 @@
 /*–––––––––––––––––––––––––––––––––*/
 
 @media only screen and (min-width: 1281px) {
+  /* Slide Counter (s part of grid item) */
+  .grid-item--counter-container {
+    padding: var(--padding-default);
+  }
   /* Grid Item Overlay Sizes & Spacing */
   .grid-item--overlay--text-container {
-    padding: 20px;
-    width: calc(100% - (20px + 20px));
+    padding: var(--padding-default);
+    width: calc(100% - (var(--padding-default) + var(--padding-default)));
   }
 
   .hasButton .grid-item--overlay--text-container:last-of-type {
-    margin-bottom: 110px !important;
+    margin-bottom: 120px !important;
   }
 
   .grid-item--overlay--text.title,
   .grid-item--overlay--text.description {
-    margin-bottom: 40px;
+    margin-bottom: calc(var(--padding-default) + var(--padding-default));
   }
 
   .grid-item--overlay a {
-    padding: 20px;
-    width: calc(100% - (20px + 20px));
-    height: calc(100% - (20px + 20px));
+    padding: var(--padding-default);
+    width: calc(100% - (var(--padding-default) + var(--padding-default)));
+    height: calc(100% - (var(--padding-default) + var(--padding-default)));
   }
 }
 /*–––––––––––––––––––––––––––––––––*/

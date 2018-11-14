@@ -9,6 +9,7 @@
 :root {
   /* Spacing */
   --margin-default: 25px;
+  --padding-default: 25px;
 
   --border-default: 5px;
 

@@ -45,7 +45,8 @@
   /* Basic Properties */
   .button {
     height: 70px;
-    padding: 0 20px;
+    min-height: 70px;
+    padding: 0 var(--padding-default);
 
     border: 5px solid var(--color-black-default);
 
