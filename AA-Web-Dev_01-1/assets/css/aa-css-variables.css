@@ -1,29 +1,57 @@
 /*	AA Web Portfolio				  	*/
 /*	Stylesheet: Variables  	  	*/
 
-/*––––––––––––––––––––––––––––––––––––––––––––––––––––*/
-/*––––––––––––––––––––––––––––––––––––––––––––––––––––*/
+/* ************************************************** */
+/* ************************************************** */
 
-/*––––––– SIZE/POSITIONING –––––––*/
-/*––––––––––––––––––––––––––––––––*/
-:root {
-  /* Spacing */
-  --margin-default: 25px;
-  --padding-default: 25px;
+/*–––––––––– IPAD SCREEN ––––––––––*/
+/*–––––––––––––––––––––––––––––––––*/
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
+  :root {
+    /* Spacing */
+    --margin-default: calc(25px * 0.75);
+    --padding-default: calc(25px * 0.75);
 
-  --border-default: 5px;
+    --border-default: calc(5px * 0.75);
 
-  /* Colors */
-  --color-black-default: #131313;
+    /* Colors */
+    --color-black-default: #131313;
 
-  /* Type Sizes (Large+ Screen) */
-  --typesize--sm: 20px;
-  --typesize--md: 36px;
-  --typesize--lg: 68px;
+    /* Type Sizes (Large+ Screen) */
+    --typesize--sm: calc(20px * 0.75);
+    --typesize--md: calc(36px * 0.75);
+    --typesize--lg: calc(68px * 0.75);
+  }
+}
+/*–––––––––––––––––––––––––––––––––*/
+/*–––––––––––––––––––––––––––––––––*/
+
+/* ************************************************** */
+/* ************************************************** */
+
+/*––––––––– LARGE+ SCREEN –––––––––*/
+/*–––––––––––––––––––––––––––––––––*/
+
+@media only screen and (min-width: 1281px) {
+  :root {
+    /* Spacing */
+    --margin-default: 25px;
+    --padding-default: 25px;
+
+    --border-default: 5px;
+
+    /* Colors */
+    --color-black-default: #131313;
+
+    /* Type Sizes (Large+ Screen) */
+    --typesize--sm: 20px;
+    --typesize--md: 36px;
+    --typesize--lg: 68px;
+  }
 }
 
-/*––––––––––––––––––––––––––––––––*/
-/*––––––––––––––––––––––––––––––––*/
+/*–––––––––––––––––––––––––––––––––*/
+/*–––––––––––––––––––––––––––––––––*/
 
-/*––––––––––––––––––––––––––––––––––––––––––––––––––––*/
-/*––––––––––––––––––––––––––––––––––––––––––––––––––––*/
+/* ************************************************** */
+/* ************************************************** */

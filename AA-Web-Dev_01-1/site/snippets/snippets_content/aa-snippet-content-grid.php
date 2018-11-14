@@ -139,7 +139,6 @@ $projects_col3 = page('aa-projekte')->children()->visible()->filterBy('column', 
           </div>
           <!-- ––––––––––––––––––– -->
 
-          
         </div>
         <!-- Image -->
         <img src="<?= $project->images()->filterBy('filename', '*=', 'cover')->first()->url() ?>" alt="Thumbnail for <?= $project->title()->html() ?>" class="showcase-image" />
