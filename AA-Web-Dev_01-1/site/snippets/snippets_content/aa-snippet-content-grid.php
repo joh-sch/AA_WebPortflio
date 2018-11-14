@@ -215,7 +215,7 @@ $projects_col3 = page('aa-projekte')->children()->visible()->filterBy('column', 
 <!-- Infinite Scroll Waypoint -->
 <div  id="waypoint"
       style="z-index: 99999;
-        height: 10px; 
-        width: 10px; 
+        height: 0px; 
+        width: 0px; 
         background-color: red;">
 </div>
