@@ -108,54 +108,6 @@ a:hover {
 /*–––––––––– TYPOGRAPHY ––––––––––*/
 /*––––––––––––––––––––––––––––––––*/
 
-/*–––––– Typefaces ––––––*/
-
-/* GT Eesti */
-@font-face {
-  font-family: Eesti-Regular;
-  font-style: normal;
-  src: url("../fonts/GTEestiProDisplay-Regular.otf");
-}
-
-@font-face {
-  font-family: Eesti-Regular-Italic;
-  font-style: italic;
-  src: url("../fonts/GTEestiProDisplay-RegularItalic.otf");
-}
-/*–––––––––––––––––––––––*/
-
-html,
-body {
-  font-family: "Eesti-Regular";
-  font-size: 68px;
-  -webkit-font-smoothing: antialiased;
-  text-rendering: optimizeLegibility;
-}
-
-/*––––––––– Text –––––––––*/
-.text--headline {
-  font-size: var(--typesize--md);
-}
-
-.text--lg {
-  font-size: var(--typesize--lg);
-}
-.text--md {
-  font-size: var(--typesize--md);
-}
-.text--sm {
-  font-size: var(--typesize--sm) !important;
-}
-
-.text--italic {
-  font-family: "Eesti-Regular-Italic" !important;
-}
-/*––––––––––––––––––––––––*/
-
-/*–––––– Headlines ––––––*/
-
-/*–––––––––––––––––––––––*/
-
 /*––– Special Formats –––*/
 #FooterMenu,
 #FilterMenu {

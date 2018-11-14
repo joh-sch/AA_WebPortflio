@@ -30,6 +30,36 @@
 		"oAP": "/assets/avatars/index.html",
 		"oF": 0
 		},
+	"/assets/css/aa-css-buttons-min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/assets/css/aa-css-buttons-min-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"/assets/css/aa-css-buttons.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/assets/css/aa-css-buttons-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"/assets/css/aa-css-grid-min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/assets/css/aa-css-grid-min-min.css",
+		"oF": 0,
+		"oS": 3
+		},
 	"/assets/css/aa-css-grid.css": {
 		"aP": 1,
 		"bl": 0,
@@ -87,6 +117,26 @@
 		"ma": 0,
 		"oA": 0,
 		"oAP": "/assets/css/aa-css-slider-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"/assets/css/aa-css-typography.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/assets/css/aa-css-typography-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"/assets/css/aa-css-variables-min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/assets/css/aa-css-variables-min-min.css",
 		"oF": 0,
 		"oS": 3
 		},

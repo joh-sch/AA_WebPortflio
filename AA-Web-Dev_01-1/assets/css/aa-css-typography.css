@@ -1,0 +1,71 @@
+/*	AA Web Portfolio					      */
+/*	Stylesheet: Typography Styling 	*/
+
+/* ************************************************** */
+/* ************************************************** */
+
+/*––––––––––– TYPEFACES –––––––––––*/
+/*–––––––––––––––––––––––––––––––––*/
+
+/* GT Eesti */
+@font-face {
+  font-family: Eesti-Regular;
+  font-style: normal;
+  src: url("../fonts/GTEestiProDisplay-Regular.otf");
+}
+
+@font-face {
+  font-family: Eesti-Regular-Italic;
+  font-style: italic;
+  src: url("../fonts/GTEestiProDisplay-RegularItalic.otf");
+}
+
+html,
+body {
+  font-family: "Eesti-Regular";
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+/*–––––––––––––––––––––––––––––––––*/
+/*–––––––––––––––––––––––––––––––––*/
+
+/*––––––––––– TYPE SIZE –––––––––––*/
+/*–––––––––––––––––––––––––––––––––*/
+
+.text--lg {
+  font-size: var(--typesize--lg);
+  line-height: 1;
+}
+.text--md {
+  font-size: var(--typesize--md);
+  line-height: 1;
+}
+.text--sm {
+  font-size: var(--typesize--sm) !important;
+  line-height: 1;
+}
+
+.text--italic {
+  font-family: "Eesti-Regular-Italic" !important;
+  line-height: 1;
+}
+
+/*–––––––––––––––––––––––––––––––––*/
+/*–––––––––––––––––––––––––––––––––*/
+
+/* ************************************************** */
+/* ************************************************** */
+
+/*	AA Web Portfolio					            */
+/*	Stylesheet: Typography Media Queries 	*/
+
+/*––––––––– LARGE+ SCREEN –––––––––*/
+/*–––––––––––––––––––––––––––––––––*/
+@media only screen and (min-width: 1281px) {
+}
+/*–––––––––––––––––––––––––––––––––*/
+/*–––––––––––––––––––––––––––––––––*/
+
+/* ************************************************** */
+/* ************************************************** */

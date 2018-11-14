@@ -7,6 +7,7 @@
 /*––––––– SIZE/POSITIONING –––––––*/
 /*––––––––––––––––––––––––––––––––*/
 :root {
+  /* Spacing */
   --margin-default: 25px;
 
   --border-default: 5px;
@@ -14,8 +15,8 @@
   /* Colors */
   --color-black-default: #131313;
 
-  /* Type Sizes */
-  --typesize--sm: 24px;
+  /* Type Sizes (Large+ Screen) */
+  --typesize--sm: 20px;
   --typesize--md: 36px;
   --typesize--lg: 68px;
 }

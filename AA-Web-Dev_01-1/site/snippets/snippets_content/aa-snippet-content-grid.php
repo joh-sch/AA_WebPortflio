@@ -20,7 +20,7 @@ $projects_col3 = page('aa-projekte')->children()->visible()->filterBy('column', 
           ?>
           <!-- Place counter if more than cover -->
           <?php if($slideCount > 2) { ?>
-            <div class="text--headline">
+            <div class="text--md">
               <span>1/<?php echo $project->images()->count();?>
               </span>
             </div>
@@ -33,10 +33,10 @@ $projects_col3 = page('aa-projekte')->children()->visible()->filterBy('column', 
 
           <!-- Project Year -->
           <div class="grid-item--overlay--text-container">
-            <div class="grid-item--overlay--text text--sm year">
+            <div class="grid-item--overlay--text text--md year">
               <?= $project->year()->kirbytext() ?>
             </div>
-          </div>
+          </div> 
 
           <!-- – Project Description –– -->
           <div class="grid-item--overlay--text-container">
@@ -46,9 +46,9 @@ $projects_col3 = page('aa-projekte')->children()->visible()->filterBy('column', 
               <span class="text--md"><?= str::unhtml( $project->title()->kirbytext() ) ?> </span>
               <!-- Client/Free Work -->
               <?php if($project->freeOrClient()->bool()): ?>
-                <p class="text--sm">(Personal Work)</p>
+                <p class="text--md">Personal Work</p>
                 <?php else: ?>
-                <p class="text--sm">(<?= str::unhtml( $project->client()->kirbytext() ) ?>)</p>
+                <p class="text--md"><?= str::unhtml( $project->client()->kirbytext() ) ?></p>
               <?php endif ?>
             </div>
             
@@ -57,7 +57,7 @@ $projects_col3 = page('aa-projekte')->children()->visible()->filterBy('column', 
             </div>
             <!-- »Show similar« Btn -->
             <?php if($project->similar()->isNotEmpty()): ?>
-              <div class="grid-item--overlay--btn text--headline z--high filters--tag" onClick="">
+              <div class="button showSimilar text--headline z--high filters--tag" onClick="">
                 <button data-filter=".<?= $project->similar() ?>">
                   <span>show similar</span>
                 </button>
@@ -87,7 +87,7 @@ $projects_col3 = page('aa-projekte')->children()->visible()->filterBy('column', 
           ?>
           <!-- Place counter if more than cover -->
           <?php if($slideCount > 2) { ?>
-            <div class="text--headline">
+            <div class="text--md">
               <span>1/<?php echo $project->images()->count();?>
               </span>
             </div>
@@ -100,7 +100,7 @@ $projects_col3 = page('aa-projekte')->children()->visible()->filterBy('column', 
 
           <!-- Project Year -->
           <div class="grid-item--overlay--text-container">
-            <div class="grid-item--overlay--text text--sm year">
+            <div class="grid-item--overlay--text text--md year">
               <?= $project->year()->kirbytext() ?>
             </div>
           </div>
@@ -110,12 +110,12 @@ $projects_col3 = page('aa-projekte')->children()->visible()->filterBy('column', 
 
             <div class="grid-item--overlay--text title">
               <!-- Title -->
-              <span class="text--md"><?= str::unhtml( $project->title()->kirbytext() ) ?> </span>
+              <span class="text--md text--italic"><?= str::unhtml( $project->title()->kirbytext() ) ?> </span>
               <!-- Client/Free Work -->
               <?php if($project->freeOrClient()->bool()): ?>
-                <p class="text--sm">(Personal Work)</p>
+                <span class="text--md">Personal Work</span>
                 <?php else: ?>
-                <p class="text--sm">(<?= str::unhtml( $project->client()->kirbytext() ) ?>)</p>
+                <span class="text--md"><?= str::unhtml( $project->client()->kirbytext() ) ?></span>
               <?php endif ?>
             </div>
             
@@ -124,7 +124,7 @@ $projects_col3 = page('aa-projekte')->children()->visible()->filterBy('column', 
             </div>
             <!-- »Show similar« Btn -->
             <?php if($project->similar()->isNotEmpty()): ?>
-              <div class="grid-item--overlay--btn text--headline z--high filters--tag" onClick="">
+              <div class="button showSimilar z--high filters--tag" onClick="">
                 <button data-filter=".<?= $project->similar() ?>">
                   <span>show similar</span>
                 </button>
@@ -154,7 +154,7 @@ $projects_col3 = page('aa-projekte')->children()->visible()->filterBy('column', 
           ?>
           <!-- Place counter if more than cover -->
           <?php if($slideCount > 2) { ?>
-            <div class="text--headline">
+            <div class="text--md">
               <span>1/<?php echo $project->images()->count();?>
               </span>
             </div>
@@ -167,7 +167,7 @@ $projects_col3 = page('aa-projekte')->children()->visible()->filterBy('column', 
 
           <!-- Project Year -->
           <div class="grid-item--overlay--text-container">
-            <div class="grid-item--overlay--text text--sm year">
+            <div class="grid-item--overlay--text text--md year">
               <?= $project->year()->kirbytext() ?>
             </div>
           </div>
@@ -180,9 +180,9 @@ $projects_col3 = page('aa-projekte')->children()->visible()->filterBy('column', 
               <span class="text--md"><?= str::unhtml( $project->title()->kirbytext() ) ?> </span>
               <!-- Client/Free Work -->
               <?php if($project->freeOrClient()->bool()): ?>
-                <p class="text--sm">(Personal Work)</p>
+                <p class="text--md">Personal Work</p>
                 <?php else: ?>
-                <p class="text--sm">(<?= str::unhtml( $project->client()->kirbytext() ) ?>)</p>
+                <p class="text--md"><?= str::unhtml( $project->client()->kirbytext() ) ?></p>
               <?php endif ?>
             </div>
             
@@ -191,7 +191,7 @@ $projects_col3 = page('aa-projekte')->children()->visible()->filterBy('column', 
             </div>
             <!-- »Show similar« Btn -->
             <?php if($project->similar()->isNotEmpty()): ?>
-              <div class="grid-item--overlay--btn text--headline z--high filters--tag" onClick="">
+              <div class="button showSimilar text--headline z--high filters--tag" onClick="">
                 <button data-filter=".<?= $project->similar() ?>">
                   <span>show similar</span>
                 </button>

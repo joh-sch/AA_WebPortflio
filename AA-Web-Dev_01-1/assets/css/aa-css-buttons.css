@@ -1,0 +1,55 @@
+/*	AA Web Portfolio					    */
+/*	Stylesheet: Buttons Styling 	*/
+
+/* ************************************************** */
+/* ************************************************** */
+
+/*–––––––––––––––––––––––––––––––––*/
+/*–––––––––––––––––––––––––––––––––*/
+
+.button {
+  width: fit-content;
+  box-sizing: border-box;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  background-color: white;
+  color: var(--color-black-default);
+}
+.button:hover {
+  background-color: var(--color-black-default);
+  color: white;
+}
+
+.button.showSimilar {
+}
+/*–––––––––––––––––––––––––––––––––*/
+/*–––––––––––––––––––––––––––––––––*/
+
+/* ************************************************** */
+/* ************************************************** */
+
+/*	AA Web Portfolio					          */
+/*	Stylesheet: Buttons Media Queries 	*/
+
+/*––––––––– LARGE+ SCREEN –––––––––*/
+/*–––––––––––––––––––––––––––––––––*/
+
+@media only screen and (min-width: 1281px) {
+  .button {
+    height: 70px;
+    padding: 0 20px;
+
+    border: 5px solid var(--color-black-default);
+
+    font-size: var(--typesize--md);
+  }
+}
+/*–––––––––––––––––––––––––––––––––*/
+/*–––––––––––––––––––––––––––––––––*/
+
+/* ************************************************** */
+/* ************************************************** */

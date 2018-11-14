@@ -23,16 +23,19 @@
 		<?= css('assets/css/aa-css-reset.css') ?>
 
 	<!-- Variables -->
-		<?= css('assets/css/aa-css-variables.css') ?>
+		<?= css('assets/css/aa-css-variables-min.css') ?>
 	
-	<!-- Media Queries -->
-		<?= css('assets/css/aa-css-mediaQueries.css') ?>
+	<!-- Typography -->
+		<?= css('assets/css/aa-css-typography-min.css') ?>
 
 	<!-- Menus -->
 		<?= css('assets/css/aa-css-menus.css') ?>
 
+	<!-- Menus -->
+		<?= css('assets/css/aa-css-buttons-min.css') ?>
+
 	<!-- Grid -->
-		<?= css('assets/css/aa-css-grid.css') ?>
+		<?= css('assets/css/aa-css-grid-min.css') ?>
 	<!-- Slider -->
 		<?= css('assets/css/aa-css-slider.css') ?>
 
