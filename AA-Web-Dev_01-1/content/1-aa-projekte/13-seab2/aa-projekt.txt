@@ -1,0 +1,45 @@
+Title: Orcanic waste bag
+
+----
+
+Context: 
+
+----
+
+Year: 2013
+
+----
+
+Additional: 
+
+----
+
+Line-a: 
+
+----
+
+Freeorclient: 0
+
+----
+
+Client: SEAB
+
+----
+
+Style: vector
+
+----
+
+Line-b: 
+
+----
+
+Description: Graphic Design and Corporate Illustration for an organic waste bag. (Made at Raffinerie)
+
+----
+
+Similar: SEAB
+
+----
+
+Column: column1

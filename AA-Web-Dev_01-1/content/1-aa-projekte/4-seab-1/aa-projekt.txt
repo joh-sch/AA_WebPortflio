@@ -1,0 +1,45 @@
+Title: Stickers waste container
+
+----
+
+Context: 
+
+----
+
+Year: 2012
+
+----
+
+Additional: 
+
+----
+
+Line-a: 
+
+----
+
+Freeorclient: 0
+
+----
+
+Client: SEAB
+
+----
+
+Style: vector
+
+----
+
+Line-b: 
+
+----
+
+Description: Corporate Illustration for various stickers of waste containers. (made at Raffinerie)
+
+----
+
+Similar: SEAB
+
+----
+
+Column: column1

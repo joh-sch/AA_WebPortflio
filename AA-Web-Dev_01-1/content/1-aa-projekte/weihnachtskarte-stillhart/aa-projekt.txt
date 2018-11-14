@@ -1,0 +1,45 @@
+Title: Weihnachtskarte Stillhart
+
+----
+
+Context: 
+
+----
+
+Year: 
+
+----
+
+Additional: 
+
+----
+
+Line-a: 
+
+----
+
+Freeorclient: 0
+
+----
+
+Client: 
+
+----
+
+Style: 
+
+----
+
+Line-b: 
+
+----
+
+Description: 
+
+----
+
+Similar: 
+
+----
+
+Column: column2

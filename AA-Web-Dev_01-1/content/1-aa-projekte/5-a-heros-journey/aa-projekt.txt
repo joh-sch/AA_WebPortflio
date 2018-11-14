@@ -1,0 +1,45 @@
+Title: A hero’s journey
+
+----
+
+Context: 
+
+----
+
+Year: 2018
+
+----
+
+Additional: 
+
+----
+
+Line-a: 
+
+----
+
+Freeorclient: 0
+
+----
+
+Client: ZKB
+
+----
+
+Style: vector
+
+----
+
+Line-b: 
+
+----
+
+Description: Editorial Illustration for the magazine ZH, the magazine of the swiss bank ZKB.
+
+----
+
+Similar: 
+
+----
+
+Column: column2

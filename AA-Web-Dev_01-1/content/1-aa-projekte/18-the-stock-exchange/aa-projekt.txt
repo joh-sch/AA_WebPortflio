@@ -1,0 +1,45 @@
+Title: Die Börse
+
+----
+
+Context: 
+
+----
+
+Year: 2013
+
+----
+
+Additional: made at Raffinerie
+
+----
+
+Line-a: 
+
+----
+
+Freeorclient: 0
+
+----
+
+Client: SIX Swiss Exchange
+
+----
+
+Style: hand
+
+----
+
+Line-b: 
+
+----
+
+Description: Various infographics for the book "Die Börse". Together with SIX  I tried to find simple images to explain the complex topic and developed a visual language for the infographics. Andreas Spörri supported me in the realization. Presented at NZZ Libero. (made at Raffinerie)
+
+----
+
+Similar: Infografiken
+
+----
+
+Column: column3

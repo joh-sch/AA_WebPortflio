@@ -1,0 +1,37 @@
+Title: The sponsors
+
+----
+
+Context: 
+
+----
+
+Client: Fantoche
+
+----
+
+Style: vector
+
+----
+
+Year: 2018
+
+----
+
+Additional: 
+
+----
+
+Description: An Illustration representing the sponsors of the animation film festival "Fantoche" in Baden, Switzerland.
+
+----
+
+Similar: 
+
+----
+
+Freeorclient: 0
+
+----
+
+Column: column2

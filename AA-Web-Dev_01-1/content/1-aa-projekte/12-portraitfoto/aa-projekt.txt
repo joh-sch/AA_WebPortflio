@@ -1,0 +1,45 @@
+Title: Me and my friends
+
+----
+
+Context: 
+
+----
+
+Year: 2017
+
+----
+
+Additional: 
+
+----
+
+Line-a: 
+
+----
+
+Freeorclient: 1
+
+----
+
+Client: 
+
+----
+
+Style: hand
+
+----
+
+Line-b: 
+
+----
+
+Description: Photo by Florian Streit.
+
+----
+
+Similar: 
+
+----
+
+Column: column3

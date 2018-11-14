@@ -1,0 +1,45 @@
+Title: Viel Spass 2
+
+----
+
+Context: 
+
+----
+
+Year: 2018
+
+----
+
+Additional: 
+
+----
+
+Line-a: 
+
+----
+
+Freeorclient: 1
+
+----
+
+Client: 
+
+----
+
+Style: hand
+
+----
+
+Line-b: 
+
+----
+
+Description: A selection of illustrations for the book «Viel Spass».
+
+----
+
+Similar: Have fun
+
+----
+
+Column: column2

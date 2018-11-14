@@ -1,0 +1,45 @@
+Title: Access app
+
+----
+
+Context: 
+
+----
+
+Year: 2017
+
+----
+
+Additional: 
+
+----
+
+Line-a: 
+
+----
+
+Freeorclient: 0
+
+----
+
+Client: UBS
+
+----
+
+Style: vector
+
+----
+
+Line-b: 
+
+----
+
+Description: Unpublished draft about the UBS access app. Made for UBS magazine.
+
+----
+
+Similar: UBS
+
+----
+
+Column: column2

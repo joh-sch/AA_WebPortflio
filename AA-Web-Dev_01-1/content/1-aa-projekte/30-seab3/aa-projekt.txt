@@ -1,0 +1,45 @@
+Title: Waste ABC
+
+----
+
+Context: 
+
+----
+
+Year: 
+
+----
+
+Additional: 
+
+----
+
+Line-a: 
+
+----
+
+Freeorclient: 0
+
+----
+
+Client: SEAB
+
+----
+
+Style: vector
+
+----
+
+Line-b: 
+
+----
+
+Description: Graphic Design and Corporate Illustration for the booklet "Müll ABC". In the booklet you can look up where to dispose your old sofa, the broken fridge etc.  (made at Raffinerie)
+
+----
+
+Similar: SEAB
+
+----
+
+Column: column3

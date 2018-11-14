@@ -1,0 +1,45 @@
+Title: Types of family
+
+----
+
+Context: 
+
+----
+
+Year: 2018
+
+----
+
+Additional: 
+
+----
+
+Line-a: 
+
+----
+
+Freeorclient: 0
+
+----
+
+Client: City Zug
+
+----
+
+Style: hand
+
+----
+
+Line-b: 
+
+----
+
+Description: Several Illustrations for the city magazine Zug in Switzerland.
+
+----
+
+Similar: 
+
+----
+
+Column: column3

@@ -1,0 +1,45 @@
+Title: Infections
+
+----
+
+Context: 
+
+----
+
+Year: 2018
+
+----
+
+Additional: 
+
+----
+
+Line-a: 
+
+----
+
+Freeorclient: 0
+
+----
+
+Client: BAG
+
+----
+
+Style: hand
+
+----
+
+Line-b: 
+
+----
+
+Description: Several Illustrations for the Swiss federal office for Public Health. Made for the brochure „NOSO strategy“(Strategy against healthcare-associated infections).
+
+----
+
+Similar: 
+
+----
+
+Column: column1

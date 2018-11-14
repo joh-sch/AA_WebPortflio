@@ -1,0 +1,37 @@
+Title: UBS Twint
+
+----
+
+Context: 
+
+----
+
+Client: UBS
+
+----
+
+Style: vector
+
+----
+
+Year: 2018
+
+----
+
+Additional: 
+
+----
+
+Description: Editorial Illustration introducing the App "UBS Twint". Made for UBS magazine.
+
+----
+
+Similar: UBS
+
+----
+
+Freeorclient: 0
+
+----
+
+Column: column3

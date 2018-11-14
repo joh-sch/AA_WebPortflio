@@ -1,0 +1,48 @@
+Title: recycling yard
+
+----
+
+Context: 
+
+----
+
+Year: 
+
+----
+
+Additional: 
+
+----
+
+Line-a: 
+
+----
+
+Freeorclient: 0
+
+----
+
+Client: SEAB
+
+----
+
+Style: vector
+
+----
+
+Line-b: 
+
+----
+
+Description: 
+
+Corporate Illustration for the signage of a recycling yard. (made at Raffinerie)
+Photos by Andrea Muheim.
+
+----
+
+Similar: SEAB
+
+----
+
+Column: column2

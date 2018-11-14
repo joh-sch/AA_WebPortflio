@@ -70,6 +70,16 @@
 		"oF": 0,
 		"oS": 3
 		},
+	"/assets/css/aa-css-main-min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/assets/css/aa-css-main-min-min.css",
+		"oF": 0,
+		"oS": 3
+		},
 	"/assets/css/aa-css-main.css": {
 		"aP": 1,
 		"bl": 0,
@@ -117,6 +127,16 @@
 		"ma": 0,
 		"oA": 0,
 		"oAP": "/assets/css/aa-css-slider-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"/assets/css/aa-css-typography-min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/assets/css/aa-css-typography-min-min.css",
 		"oF": 0,
 		"oS": 3
 		},
@@ -513,931 +533,1394 @@
 		"opt": 0,
 		"q": 100
 		},
-	"/content/1-aa-projekte/1-projekt/cover_anitaallemann_donnasummer_rz.jpg": {
+	"/content/1-aa-projekte/1-projekt/cover_anitaallemann_donnasummer_rz_korr.jpg": {
 		"ft": 16384,
-		"iS": 389106,
+		"iS": 378398,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/content/1-aa-projekte/1-projekt/cover_anitaallemann_donnasummer_rz.jpg",
+		"oAP": "/content/1-aa-projekte/1-projekt/cover_anitaallemann_donnasummer_rz_korr.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"/content/1-aa-projekte/10-fantoche/aa-projekt.txt": {
+	"/content/1-aa-projekte/10-crocodile/01_18_kroko_b-2.jpg": {
+		"ft": 16384,
+		"iS": 72601,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/content/1-aa-projekte/10-crocodile/01_18_kroko_b-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/content/1-aa-projekte/10-crocodile/aa-projekt.txt": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "/content/1-aa-projekte/10-fantoche/aa-projekt.txt",
+		"oAP": "/content/1-aa-projekte/10-crocodile/aa-projekt.txt",
 		"oF": 0
 		},
-	"/content/1-aa-projekte/10-fantoche/anitaallemann_fantoche_sponsorenillu_rz_1ebene.jpg": {
+	"/content/1-aa-projekte/10-crocodile/cover_01_18_kroko_b.jpg": {
 		"ft": 16384,
-		"iS": 366163,
+		"iS": 72601,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/content/1-aa-projekte/10-fantoche/anitaallemann_fantoche_sponsorenillu_rz_1ebene.jpg",
+		"oAP": "/content/1-aa-projekte/10-crocodile/cover_01_18_kroko_b.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"/content/1-aa-projekte/10-fantoche/cover_anitaallemann_fantoche_sponsorenillu_rz.jpg": {
-		"ft": 16384,
-		"iS": 367052,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/content/1-aa-projekte/10-fantoche/cover_anitaallemann_fantoche_sponsorenillu_rz.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/content/1-aa-projekte/11-valentin/2018_valentin_rz.gif": {
-		"ft": 4194304,
-		"iS": 58703,
-		"oA": 0,
-		"oAP": "/content/1-aa-projekte/11-valentin/2018_valentin_rz.gif",
-		"oF": 0,
-		"opt": 0
-		},
-	"/content/1-aa-projekte/11-valentin/aa-projekt.txt": {
+	"/content/1-aa-projekte/11-swiss-heuschnupfen/aa-projekt.txt": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "/content/1-aa-projekte/11-valentin/aa-projekt.txt",
+		"oAP": "/content/1-aa-projekte/11-swiss-heuschnupfen/aa-projekt.txt",
 		"oF": 0
 		},
-	"/content/1-aa-projekte/11-valentin/cover_valentin_rz_korr4.gif": {
-		"ft": 4194304,
-		"iS": 55111,
-		"oA": 0,
-		"oAP": "/content/1-aa-projekte/11-valentin/cover_valentin_rz_korr4.gif",
-		"oF": 0,
-		"opt": 0
-		},
-	"/content/1-aa-projekte/12-umzug/aa-projekt.txt": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "/content/1-aa-projekte/12-umzug/aa-projekt.txt",
-		"oF": 0
-		},
-	"/content/1-aa-projekte/12-umzug/cover_illustration_umzug_aa_rz_korr4.jpg": {
-		"ft": 16384,
-		"iS": 255475,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/content/1-aa-projekte/12-umzug/cover_illustration_umzug_aa_rz_korr4.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/content/1-aa-projekte/12-umzug/illustration_umzug_aa_rz.jpg": {
-		"ft": 16384,
-		"iS": 873692,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/content/1-aa-projekte/12-umzug/illustration_umzug_aa_rz.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/content/1-aa-projekte/13-air-travel-and-the-body/aa-projekt.txt": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "/content/1-aa-projekte/13-air-travel-and-the-body/aa-projekt.txt",
-		"oF": 0
-		},
-	"/content/1-aa-projekte/13-air-travel-and-the-body/cover_sm18-03_flugshysiologisch_lay.jpg": {
-		"ft": 16384,
-		"iS": 294665,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/content/1-aa-projekte/13-air-travel-and-the-body/cover_sm18-03_flugshysiologisch_lay.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/content/1-aa-projekte/13-air-travel-and-the-body/sm18-03_flugshysiologisch_01.jpg": {
-		"ft": 16384,
-		"iS": 294665,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/content/1-aa-projekte/13-air-travel-and-the-body/sm18-03_flugshysiologisch_01.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/content/1-aa-projekte/13-air-travel-and-the-body/well_come_flugphysiologisch_02.jpg": {
-		"ft": 16384,
-		"iS": 94224,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/content/1-aa-projekte/13-air-travel-and-the-body/well_come_flugphysiologisch_02.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/content/1-aa-projekte/13-air-travel-and-the-body/well_come_flugphysiologisch_03.jpg": {
-		"ft": 16384,
-		"iS": 50349,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/content/1-aa-projekte/13-air-travel-and-the-body/well_come_flugphysiologisch_03.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/content/1-aa-projekte/13-air-travel-and-the-body/well_come_flugphysiologisch_04.jpg": {
-		"ft": 16384,
-		"iS": 107176,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/content/1-aa-projekte/13-air-travel-and-the-body/well_come_flugphysiologisch_04.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/content/1-aa-projekte/13-air-travel-and-the-body/well_come_flugphysiologisch_05.jpg": {
-		"ft": 16384,
-		"iS": 98439,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/content/1-aa-projekte/13-air-travel-and-the-body/well_come_flugphysiologisch_05.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/content/1-aa-projekte/14-hoehenkrankheit/aa-projekt.txt": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "/content/1-aa-projekte/14-hoehenkrankheit/aa-projekt.txt",
-		"oF": 0
-		},
-	"/content/1-aa-projekte/14-hoehenkrankheit/cover_2_sm18-02_124_well-come_00_lay_2.jpg": {
-		"ft": 16384,
-		"iS": 309842,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/content/1-aa-projekte/14-hoehenkrankheit/cover_2_sm18-02_124_well-come_00_lay_2.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/content/1-aa-projekte/14-hoehenkrankheit/sm18-02_124_well-come_00_lay_00.jpg": {
-		"ft": 16384,
-		"iS": 309842,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/content/1-aa-projekte/14-hoehenkrankheit/sm18-02_124_well-come_00_lay_00.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/content/1-aa-projekte/14-hoehenkrankheit/sm18-02_hoehenkrankheit_01.jpg": {
-		"ft": 16384,
-		"iS": 134899,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/content/1-aa-projekte/14-hoehenkrankheit/sm18-02_hoehenkrankheit_01.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/content/1-aa-projekte/14-hoehenkrankheit/sm18-02_hoehenkrankheit_02.jpg": {
-		"ft": 16384,
-		"iS": 65875,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/content/1-aa-projekte/14-hoehenkrankheit/sm18-02_hoehenkrankheit_02.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/content/1-aa-projekte/14-hoehenkrankheit/sm18-02_hoehenkrankheit_03.jpg": {
-		"ft": 16384,
-		"iS": 111955,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/content/1-aa-projekte/14-hoehenkrankheit/sm18-02_hoehenkrankheit_03.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/content/1-aa-projekte/14-hoehenkrankheit/sm18-02_hoehenkrankheit_04.jpg": {
-		"ft": 16384,
-		"iS": 67931,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/content/1-aa-projekte/14-hoehenkrankheit/sm18-02_hoehenkrankheit_04.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/content/1-aa-projekte/15-doing-family/00_stadtmagazin-2.jpg": {
-		"ft": 16384,
-		"iS": 451448,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/content/1-aa-projekte/15-doing-family/00_stadtmagazin-2.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/content/1-aa-projekte/15-doing-family/01_stadtmagazin_zug_familie_.jpg": {
-		"ft": 16384,
-		"iS": 4658168,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/content/1-aa-projekte/15-doing-family/01_stadtmagazin_zug_familie_.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/content/1-aa-projekte/15-doing-family/aa-projekt.txt": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "/content/1-aa-projekte/15-doing-family/aa-projekt.txt",
-		"oF": 0
-		},
-	"/content/1-aa-projekte/15-doing-family/cover_stadtmagazin.jpg": {
-		"ft": 16384,
-		"iS": 451448,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/content/1-aa-projekte/15-doing-family/cover_stadtmagazin.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/content/1-aa-projekte/16-happy-new-year/aa-projekt.txt": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "/content/1-aa-projekte/16-happy-new-year/aa-projekt.txt",
-		"oF": 0
-		},
-	"/content/1-aa-projekte/16-happy-new-year/cover_w-karte_2017__0.4sek-aa.gif": {
-		"ft": 4194304,
-		"iS": 2699555,
-		"oA": 0,
-		"oAP": "/content/1-aa-projekte/16-happy-new-year/cover_w-karte_2017__0.4sek-aa.gif",
-		"oF": 0,
-		"opt": 0
-		},
-	"/content/1-aa-projekte/16-happy-new-year/w-karte_2017__0.4sek-aa.gif": {
-		"ft": 4194304,
-		"iS": 2697417,
-		"oA": 0,
-		"oAP": "/content/1-aa-projekte/16-happy-new-year/w-karte_2017__0.4sek-aa.gif",
-		"oF": 0,
-		"opt": 0
-		},
-	"/content/1-aa-projekte/17-ampelturnen/aa-projekt.txt": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "/content/1-aa-projekte/17-ampelturnen/aa-projekt.txt",
-		"oF": 0
-		},
-	"/content/1-aa-projekte/17-ampelturnen/ampelturnen_1000px_korr.gif": {
-		"ft": 4194304,
-		"iS": 201481,
-		"oA": 0,
-		"oAP": "/content/1-aa-projekte/17-ampelturnen/ampelturnen_1000px_korr.gif",
-		"oF": 0,
-		"opt": 0
-		},
-	"/content/1-aa-projekte/17-ampelturnen/cover_ampelturnen_2400px_korr.2.gif": {
-		"ft": 4194304,
-		"iS": 194097,
-		"oA": 0,
-		"oAP": "/content/1-aa-projekte/17-ampelturnen/cover_ampelturnen_2400px_korr.2.gif",
-		"oF": 0,
-		"opt": 0
-		},
-	"/content/1-aa-projekte/18-digitales-portemonaie/aa-projekt.txt": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "/content/1-aa-projekte/18-digitales-portemonaie/aa-projekt.txt",
-		"oF": 0
-		},
-	"/content/1-aa-projekte/18-digitales-portemonaie/cover_ubs_hereinspaziert_digitales-portemonnaie_rz.jpg": {
-		"ft": 16384,
-		"iS": 448282,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/content/1-aa-projekte/18-digitales-portemonaie/cover_ubs_hereinspaziert_digitales-portemonnaie_rz.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/content/1-aa-projekte/18-digitales-portemonaie/ubs_hereinspaziert_digitales-portemonnaie_rz_test.jpg": {
-		"ft": 16384,
-		"iS": 451241,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/content/1-aa-projekte/18-digitales-portemonaie/ubs_hereinspaziert_digitales-portemonnaie_rz_test.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/content/1-aa-projekte/2-a-heros-journey/180116_zkb_zh01_mut_heldenreise_aa_rz_a_mit-text.jpg": {
-		"ft": 16384,
-		"iS": 821488,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/content/1-aa-projekte/2-a-heros-journey/180116_zkb_zh01_mut_heldenreise_aa_rz_a_mit-text.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/content/1-aa-projekte/2-a-heros-journey/aa-projekt.txt": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "/content/1-aa-projekte/2-a-heros-journey/aa-projekt.txt",
-		"oF": 0
-		},
-	"/content/1-aa-projekte/2-a-heros-journey/cover_180116_zkb_zh01_mut_heldenreise_aa_rz_a_mit-text.jpg": {
-		"ft": 16384,
-		"iS": 774874,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/content/1-aa-projekte/2-a-heros-journey/cover_180116_zkb_zh01_mut_heldenreise_aa_rz_a_mit-text.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/content/1-aa-projekte/3-water-rescue/aa-projekt.txt": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "/content/1-aa-projekte/3-water-rescue/aa-projekt.txt",
-		"oF": 0
-		},
-	"/content/1-aa-projekte/3-water-rescue/cover_sm17-12_142_well-come_lay.jpg": {
-		"ft": 16384,
-		"iS": 274528,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/content/1-aa-projekte/3-water-rescue/cover_sm17-12_142_well-come_lay.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/content/1-aa-projekte/3-water-rescue/sm17-12_142_well-come.jpg": {
-		"ft": 16384,
-		"iS": 274528,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/content/1-aa-projekte/3-water-rescue/sm17-12_142_well-come.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/content/1-aa-projekte/3-water-rescue/well_come_wasserrettung_02.jpg": {
-		"ft": 16384,
-		"iS": 57574,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/content/1-aa-projekte/3-water-rescue/well_come_wasserrettung_02.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/content/1-aa-projekte/3-water-rescue/well_come_wasserrettung_03.jpg": {
-		"ft": 16384,
-		"iS": 155416,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/content/1-aa-projekte/3-water-rescue/well_come_wasserrettung_03.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/content/1-aa-projekte/3-water-rescue/well_come_wasserrettung_04.jpg": {
-		"ft": 16384,
-		"iS": 95802,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/content/1-aa-projekte/3-water-rescue/well_come_wasserrettung_04.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/content/1-aa-projekte/3-water-rescue/well_come_wasserrettung_05.jpg": {
-		"ft": 16384,
-		"iS": 80810,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/content/1-aa-projekte/3-water-rescue/well_come_wasserrettung_05.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/content/1-aa-projekte/4-alleskoenner/aa-projekt.txt": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "/content/1-aa-projekte/4-alleskoenner/aa-projekt.txt",
-		"oF": 0
-		},
-	"/content/1-aa-projekte/4-alleskoenner/cover_illu_ubs_twint_aa_rz.gif": {
-		"ft": 4194304,
-		"iS": 99416,
-		"oA": 0,
-		"oAP": "/content/1-aa-projekte/4-alleskoenner/cover_illu_ubs_twint_aa_rz.gif",
-		"oF": 0,
-		"opt": 0
-		},
-	"/content/1-aa-projekte/4-alleskoenner/illu_ubs_twint_aa_rz_korr.gif": {
-		"ft": 4194304,
-		"iS": 101504,
-		"oA": 0,
-		"oAP": "/content/1-aa-projekte/4-alleskoenner/illu_ubs_twint_aa_rz_korr.gif",
-		"oF": 0,
-		"opt": 0
-		},
-	"/content/1-aa-projekte/5-swiss-heuschnupfen/aa-projekt.txt": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "/content/1-aa-projekte/5-swiss-heuschnupfen/aa-projekt.txt",
-		"oF": 0
-		},
-	"/content/1-aa-projekte/5-swiss-heuschnupfen/cover_sm18-04_heuschnupfen.jpg": {
+	"/content/1-aa-projekte/11-swiss-heuschnupfen/cover_sm18-04_heuschnupfen.jpg": {
 		"ft": 16384,
 		"iS": 324491,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/content/1-aa-projekte/5-swiss-heuschnupfen/cover_sm18-04_heuschnupfen.jpg",
+		"oAP": "/content/1-aa-projekte/11-swiss-heuschnupfen/cover_sm18-04_heuschnupfen.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"/content/1-aa-projekte/5-swiss-heuschnupfen/sm18-04_heuschnupfen.jpg": {
+	"/content/1-aa-projekte/11-swiss-heuschnupfen/sm18-04_heuschnupfen.jpg": {
 		"ft": 16384,
 		"iS": 349465,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/content/1-aa-projekte/5-swiss-heuschnupfen/sm18-04_heuschnupfen.jpg",
+		"oAP": "/content/1-aa-projekte/11-swiss-heuschnupfen/sm18-04_heuschnupfen.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"/content/1-aa-projekte/6-sketches/2018_sketches_koepfe_01.jpg": {
+	"/content/1-aa-projekte/12-portraitfoto/aa-projekt.txt": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/content/1-aa-projekte/12-portraitfoto/aa-projekt.txt",
+		"oF": 0
+		},
+	"/content/1-aa-projekte/12-portraitfoto/anita_allemann_4406_sw_illu_korr_rz_1000.jpg": {
+		"ft": 16384,
+		"iS": 356194,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/content/1-aa-projekte/12-portraitfoto/anita_allemann_4406_sw_illu_korr_rz_1000.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/content/1-aa-projekte/12-portraitfoto/cover_anita_allemann_4406_sw_illu_korr_rz_1000.jpg": {
+		"ft": 16384,
+		"iS": 356194,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/content/1-aa-projekte/12-portraitfoto/cover_anita_allemann_4406_sw_illu_korr_rz_1000.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/content/1-aa-projekte/13-seab2/aa-projekt.txt": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/content/1-aa-projekte/13-seab2/aa-projekt.txt",
+		"oF": 0
+		},
+	"/content/1-aa-projekte/13-seab2/cover_seab_biomuell_korr.jpg": {
+		"ft": 16384,
+		"iS": 495860,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/content/1-aa-projekte/13-seab2/cover_seab_biomuell_korr.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/content/1-aa-projekte/13-seab2/seab_biomuell_korr.jpg": {
+		"ft": 16384,
+		"iS": 495860,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/content/1-aa-projekte/13-seab2/seab_biomuell_korr.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/content/1-aa-projekte/14-sketches/2018_sketches_koepfe_01.jpg": {
 		"ft": 16384,
 		"iS": 388311,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/content/1-aa-projekte/6-sketches/2018_sketches_koepfe_01.jpg",
+		"oAP": "/content/1-aa-projekte/14-sketches/2018_sketches_koepfe_01.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"/content/1-aa-projekte/6-sketches/2018_sketches_koepfe_02.jpg": {
+	"/content/1-aa-projekte/14-sketches/2018_sketches_koepfe_02.jpg": {
 		"ft": 16384,
 		"iS": 519565,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/content/1-aa-projekte/6-sketches/2018_sketches_koepfe_02.jpg",
+		"oAP": "/content/1-aa-projekte/14-sketches/2018_sketches_koepfe_02.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"/content/1-aa-projekte/6-sketches/2018_sketches_koepfe_03.jpg": {
+	"/content/1-aa-projekte/14-sketches/2018_sketches_koepfe_03.jpg": {
 		"ft": 16384,
 		"iS": 427930,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/content/1-aa-projekte/6-sketches/2018_sketches_koepfe_03.jpg",
+		"oAP": "/content/1-aa-projekte/14-sketches/2018_sketches_koepfe_03.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"/content/1-aa-projekte/6-sketches/aa-projekt.txt": {
+	"/content/1-aa-projekte/14-sketches/aa-projekt.txt": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "/content/1-aa-projekte/6-sketches/aa-projekt.txt",
+		"oAP": "/content/1-aa-projekte/14-sketches/aa-projekt.txt",
 		"oF": 0
 		},
-	"/content/1-aa-projekte/6-sketches/cover_2018_sketches_koepfe_zusammenstellung_korr5.jpg": {
+	"/content/1-aa-projekte/14-sketches/cover_2018_sketches_koepfe_zusammenstellung_korr5.jpg": {
 		"ft": 16384,
 		"iS": 174252,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/content/1-aa-projekte/6-sketches/cover_2018_sketches_koepfe_zusammenstellung_korr5.jpg",
+		"oAP": "/content/1-aa-projekte/14-sketches/cover_2018_sketches_koepfe_zusammenstellung_korr5.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"/content/1-aa-projekte/7-have-fun/00_viel_spass_cover_1_korr.jpg": {
+	"/content/1-aa-projekte/15-have-fun/00_viel_spass.jpg": {
 		"ft": 16384,
 		"iS": 354402,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/content/1-aa-projekte/7-have-fun/00_viel_spass_cover_1_korr.jpg",
+		"oAP": "/content/1-aa-projekte/15-have-fun/00_viel_spass.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"/content/1-aa-projekte/7-have-fun/01_viel_spass_inhalt_8.jpg": {
+	"/content/1-aa-projekte/15-have-fun/01_viel_spass.jpg": {
 		"ft": 16384,
 		"iS": 519938,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/content/1-aa-projekte/7-have-fun/01_viel_spass_inhalt_8.jpg",
+		"oAP": "/content/1-aa-projekte/15-have-fun/01_viel_spass.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"/content/1-aa-projekte/7-have-fun/02_viel_spass_inhalt_2.jpg": {
+	"/content/1-aa-projekte/15-have-fun/02_viel_spass.jpg": {
 		"ft": 16384,
 		"iS": 611301,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/content/1-aa-projekte/7-have-fun/02_viel_spass_inhalt_2.jpg",
+		"oAP": "/content/1-aa-projekte/15-have-fun/02_viel_spass.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"/content/1-aa-projekte/7-have-fun/03_viel_spass_inhalt_1.jpg": {
+	"/content/1-aa-projekte/15-have-fun/03_viel_spass.jpg": {
 		"ft": 16384,
 		"iS": 516253,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/content/1-aa-projekte/7-have-fun/03_viel_spass_inhalt_1.jpg",
+		"oAP": "/content/1-aa-projekte/15-have-fun/03_viel_spass.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"/content/1-aa-projekte/7-have-fun/04_viel_spass_inhalt_4.jpg": {
+	"/content/1-aa-projekte/15-have-fun/04_viel_spass.jpg": {
 		"ft": 16384,
 		"iS": 447106,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/content/1-aa-projekte/7-have-fun/04_viel_spass_inhalt_4.jpg",
+		"oAP": "/content/1-aa-projekte/15-have-fun/04_viel_spass.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"/content/1-aa-projekte/7-have-fun/05_viel_spass_inhalt_5.jpg": {
+	"/content/1-aa-projekte/15-have-fun/05_viel_spass.jpg": {
 		"ft": 16384,
 		"iS": 606838,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/content/1-aa-projekte/7-have-fun/05_viel_spass_inhalt_5.jpg",
+		"oAP": "/content/1-aa-projekte/15-have-fun/05_viel_spass.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"/content/1-aa-projekte/7-have-fun/06_viel_spass_inhalt_7.jpg": {
+	"/content/1-aa-projekte/15-have-fun/06_viel_spass.jpg": {
 		"ft": 16384,
 		"iS": 553289,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/content/1-aa-projekte/7-have-fun/06_viel_spass_inhalt_7.jpg",
+		"oAP": "/content/1-aa-projekte/15-have-fun/06_viel_spass.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"/content/1-aa-projekte/7-have-fun/07_viel_spass_inhalt_6.jpg": {
+	"/content/1-aa-projekte/15-have-fun/07_viel_spass.jpg": {
 		"ft": 16384,
 		"iS": 495638,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/content/1-aa-projekte/7-have-fun/07_viel_spass_inhalt_6.jpg",
+		"oAP": "/content/1-aa-projekte/15-have-fun/07_viel_spass.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"/content/1-aa-projekte/7-have-fun/08_viel_spass_inhalt_3.jpg": {
+	"/content/1-aa-projekte/15-have-fun/08_viel_spass.jpg": {
 		"ft": 16384,
 		"iS": 500211,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/content/1-aa-projekte/7-have-fun/08_viel_spass_inhalt_3.jpg",
+		"oAP": "/content/1-aa-projekte/15-have-fun/08_viel_spass.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"/content/1-aa-projekte/7-have-fun/aa-projekt.txt": {
+	"/content/1-aa-projekte/15-have-fun/aa-projekt.txt": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "/content/1-aa-projekte/7-have-fun/aa-projekt.txt",
+		"oAP": "/content/1-aa-projekte/15-have-fun/aa-projekt.txt",
 		"oF": 0
 		},
-	"/content/1-aa-projekte/7-have-fun/cover_viel_spass_cover_1_korr.jpg": {
+	"/content/1-aa-projekte/15-have-fun/cover_viel_spass_cover_1_korr.jpg": {
 		"ft": 16384,
 		"iS": 354402,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/content/1-aa-projekte/7-have-fun/cover_viel_spass_cover_1_korr.jpg",
+		"oAP": "/content/1-aa-projekte/15-have-fun/cover_viel_spass_cover_1_korr.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"/content/1-aa-projekte/8-zurich-with-kids/00_viel-spass_1000px.jpg": {
+	"/content/1-aa-projekte/16-access-app/aa-projekt.txt": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/content/1-aa-projekte/16-access-app/aa-projekt.txt",
+		"oF": 0
+		},
+	"/content/1-aa-projekte/16-access-app/cover_ubs_hereinspaziert_ubs-accessapp_rza_aa.jpg": {
+		"ft": 16384,
+		"iS": 160287,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/content/1-aa-projekte/16-access-app/cover_ubs_hereinspaziert_ubs-accessapp_rza_aa.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/content/1-aa-projekte/16-access-app/ubs_hereinspaziert_ubs-accessapp_rza_aa.jpg": {
+		"ft": 16384,
+		"iS": 160287,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/content/1-aa-projekte/16-access-app/ubs_hereinspaziert_ubs-accessapp_rza_aa.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/content/1-aa-projekte/17-zurich-with-kids/00_viel-spass_1000px.jpg": {
 		"ft": 16384,
 		"iS": 272939,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/content/1-aa-projekte/8-zurich-with-kids/00_viel-spass_1000px.jpg",
+		"oAP": "/content/1-aa-projekte/17-zurich-with-kids/00_viel-spass_1000px.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"/content/1-aa-projekte/8-zurich-with-kids/01_viel-spass_05_1000px.jpg": {
+	"/content/1-aa-projekte/17-zurich-with-kids/01_viel-spass_05_1000px.jpg": {
 		"ft": 16384,
 		"iS": 298234,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/content/1-aa-projekte/8-zurich-with-kids/01_viel-spass_05_1000px.jpg",
+		"oAP": "/content/1-aa-projekte/17-zurich-with-kids/01_viel-spass_05_1000px.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"/content/1-aa-projekte/8-zurich-with-kids/02_viel-spass_05_1000px.jpg": {
+	"/content/1-aa-projekte/17-zurich-with-kids/02_viel-spass_05_1000px.jpg": {
 		"ft": 16384,
 		"iS": 314508,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/content/1-aa-projekte/8-zurich-with-kids/02_viel-spass_05_1000px.jpg",
+		"oAP": "/content/1-aa-projekte/17-zurich-with-kids/02_viel-spass_05_1000px.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"/content/1-aa-projekte/8-zurich-with-kids/03_viel_spass_illu.jpg": {
+	"/content/1-aa-projekte/17-zurich-with-kids/03_viel_spass_illu.jpg": {
 		"ft": 16384,
 		"iS": 960277,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/content/1-aa-projekte/8-zurich-with-kids/03_viel_spass_illu.jpg",
+		"oAP": "/content/1-aa-projekte/17-zurich-with-kids/03_viel_spass_illu.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"/content/1-aa-projekte/8-zurich-with-kids/04_viel-spass_05_1000px.jpg": {
+	"/content/1-aa-projekte/17-zurich-with-kids/04_viel-spass_05_1000px.jpg": {
 		"ft": 16384,
 		"iS": 312345,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/content/1-aa-projekte/8-zurich-with-kids/04_viel-spass_05_1000px.jpg",
+		"oAP": "/content/1-aa-projekte/17-zurich-with-kids/04_viel-spass_05_1000px.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"/content/1-aa-projekte/8-zurich-with-kids/05_viel-spass_05_1000px.jpg": {
+	"/content/1-aa-projekte/17-zurich-with-kids/05_viel-spass_05_1000px.jpg": {
 		"ft": 16384,
 		"iS": 184399,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/content/1-aa-projekte/8-zurich-with-kids/05_viel-spass_05_1000px.jpg",
+		"oAP": "/content/1-aa-projekte/17-zurich-with-kids/05_viel-spass_05_1000px.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"/content/1-aa-projekte/8-zurich-with-kids/06_viel-spass_05_1000px.jpg": {
+	"/content/1-aa-projekte/17-zurich-with-kids/06_viel-spass_05_1000px.jpg": {
 		"ft": 16384,
 		"iS": 414339,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/content/1-aa-projekte/8-zurich-with-kids/06_viel-spass_05_1000px.jpg",
+		"oAP": "/content/1-aa-projekte/17-zurich-with-kids/06_viel-spass_05_1000px.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"/content/1-aa-projekte/8-zurich-with-kids/07_viel_spass_illu.jpg": {
+	"/content/1-aa-projekte/17-zurich-with-kids/07_viel_spass_illu.jpg": {
 		"ft": 16384,
 		"iS": 1001550,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/content/1-aa-projekte/8-zurich-with-kids/07_viel_spass_illu.jpg",
+		"oAP": "/content/1-aa-projekte/17-zurich-with-kids/07_viel_spass_illu.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"/content/1-aa-projekte/8-zurich-with-kids/aa-projekt.txt": {
+	"/content/1-aa-projekte/17-zurich-with-kids/aa-projekt.txt": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "/content/1-aa-projekte/8-zurich-with-kids/aa-projekt.txt",
+		"oAP": "/content/1-aa-projekte/17-zurich-with-kids/aa-projekt.txt",
 		"oF": 0
 		},
-	"/content/1-aa-projekte/8-zurich-with-kids/cover_viel-spass_05_1000px.jpg": {
+	"/content/1-aa-projekte/17-zurich-with-kids/cover_viel-spass_05_1000px.jpg": {
 		"ft": 16384,
 		"iS": 272939,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/content/1-aa-projekte/8-zurich-with-kids/cover_viel-spass_05_1000px.jpg",
+		"oAP": "/content/1-aa-projekte/17-zurich-with-kids/cover_viel-spass_05_1000px.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"/content/1-aa-projekte/9-the-stock-exchange/01_six_jubilaeumsbuch_11_1_korr.jpg": {
+	"/content/1-aa-projekte/18-the-stock-exchange/01_six_jubilaeumsbuch_11_1_korr.jpg": {
 		"ft": 16384,
 		"iS": 785934,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/content/1-aa-projekte/9-the-stock-exchange/01_six_jubilaeumsbuch_11_1_korr.jpg",
+		"oAP": "/content/1-aa-projekte/18-the-stock-exchange/01_six_jubilaeumsbuch_11_1_korr.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"/content/1-aa-projekte/9-the-stock-exchange/02_six_jubilaeumsbuch_11_1_korr3.jpg": {
+	"/content/1-aa-projekte/18-the-stock-exchange/02_six_jubilaeumsbuch_11_1_korr3.jpg": {
 		"ft": 16384,
 		"iS": 944313,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/content/1-aa-projekte/9-the-stock-exchange/02_six_jubilaeumsbuch_11_1_korr3.jpg",
+		"oAP": "/content/1-aa-projekte/18-the-stock-exchange/02_six_jubilaeumsbuch_11_1_korr3.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"/content/1-aa-projekte/9-the-stock-exchange/03_six_jubilaeumsbuch_11_1_korr.jpg": {
+	"/content/1-aa-projekte/18-the-stock-exchange/03_six_jubilaeumsbuch_11_1_korr.jpg": {
 		"ft": 16384,
 		"iS": 1103829,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/content/1-aa-projekte/9-the-stock-exchange/03_six_jubilaeumsbuch_11_1_korr.jpg",
+		"oAP": "/content/1-aa-projekte/18-the-stock-exchange/03_six_jubilaeumsbuch_11_1_korr.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"/content/1-aa-projekte/9-the-stock-exchange/04_six_jubilaeumsbuch_11_1_korr.jpg": {
+	"/content/1-aa-projekte/18-the-stock-exchange/04_six_jubilaeumsbuch_11_1_korr.jpg": {
 		"ft": 16384,
 		"iS": 1244820,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/content/1-aa-projekte/9-the-stock-exchange/04_six_jubilaeumsbuch_11_1_korr.jpg",
+		"oAP": "/content/1-aa-projekte/18-the-stock-exchange/04_six_jubilaeumsbuch_11_1_korr.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"/content/1-aa-projekte/9-the-stock-exchange/05_six_jubilaeumsbuch_12_1_korr.jpg": {
+	"/content/1-aa-projekte/18-the-stock-exchange/05_six_jubilaeumsbuch_12_1_korr.jpg": {
 		"ft": 16384,
 		"iS": 1376742,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/content/1-aa-projekte/9-the-stock-exchange/05_six_jubilaeumsbuch_12_1_korr.jpg",
+		"oAP": "/content/1-aa-projekte/18-the-stock-exchange/05_six_jubilaeumsbuch_12_1_korr.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"/content/1-aa-projekte/9-the-stock-exchange/06_six_jubilaeumsbuch_11_1_korr.jpg": {
+	"/content/1-aa-projekte/18-the-stock-exchange/06_six_jubilaeumsbuch_11_1_korr.jpg": {
 		"ft": 16384,
 		"iS": 1208724,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/content/1-aa-projekte/9-the-stock-exchange/06_six_jubilaeumsbuch_11_1_korr.jpg",
+		"oAP": "/content/1-aa-projekte/18-the-stock-exchange/06_six_jubilaeumsbuch_11_1_korr.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"/content/1-aa-projekte/9-the-stock-exchange/07_six_jubilaeumsbuch_11_1_korr.jpg": {
+	"/content/1-aa-projekte/18-the-stock-exchange/07_six_jubilaeumsbuch_11_1_korr.jpg": {
 		"ft": 16384,
 		"iS": 989480,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/content/1-aa-projekte/9-the-stock-exchange/07_six_jubilaeumsbuch_11_1_korr.jpg",
+		"oAP": "/content/1-aa-projekte/18-the-stock-exchange/07_six_jubilaeumsbuch_11_1_korr.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"/content/1-aa-projekte/9-the-stock-exchange/08_six_jubilaeumsbuch_11_1_korr.jpg": {
+	"/content/1-aa-projekte/18-the-stock-exchange/08_six_jubilaeumsbuch_11_1_korr.jpg": {
 		"ft": 16384,
 		"iS": 1624179,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/content/1-aa-projekte/9-the-stock-exchange/08_six_jubilaeumsbuch_11_1_korr.jpg",
+		"oAP": "/content/1-aa-projekte/18-the-stock-exchange/08_six_jubilaeumsbuch_11_1_korr.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"/content/1-aa-projekte/9-the-stock-exchange/09_six_jubilaeumsbuch_11_1_korr.jpg": {
+	"/content/1-aa-projekte/18-the-stock-exchange/09_six_jubilaeumsbuch_11_1_korr.jpg": {
 		"ft": 16384,
 		"iS": 1201553,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/content/1-aa-projekte/9-the-stock-exchange/09_six_jubilaeumsbuch_11_1_korr.jpg",
+		"oAP": "/content/1-aa-projekte/18-the-stock-exchange/09_six_jubilaeumsbuch_11_1_korr.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"/content/1-aa-projekte/9-the-stock-exchange/10_six_jubilaeumsbuch_11_1_korr.jpg": {
+	"/content/1-aa-projekte/18-the-stock-exchange/10_six_jubilaeumsbuch_11_1_korr.jpg": {
 		"ft": 16384,
 		"iS": 1107614,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/content/1-aa-projekte/9-the-stock-exchange/10_six_jubilaeumsbuch_11_1_korr.jpg",
+		"oAP": "/content/1-aa-projekte/18-the-stock-exchange/10_six_jubilaeumsbuch_11_1_korr.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"/content/1-aa-projekte/9-the-stock-exchange/11_six_jubilaeumsbuch_11_1_korr.jpg": {
+	"/content/1-aa-projekte/18-the-stock-exchange/11_six_jubilaeumsbuch_11_1_korr.jpg": {
 		"ft": 16384,
 		"iS": 928635,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/content/1-aa-projekte/9-the-stock-exchange/11_six_jubilaeumsbuch_11_1_korr.jpg",
+		"oAP": "/content/1-aa-projekte/18-the-stock-exchange/11_six_jubilaeumsbuch_11_1_korr.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"/content/1-aa-projekte/9-the-stock-exchange/aa-projekt.txt": {
+	"/content/1-aa-projekte/18-the-stock-exchange/aa-projekt.txt": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "/content/1-aa-projekte/9-the-stock-exchange/aa-projekt.txt",
+		"oAP": "/content/1-aa-projekte/18-the-stock-exchange/aa-projekt.txt",
 		"oF": 0
 		},
-	"/content/1-aa-projekte/9-the-stock-exchange/cover_six_jubilaeumsbuch.jpg": {
+	"/content/1-aa-projekte/18-the-stock-exchange/cover_six_jubilaeumsbuch.jpg": {
 		"ft": 16384,
 		"iS": 785934,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/content/1-aa-projekte/9-the-stock-exchange/cover_six_jubilaeumsbuch.jpg",
+		"oAP": "/content/1-aa-projekte/18-the-stock-exchange/cover_six_jubilaeumsbuch.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
+		},
+	"/content/1-aa-projekte/19-sunshine/aa-projekt.txt": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/content/1-aa-projekte/19-sunshine/aa-projekt.txt",
+		"oF": 0
+		},
+	"/content/1-aa-projekte/19-sunshine/cover_missing-the-sun_rz.gif": {
+		"ft": 4194304,
+		"iS": 131875,
+		"oA": 0,
+		"oAP": "/content/1-aa-projekte/19-sunshine/cover_missing-the-sun_rz.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"/content/1-aa-projekte/19-sunshine/missing-the-sun_rz.gif": {
+		"ft": 4194304,
+		"iS": 131875,
+		"oA": 0,
+		"oAP": "/content/1-aa-projekte/19-sunshine/missing-the-sun_rz.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"/content/1-aa-projekte/2-swissmem/aa-projekt.txt": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/content/1-aa-projekte/2-swissmem/aa-projekt.txt",
+		"oF": 0
+		},
+	"/content/1-aa-projekte/2-swissmem/cover_swissmen_tessin_korr.jpg": {
+		"ft": 16384,
+		"iS": 394407,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/content/1-aa-projekte/2-swissmem/cover_swissmen_tessin_korr.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/content/1-aa-projekte/2-swissmem/swissmen_tessin.jpg": {
+		"ft": 16384,
+		"iS": 427962,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/content/1-aa-projekte/2-swissmem/swissmen_tessin.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/content/1-aa-projekte/20-fantoche/aa-projekt.txt": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/content/1-aa-projekte/20-fantoche/aa-projekt.txt",
+		"oF": 0
+		},
+	"/content/1-aa-projekte/20-fantoche/anitaallemann_fantoche_sponsorenillu_rz_1ebene.jpg": {
+		"ft": 16384,
+		"iS": 366163,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/content/1-aa-projekte/20-fantoche/anitaallemann_fantoche_sponsorenillu_rz_1ebene.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/content/1-aa-projekte/20-fantoche/cover_anitaallemann_fantoche_sponsorenillu_rz.jpg": {
+		"ft": 16384,
+		"iS": 367052,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/content/1-aa-projekte/20-fantoche/cover_anitaallemann_fantoche_sponsorenillu_rz.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/content/1-aa-projekte/21-valentin/2018_valentin_rz.gif": {
+		"ft": 4194304,
+		"iS": 58703,
+		"oA": 0,
+		"oAP": "/content/1-aa-projekte/21-valentin/2018_valentin_rz.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"/content/1-aa-projekte/21-valentin/aa-projekt.txt": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/content/1-aa-projekte/21-valentin/aa-projekt.txt",
+		"oF": 0
+		},
+	"/content/1-aa-projekte/21-valentin/cover_valentin_rz_korr4.gif": {
+		"ft": 4194304,
+		"iS": 55111,
+		"oA": 0,
+		"oAP": "/content/1-aa-projekte/21-valentin/cover_valentin_rz_korr4.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"/content/1-aa-projekte/22-umzug/aa-projekt.txt": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/content/1-aa-projekte/22-umzug/aa-projekt.txt",
+		"oF": 0
+		},
+	"/content/1-aa-projekte/22-umzug/cover_illustration_umzug_aa_rz_korr4.jpg": {
+		"ft": 16384,
+		"iS": 255475,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/content/1-aa-projekte/22-umzug/cover_illustration_umzug_aa_rz_korr4.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/content/1-aa-projekte/22-umzug/illustration_umzug_aa_rz.jpg": {
+		"ft": 16384,
+		"iS": 873692,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/content/1-aa-projekte/22-umzug/illustration_umzug_aa_rz.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/content/1-aa-projekte/23-roll-on/01_ca-roule1.jpg": {
+		"ft": 16384,
+		"iS": 222157,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/content/1-aa-projekte/23-roll-on/01_ca-roule1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/content/1-aa-projekte/23-roll-on/02_ca-roule.jpg": {
+		"ft": 16384,
+		"iS": 328484,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/content/1-aa-projekte/23-roll-on/02_ca-roule.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/content/1-aa-projekte/23-roll-on/aa-projekt.txt": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/content/1-aa-projekte/23-roll-on/aa-projekt.txt",
+		"oF": 0
+		},
+	"/content/1-aa-projekte/23-roll-on/cover_ca-roule1_korr.jpg": {
+		"ft": 16384,
+		"iS": 221260,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/content/1-aa-projekte/23-roll-on/cover_ca-roule1_korr.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/content/1-aa-projekte/24-air-travel-and-the-body/01_well_come_flugshysiologisch.jpg": {
+		"ft": 16384,
+		"iS": 294665,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/content/1-aa-projekte/24-air-travel-and-the-body/01_well_come_flugshysiologisch.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/content/1-aa-projekte/24-air-travel-and-the-body/02_well_come_flugphysiologisch.jpg": {
+		"ft": 16384,
+		"iS": 94224,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/content/1-aa-projekte/24-air-travel-and-the-body/02_well_come_flugphysiologisch.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/content/1-aa-projekte/24-air-travel-and-the-body/03_well_come_flugphysiologisch_korr.jpg": {
+		"ft": 16384,
+		"iS": 148254,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/content/1-aa-projekte/24-air-travel-and-the-body/03_well_come_flugphysiologisch_korr.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/content/1-aa-projekte/24-air-travel-and-the-body/04_well_come_flugphysiologisch.jpg": {
+		"ft": 16384,
+		"iS": 98439,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/content/1-aa-projekte/24-air-travel-and-the-body/04_well_come_flugphysiologisch.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/content/1-aa-projekte/24-air-travel-and-the-body/aa-projekt.txt": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/content/1-aa-projekte/24-air-travel-and-the-body/aa-projekt.txt",
+		"oF": 0
+		},
+	"/content/1-aa-projekte/24-air-travel-and-the-body/cover_sm18-03_flugshysiologisch_lay.jpg": {
+		"ft": 16384,
+		"iS": 294665,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/content/1-aa-projekte/24-air-travel-and-the-body/cover_sm18-03_flugshysiologisch_lay.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/content/1-aa-projekte/25-umweltbericht/aa-projekt.txt": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/content/1-aa-projekte/25-umweltbericht/aa-projekt.txt",
+		"oF": 0
+		},
+	"/content/1-aa-projekte/25-umweltbericht/cover_illustration_umweltbericht_rz.jpg": {
+		"ft": 16384,
+		"iS": 421794,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/content/1-aa-projekte/25-umweltbericht/cover_illustration_umweltbericht_rz.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/content/1-aa-projekte/25-umweltbericht/illustration_umweltbericht_rz.jpg": {
+		"ft": 16384,
+		"iS": 421794,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/content/1-aa-projekte/25-umweltbericht/illustration_umweltbericht_rz.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/content/1-aa-projekte/26-hoehenkrankheit/aa-projekt.txt": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/content/1-aa-projekte/26-hoehenkrankheit/aa-projekt.txt",
+		"oF": 0
+		},
+	"/content/1-aa-projekte/26-hoehenkrankheit/cover_2_sm18-02_124_well-come_00_lay_2.jpg": {
+		"ft": 16384,
+		"iS": 309842,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/content/1-aa-projekte/26-hoehenkrankheit/cover_2_sm18-02_124_well-come_00_lay_2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/content/1-aa-projekte/26-hoehenkrankheit/sm18-02_124_well-come_00_lay_00.jpg": {
+		"ft": 16384,
+		"iS": 309842,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/content/1-aa-projekte/26-hoehenkrankheit/sm18-02_124_well-come_00_lay_00.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/content/1-aa-projekte/26-hoehenkrankheit/sm18-02_hoehenkrankheit_01.jpg": {
+		"ft": 16384,
+		"iS": 134899,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/content/1-aa-projekte/26-hoehenkrankheit/sm18-02_hoehenkrankheit_01.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/content/1-aa-projekte/26-hoehenkrankheit/sm18-02_hoehenkrankheit_02.jpg": {
+		"ft": 16384,
+		"iS": 65875,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/content/1-aa-projekte/26-hoehenkrankheit/sm18-02_hoehenkrankheit_02.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/content/1-aa-projekte/26-hoehenkrankheit/sm18-02_hoehenkrankheit_03.jpg": {
+		"ft": 16384,
+		"iS": 111955,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/content/1-aa-projekte/26-hoehenkrankheit/sm18-02_hoehenkrankheit_03.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/content/1-aa-projekte/26-hoehenkrankheit/sm18-02_hoehenkrankheit_04.jpg": {
+		"ft": 16384,
+		"iS": 67931,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/content/1-aa-projekte/26-hoehenkrankheit/sm18-02_hoehenkrankheit_04.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/content/1-aa-projekte/27-doing-family/00_stadtmagazin-2.jpg": {
+		"ft": 16384,
+		"iS": 451448,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/content/1-aa-projekte/27-doing-family/00_stadtmagazin-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/content/1-aa-projekte/27-doing-family/01_stadtmagazin_zug_familie_.jpg": {
+		"ft": 16384,
+		"iS": 4658168,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/content/1-aa-projekte/27-doing-family/01_stadtmagazin_zug_familie_.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/content/1-aa-projekte/27-doing-family/aa-projekt.txt": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/content/1-aa-projekte/27-doing-family/aa-projekt.txt",
+		"oF": 0
+		},
+	"/content/1-aa-projekte/27-doing-family/cover_stadtmagazin.jpg": {
+		"ft": 16384,
+		"iS": 451448,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/content/1-aa-projekte/27-doing-family/cover_stadtmagazin.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/content/1-aa-projekte/28-happy-new-year/aa-projekt.txt": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/content/1-aa-projekte/28-happy-new-year/aa-projekt.txt",
+		"oF": 0
+		},
+	"/content/1-aa-projekte/28-happy-new-year/cover_w-karte_2017__0.4sek-aa.gif": {
+		"ft": 4194304,
+		"iS": 2699555,
+		"oA": 0,
+		"oAP": "/content/1-aa-projekte/28-happy-new-year/cover_w-karte_2017__0.4sek-aa.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"/content/1-aa-projekte/28-happy-new-year/w-karte_2017__0.4sek-aa.gif": {
+		"ft": 4194304,
+		"iS": 2697417,
+		"oA": 0,
+		"oAP": "/content/1-aa-projekte/28-happy-new-year/w-karte_2017__0.4sek-aa.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"/content/1-aa-projekte/29-ampelturnen/aa-projekt.txt": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/content/1-aa-projekte/29-ampelturnen/aa-projekt.txt",
+		"oF": 0
+		},
+	"/content/1-aa-projekte/29-ampelturnen/ampelturnen_1000px_korr.gif": {
+		"ft": 4194304,
+		"iS": 201481,
+		"oA": 0,
+		"oAP": "/content/1-aa-projekte/29-ampelturnen/ampelturnen_1000px_korr.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"/content/1-aa-projekte/29-ampelturnen/cover_ampelturnen_2400px_korr.2.gif": {
+		"ft": 4194304,
+		"iS": 194097,
+		"oA": 0,
+		"oAP": "/content/1-aa-projekte/29-ampelturnen/cover_ampelturnen_2400px_korr.2.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"/content/1-aa-projekte/3-seab-icon/01_pikto_zusammenstellung.jpg": {
+		"ft": 16384,
+		"iS": 836178,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/content/1-aa-projekte/3-seab-icon/01_pikto_zusammenstellung.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/content/1-aa-projekte/3-seab-icon/aa-projekt.txt": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/content/1-aa-projekte/3-seab-icon/aa-projekt.txt",
+		"oF": 0
+		},
+	"/content/1-aa-projekte/3-seab-icon/cover_piktogramme.gif": {
+		"ft": 4194304,
+		"iS": 279855,
+		"oA": 0,
+		"oAP": "/content/1-aa-projekte/3-seab-icon/cover_piktogramme.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"/content/1-aa-projekte/30-seab3/01_seab_muellabc.jpg": {
+		"ft": 16384,
+		"iS": 253472,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/content/1-aa-projekte/30-seab3/01_seab_muellabc.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/content/1-aa-projekte/30-seab3/02_seab_muellabc.jpg": {
+		"ft": 16384,
+		"iS": 164264,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/content/1-aa-projekte/30-seab3/02_seab_muellabc.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/content/1-aa-projekte/30-seab3/aa-projekt.txt": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/content/1-aa-projekte/30-seab3/aa-projekt.txt",
+		"oF": 0
+		},
+	"/content/1-aa-projekte/30-seab3/cover_seab_muellabc_cover.jpg": {
+		"ft": 16384,
+		"iS": 220282,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/content/1-aa-projekte/30-seab3/cover_seab_muellabc_cover.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/content/1-aa-projekte/31-digitales-portemonaie/aa-projekt.txt": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/content/1-aa-projekte/31-digitales-portemonaie/aa-projekt.txt",
+		"oF": 0
+		},
+	"/content/1-aa-projekte/31-digitales-portemonaie/cover_ubs_hereinspaziert_digitales-portemonnaie_rz.jpg": {
+		"ft": 16384,
+		"iS": 448282,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/content/1-aa-projekte/31-digitales-portemonaie/cover_ubs_hereinspaziert_digitales-portemonnaie_rz.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/content/1-aa-projekte/31-digitales-portemonaie/ubs_hereinspaziert_digitales-portemonnaie_rz_test.jpg": {
+		"ft": 16384,
+		"iS": 451241,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/content/1-aa-projekte/31-digitales-portemonaie/ubs_hereinspaziert_digitales-portemonnaie_rz_test.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/content/1-aa-projekte/4-seab-1/00_seab_aufkleber.jpg": {
+		"ft": 16384,
+		"iS": 888447,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/content/1-aa-projekte/4-seab-1/00_seab_aufkleber.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/content/1-aa-projekte/4-seab-1/06_container_neu.jpg": {
+		"ft": 16384,
+		"iS": 773685,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/content/1-aa-projekte/4-seab-1/06_container_neu.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/content/1-aa-projekte/4-seab-1/aa-projekt.txt": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/content/1-aa-projekte/4-seab-1/aa-projekt.txt",
+		"oF": 0
+		},
+	"/content/1-aa-projekte/4-seab-1/cover_seab_aufkleber.jpg": {
+		"ft": 16384,
+		"iS": 888447,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/content/1-aa-projekte/4-seab-1/cover_seab_aufkleber.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/content/1-aa-projekte/5-a-heros-journey/180116_zkb_zh01_mut_heldenreise_aa_rz_a_mit-text.jpg": {
+		"ft": 16384,
+		"iS": 821488,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/content/1-aa-projekte/5-a-heros-journey/180116_zkb_zh01_mut_heldenreise_aa_rz_a_mit-text.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/content/1-aa-projekte/5-a-heros-journey/aa-projekt.txt": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/content/1-aa-projekte/5-a-heros-journey/aa-projekt.txt",
+		"oF": 0
+		},
+	"/content/1-aa-projekte/5-a-heros-journey/cover_180116_zkb_zh01_mut_heldenreise_aa_rz_a_mit-text.jpg": {
+		"ft": 16384,
+		"iS": 774874,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/content/1-aa-projekte/5-a-heros-journey/cover_180116_zkb_zh01_mut_heldenreise_aa_rz_a_mit-text.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/content/1-aa-projekte/6-water-rescue/aa-projekt.txt": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/content/1-aa-projekte/6-water-rescue/aa-projekt.txt",
+		"oF": 0
+		},
+	"/content/1-aa-projekte/6-water-rescue/cover_sm17-12_142_well-come_lay.jpg": {
+		"ft": 16384,
+		"iS": 274528,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/content/1-aa-projekte/6-water-rescue/cover_sm17-12_142_well-come_lay.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/content/1-aa-projekte/6-water-rescue/sm17-12_142_well-come.jpg": {
+		"ft": 16384,
+		"iS": 274528,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/content/1-aa-projekte/6-water-rescue/sm17-12_142_well-come.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/content/1-aa-projekte/6-water-rescue/well_come_wasserrettung_02.jpg": {
+		"ft": 16384,
+		"iS": 57574,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/content/1-aa-projekte/6-water-rescue/well_come_wasserrettung_02.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/content/1-aa-projekte/6-water-rescue/well_come_wasserrettung_03.jpg": {
+		"ft": 16384,
+		"iS": 155416,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/content/1-aa-projekte/6-water-rescue/well_come_wasserrettung_03.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/content/1-aa-projekte/6-water-rescue/well_come_wasserrettung_04.jpg": {
+		"ft": 16384,
+		"iS": 95802,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/content/1-aa-projekte/6-water-rescue/well_come_wasserrettung_04.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/content/1-aa-projekte/6-water-rescue/well_come_wasserrettung_05.jpg": {
+		"ft": 16384,
+		"iS": 80810,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/content/1-aa-projekte/6-water-rescue/well_come_wasserrettung_05.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/content/1-aa-projekte/7-bag/01_bag_illustration.jpg": {
+		"ft": 16384,
+		"iS": 101726,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/content/1-aa-projekte/7-bag/01_bag_illustration.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/content/1-aa-projekte/7-bag/02_bag_illustration.jpg": {
+		"ft": 16384,
+		"iS": 145422,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/content/1-aa-projekte/7-bag/02_bag_illustration.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/content/1-aa-projekte/7-bag/03_bag_illustration.jpg": {
+		"ft": 16384,
+		"iS": 191076,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/content/1-aa-projekte/7-bag/03_bag_illustration.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/content/1-aa-projekte/7-bag/aa-projekt.txt": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/content/1-aa-projekte/7-bag/aa-projekt.txt",
+		"oF": 0
+		},
+	"/content/1-aa-projekte/7-bag/cover_bag_illustration_zusammenstellung.jpg": {
+		"ft": 16384,
+		"iS": 92473,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/content/1-aa-projekte/7-bag/cover_bag_illustration_zusammenstellung.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/content/1-aa-projekte/8-recycling-yard/00_container_neu.jpg": {
+		"ft": 16384,
+		"iS": 329197,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/content/1-aa-projekte/8-recycling-yard/00_container_neu.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/content/1-aa-projekte/8-recycling-yard/01_container_neu_1.jpg": {
+		"ft": 16384,
+		"iS": 342026,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/content/1-aa-projekte/8-recycling-yard/01_container_neu_1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/content/1-aa-projekte/8-recycling-yard/02_container_neu.jpg": {
+		"ft": 16384,
+		"iS": 266449,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/content/1-aa-projekte/8-recycling-yard/02_container_neu.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/content/1-aa-projekte/8-recycling-yard/03_container_neu.jpg": {
+		"ft": 16384,
+		"iS": 270104,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/content/1-aa-projekte/8-recycling-yard/03_container_neu.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/content/1-aa-projekte/8-recycling-yard/04_container_neu.jpg": {
+		"ft": 16384,
+		"iS": 330860,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/content/1-aa-projekte/8-recycling-yard/04_container_neu.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/content/1-aa-projekte/8-recycling-yard/aa-projekt.txt": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/content/1-aa-projekte/8-recycling-yard/aa-projekt.txt",
+		"oF": 0
+		},
+	"/content/1-aa-projekte/8-recycling-yard/cover_container_neu.jpg": {
+		"ft": 16384,
+		"iS": 329197,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/content/1-aa-projekte/8-recycling-yard/cover_container_neu.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/content/1-aa-projekte/9-alleskoenner/aa-projekt.txt": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/content/1-aa-projekte/9-alleskoenner/aa-projekt.txt",
+		"oF": 0
+		},
+	"/content/1-aa-projekte/9-alleskoenner/cover_illu_ubs_twint_aa_rz.gif": {
+		"ft": 4194304,
+		"iS": 99416,
+		"oA": 0,
+		"oAP": "/content/1-aa-projekte/9-alleskoenner/cover_illu_ubs_twint_aa_rz.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"/content/1-aa-projekte/9-alleskoenner/illu_ubs_twint_aa_rz_korr.gif": {
+		"ft": 4194304,
+		"iS": 101504,
+		"oA": 0,
+		"oAP": "/content/1-aa-projekte/9-alleskoenner/illu_ubs_twint_aa_rz_korr.gif",
+		"oF": 0,
+		"opt": 0
 		},
 	"/content/1-aa-projekte/aa-projekte.txt": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "/content/1-aa-projekte/aa-projekte.txt",
+		"oF": 0
+		},
+	"/content/1-aa-projekte/weihnachtskarte-stillhart/aa-projekt.txt": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/content/1-aa-projekte/weihnachtskarte-stillhart/aa-projekt.txt",
 		"oF": 0
 		},
 	"/content/aa-home/aa-home.txt": {

@@ -1,0 +1,45 @@
+Title: Environmental care
+
+----
+
+Context: 
+
+----
+
+Year: 2013
+
+----
+
+Additional: made at Raffinerie
+
+----
+
+Line-a: 
+
+----
+
+Freeorclient: 0
+
+----
+
+Client: Swiss
+
+----
+
+Style: vector
+
+----
+
+Line-b: 
+
+----
+
+Description: An Illustration for Swiss Magazine.
+
+----
+
+Similar: 
+
+----
+
+Column: column1

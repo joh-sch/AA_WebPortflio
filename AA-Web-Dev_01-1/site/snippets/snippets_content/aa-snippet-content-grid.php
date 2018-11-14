@@ -94,18 +94,30 @@ $projects_col3 = page('aa-projekte')->children()->visible()->filterBy('column', 
           <?php } ?>	
         </div>
         <!-- Item Overlay -->
-        <div class="grid-item--overlay">
+        <div class="grid-item--overlay <?= $project->similar() ->isNotEmpty()? 'hasButton':'' ?>">
           <!-- Project Link -->
-            <a href="<?= $project->url() ?>"></a>
-
+            <a href="<?= $project->url() ?>">
+              <!-- »Show similar« Btn -->
+              <?php if($project->similar()->isNotEmpty()): ?>
+                <div class="button showSimilar z--high filters--tag" onClick="">
+                  <button data-filter=".<?= $project->similar() ?>">
+                    <span>show similar</span>
+                  </button>
+                </div>
+              <?php endif ?>
+              <!-- –––––––––––––––––– -->
+            </a>
+          <!-- –––––––––––– -->
+      
           <!-- Project Year -->
           <div class="grid-item--overlay--text-container">
             <div class="grid-item--overlay--text text--md year">
               <?= $project->year()->kirbytext() ?>
             </div>
           </div>
+          <!-- –––––––––––– -->
 
-          <!-- – Project Description –– -->
+          <!-- Project Description -->
           <div class="grid-item--overlay--text-container">
 
             <div class="grid-item--overlay--text title">
@@ -122,17 +134,10 @@ $projects_col3 = page('aa-projekte')->children()->visible()->filterBy('column', 
             <div class="grid-item--overlay--text text--md description">
               <span><?= $project->description()->kirbytext() ?></span>
             </div>
-            <!-- »Show similar« Btn -->
-            <?php if($project->similar()->isNotEmpty()): ?>
-              <div class="button showSimilar z--high filters--tag" onClick="">
-                <button data-filter=".<?= $project->similar() ?>">
-                  <span>show similar</span>
-                </button>
-              </div>
-            <?php endif ?>
-            <!-- –––––––––––––––––– -->
           </div>
-          <!-- –––––––––––––––––– -->
+          <!-- ––––––––––––––––––– -->
+
+          
         </div>
         <!-- Image -->
         <img src="<?= $project->images()->filterBy('filename', '*=', 'cover')->first()->url() ?>" alt="Thumbnail for <?= $project->title()->html() ?>" class="showcase-image" />

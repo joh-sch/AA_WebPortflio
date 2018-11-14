@@ -1,0 +1,45 @@
+Title: Icons
+
+----
+
+Context: 
+
+----
+
+Year: 2012
+
+----
+
+Additional: 
+
+----
+
+Line-a: 
+
+----
+
+Freeorclient: 0
+
+----
+
+Client: SEAB
+
+----
+
+Style: vector
+
+----
+
+Line-b: 
+
+----
+
+Description: Icons for the environmental business SEAB in Bozen, Italy. (made at Raffinerie)
+
+----
+
+Similar: SEAB
+
+----
+
+Column: column3

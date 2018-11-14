@@ -1,0 +1,37 @@
+Title: Altitude sickness
+
+----
+
+Context: 
+
+----
+
+Client: Swiss
+
+----
+
+Style: vector
+
+----
+
+Year: 2018
+
+----
+
+Additional: 
+
+----
+
+Description: Several illustrations for Swiss Magazine.
+
+----
+
+Similar: Swiss Wellcome Aboard
+
+----
+
+Freeorclient: 0
+
+----
+
+Column: column2
