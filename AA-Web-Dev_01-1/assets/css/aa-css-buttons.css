@@ -7,6 +7,7 @@
 /*–––––––––––––––––––––––––––––––––*/
 /*–––––––––––––––––––––––––––––––––*/
 
+/* Basic Properties */
 .button {
   width: fit-content;
   box-sizing: border-box;
@@ -24,7 +25,9 @@
   color: white;
 }
 
-.button.showSimilar {
+/* Special properties for Filter Menu buttons */
+.button.filter.active {
+  font-family: "Eesti-Regular-Italic";
 }
 /*–––––––––––––––––––––––––––––––––*/
 /*–––––––––––––––––––––––––––––––––*/
@@ -39,6 +42,7 @@
 /*–––––––––––––––––––––––––––––––––*/
 
 @media only screen and (min-width: 1281px) {
+  /* Basic Properties */
   .button {
     height: 70px;
     padding: 0 20px;
@@ -46,6 +50,20 @@
     border: 5px solid var(--color-black-default);
 
     font-size: var(--typesize--md);
+  }
+
+  /* Special properties for Filter Menu buttons */
+  .button.filter {
+    border-top: 5px solid var(--color-black-default);
+    border-bottom: 5px solid var(--color-black-default);
+    border-left: none;
+    border-right: 5px solid var(--color-black-default);
+  }
+  .button.filter:first-of-type {
+    border-top: 5px solid var(--color-black-default);
+    border-bottom: 5px solid var(--color-black-default);
+    border-left: 5px solid var(--color-black-default);
+    border-right: 5px solid var(--color-black-default);
   }
 }
 /*–––––––––––––––––––––––––––––––––*/

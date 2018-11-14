@@ -472,7 +472,7 @@
 		"oA": 0,
 		"oAP": "/assets/js/aa-js-interact-min.js",
 		"oF": 0,
-		"sC": 3,
+		"sC": 0,
 		"tS": 0
 		},
 	"/assets/js/flickity.pkgd.min.js": {
@@ -8421,7 +8421,7 @@
 		},
 	"esLintConfigFileHandlingType": 0,
 	"esLintECMAVersion": 7,
-	"esLintEnvironmentsMask": 1,
+	"esLintEnvironmentsMask": 8193,
 	"esLintRules": {
 		"accessor-pairs": {
 			"active": 0,

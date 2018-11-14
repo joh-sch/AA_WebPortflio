@@ -69,7 +69,7 @@ function mainmenu_toggle() {
 function filtermenu_toggle() {
   var button = $("#FilterMenuButton");
 
-  button.siblings(".menu--navbar--bottom--button").toggleClass("hidden--op");
+  button.siblings(".button").toggleClass("hidden--op");
 }
 
 // Close menu if click occurs outside of menu
@@ -114,9 +114,7 @@ var detached_unmatched = [];
 
 $("document").ready(function() {
   // Define button
-  var button = $("#FilterMenu").children(
-    ".menu--navbar--bottom--button.default"
-  );
+  var button = $("#FilterMenu").children(".button.filter");
   // Elements
   var orgContainer = $("#contentHome");
   var column1_org = orgContainer.children("#column1");
@@ -144,7 +142,7 @@ $("document").ready(function() {
       // Set button active
       $(this).addClass("active");
       // Reset all filter buttons
-      $("#FilterMenu .menu--navbar--bottom--button.default")
+      $("#FilterMenu .button.filter")
         .not($(this))
         .removeClass("active");
       // Empty the visible grid
@@ -180,7 +178,7 @@ $("document").ready(function() {
         // Set button active
         $(this).addClass("active");
         // Reset all filter buttons
-        $("#FilterMenu .menu--navbar--bottom--button.default")
+        $("#FilterMenu .button.filter")
           .not($(this))
           .removeClass("active");
         // Empty the visible grid

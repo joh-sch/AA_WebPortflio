@@ -29,7 +29,7 @@
 		<?= css('assets/css/aa-css-typography-min.css') ?>
 
 	<!-- Menus -->
-		<?= css('assets/css/aa-css-menus.css') ?>
+		<?= css('assets/css/aa-css-menus-min.css') ?>
 
 	<!-- Menus -->
 		<?= css('assets/css/aa-css-buttons-min.css') ?>
