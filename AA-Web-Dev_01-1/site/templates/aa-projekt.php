@@ -30,22 +30,20 @@ Template name: Projekt Page
 
 	<div class="wrapper--global">
 
+		<!-- ––––– Module A1 ––––– -->
+		<!--––––– Brand Icon ––––––-->
+		<?php snippet('/snippets_menus/aa-snippet-navbar-icon') ?>
+		<!-- ––––––––––––––––––––– -->
+		<!-- ––––––––––––––––––––– -->
+
+		<!-- ––––– Module A2 ––––– -->
+		<!-- –––––– Navbar ––––––– -->
+			<?php snippet('/snippets_menus/aa-snippet-navbar') ?>
+		<!-- ––––––––––––––––––––– -->
+		<!-- ––––––––––––––––––––– -->
+
 		<div class="main-wrapper" id="main-wrapper"> <!-- THIS IS THE BARBA MAIN WRAPPER! -->
 			<div class="main-container" data-namespace="projekt"> <!-- THIS IS THE BARBA MAIN CONTAINER! -->
-
-
-				<!-- ––––– Module A1 ––––– -->
-				<!--––––– Brand Icon ––––––-->
-					<?php snippet('/snippets_menus/aa-snippet-navbar-icon') ?>
-				<!-- ––––––––––––––––––––– -->
-				<!-- ––––––––––––––––––––– -->
-
-
-				<!-- ––––– Module A2 ––––– -->
-				<!-- –––––– Navbar ––––––– -->
-					<?php snippet('/snippets_menus/aa-snippet-navbar') ?>
-				<!-- ––––––––––––––––––––– -->
-				<!-- ––––––––––––––––––––– -->
 
 				<!-- – Project Descrip. II – -->
 				<div class="slider--projectDesc-container z--high text--project2">
