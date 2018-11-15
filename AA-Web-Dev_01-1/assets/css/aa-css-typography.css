@@ -8,16 +8,30 @@
 /*–––––––––––––––––––––––––––––––––*/
 
 /* GT Eesti */
+
+/* Regular */
 @font-face {
   font-family: Eesti-Regular;
   font-style: normal;
   src: url("../fonts/GTEestiProDisplay-Regular.otf");
 }
-
+/* Regular Italic */
 @font-face {
   font-family: Eesti-Regular-Italic;
   font-style: italic;
   src: url("../fonts/GTEestiProDisplay-RegularItalic.otf");
+}
+/* Bold */
+@font-face {
+  font-family: Eesti-Bold;
+  font-style: normal;
+  src: url("../fonts/GTEestiProDisplay-Bold.otf");
+}
+/* Bold Italic */
+@font-face {
+  font-family: Eesti-Bold-Italic;
+  font-style: italic;
+  src: url("../fonts/GTEestiProDisplay-BoldItalic.otf");
 }
 
 html,
@@ -34,6 +48,7 @@ body {
 /*–––––––––––––––––––––––––––––––––*/
 
 .text--max {
+  /* font-family: "Eesti-Bold" !important; */
   font-size: var(--typesize--max);
   line-height: 0.999;
 }

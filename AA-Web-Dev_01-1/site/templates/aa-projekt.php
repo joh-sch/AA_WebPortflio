@@ -92,11 +92,9 @@ Template name: Projekt Page
 					<!-- ––––––– Slider ––––––– -->
 						<div class="main-carousel">
 							<?php foreach($page->images()->filterBy('filename', '!*=', 'cover') as $image): ?> <!-- excluding cover.jpg via filterBy -->
-
 								<div class="carousel-cell">
 									<img src="<?= $image->url() ?>" alt="<?= $page->title()->html() ?>" />
 								</div>
-
 							<?php endforeach ?>
 						</div>
 					<!-- –––––––––––––––––––––– -->					

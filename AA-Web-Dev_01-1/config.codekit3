@@ -230,18 +230,18 @@
 		"sC": 3,
 		"tS": 0
 		},
-	"/assets/fonts/Ginto-Medium.ttf": {
+	"/assets/fonts/GTEestiProDisplay-Bold.otf": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "/assets/fonts/Ginto-Medium.ttf",
+		"oAP": "/assets/fonts/GTEestiProDisplay-Bold.otf",
 		"oF": 0
 		},
-	"/assets/fonts/Ginto-Regular.ttf": {
+	"/assets/fonts/GTEestiProDisplay-BoldItalic.otf": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "/assets/fonts/Ginto-Regular.ttf",
+		"oAP": "/assets/fonts/GTEestiProDisplay-BoldItalic.otf",
 		"oF": 0
 		},
 	"/assets/fonts/GTEestiProDisplay-Regular.otf": {
