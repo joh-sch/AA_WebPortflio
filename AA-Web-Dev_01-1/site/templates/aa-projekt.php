@@ -47,29 +47,27 @@ Template name: Projekt Page
 
 				<!-- – Project Descrip. II – -->
 				<div class="slider--projectDesc-container z--high text--project2">
+					<div class="slider--projectDesc-item-container">
 
-					<div class="slider--projectDesc-section" id="descSection2">
-						<div class="slider--projectDesc-item-container">
-							<div class="text--md">
-								<!-- Title -->
-								<span><?= $page->title()->kirbytext()?> </span>
-								<!-- Client/Free Work -->
-								<?php if($page->freeOrClient()->bool()): ?>
-									<p>Personal Work</p>
-									<?php else: ?>
-									<p><?= str::unhtml( $page->client()->kirbytext() ) ?></p>
-								<?php endif ?>
-							</div>
+						<div class="description-item text--md">
+							<!-- Title -->
+							<span><?= $page->title()->kirbytext()?> </span>
+							<!-- Client/Free Work -->
+							<?php if($page->freeOrClient()->bool()): ?>
+								<p>Personal Work</p>
+								<?php else: ?>
+								<p><?= str::unhtml( $page->client()->kirbytext() ) ?></p>
+							<?php endif ?>
+						</div>
 
-							<!-- Descripiton -->
-							<div class="text--md">
-								<span><?= $page->description()->kirbytext() ?> </span>
-							</div>
+						<!-- Descripiton -->
+						<div class="description-item text--md">
+							<span><?= $page->description()->kirbytext() ?></span>				
+						</div>
 
-							<div class="text--md">
-								<span><?= $page->year()->kirbytext() ?> </span>
-								<span><?= str::unhtml( $page->additional()->kirbytext() ) ?></span>
-							</div>
+						<div class="description-item text--md">
+							<span><?= $page->year()->kirbytext() ?> </span>
+							<span><?= str::unhtml( $page->additional()->kirbytext() ) ?></span>
 
 							<!-- –––– Slide Counter –––– -->
 								<div class="slider--counter-container">
@@ -77,7 +75,9 @@ Template name: Projekt Page
 								</div>
 							<!-- ––––––––––––––––––––––– -->
 						</div>
-					</div>
+
+						
+					</div>	
 				</div>
 				<!-- ––––––––––––––––––––––– -->
 
