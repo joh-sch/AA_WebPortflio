@@ -62,8 +62,8 @@ $("document").ready(function() {
         draggable: false,
         pageDots: false,
         wrapAround: false,
-        selectedAttraction: 0.01,
-        friction: 0.15,
+        selectedAttraction: 1,
+        friction: 1,
         imagesLoaded: true
       });
       console.log("… slider ready!");
