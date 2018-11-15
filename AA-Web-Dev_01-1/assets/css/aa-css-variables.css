@@ -19,7 +19,8 @@
 
     /* Type Sizes (Large+ Screen) */
     --typesize--sm: calc(20px * 0.75);
-    --typesize--md: calc(36px * 0.75);
+    --typesize--md: calc(30px * 0.75);
+    --typesize--button: calc(46px * 0.75);
     --typesize--lg: calc(68px * 0.75);
   }
 }
@@ -45,7 +46,8 @@
 
     /* Type Sizes (Large+ Screen) */
     --typesize--sm: 20px;
-    --typesize--md: 36px;
+    --typesize--md: 30px;
+    --typesize--button: 46px;
     --typesize--lg: 68px;
   }
 }

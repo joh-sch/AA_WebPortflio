@@ -65,7 +65,7 @@
 
     border: 5px solid var(--color-black-default);
 
-    font-size: var(--typesize--md);
+    font-size: var(--typesize--button);
   }
 
   /* Special properties for Filter Menu buttons */
@@ -99,7 +99,7 @@
 
     border: 5px solid var(--color-black-default);
 
-    font-size: var(--typesize--md);
+    font-size: var(--typesize--button);
   }
 
   /* Special properties for Filter Menu buttons */

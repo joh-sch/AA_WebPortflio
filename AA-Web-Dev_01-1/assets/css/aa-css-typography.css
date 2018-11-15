@@ -30,25 +30,30 @@ body {
 /*–––––––––––––––––––––––––––––––––*/
 /*–––––––––––––––––––––––––––––––––*/
 
-/*––––––––––– TYPE SIZE –––––––––––*/
+/*–––––– TYPE SIZE & SPACING ––––––*/
 /*–––––––––––––––––––––––––––––––––*/
 
 .text--lg {
   font-size: var(--typesize--lg);
-  line-height: 1;
+  line-height: 0.999;
 }
 .text--md {
   font-size: var(--typesize--md);
-  line-height: 1;
+  line-height: 0.999;
 }
 .text--sm {
   font-size: var(--typesize--sm) !important;
-  line-height: 1;
+  line-height: 0.999;
 }
 
 .text--italic {
   font-family: "Eesti-Regular-Italic" !important;
-  line-height: 1;
+  line-height: 0.999;
+}
+
+/* Line Heights */
+.text--paragraph {
+  line-height: 1.2;
 }
 
 /*–––––––––––––––––––––––––––––––––*/
@@ -63,6 +68,12 @@ body {
 /*––––––––– LARGE+ SCREEN –––––––––*/
 /*–––––––––––––––––––––––––––––––––*/
 @media only screen and (min-width: 1281px) {
+  .text--lg {
+    word-spacing: -5px;
+  }
+  .text--md {
+    word-spacing: -1px;
+  }
 }
 /*–––––––––––––––––––––––––––––––––*/
 /*–––––––––––––––––––––––––––––––––*/
