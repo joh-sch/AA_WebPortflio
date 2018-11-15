@@ -200,14 +200,11 @@ div[class^="menu--navbar--section_"] a {
   cursor: url(/assets/cursor/aa-pointer_45deg.svg), auto !important;
 }
 
+/* SUBPAGE CLOSING BUTTON */
 .menu--close-button {
   position: fixed;
-  height: 3.5vw;
-  width: 3.5vw;
-  border: 6px solid;
   box-sizing: border-box;
   background-color: white;
-  margin: 1.2%;
   right: 0;
 
   display: flex;
@@ -384,6 +381,14 @@ div[class^="menu--navbar--section_"].active a {
   /* NAVBAR FILTER */
   .menu--navbar--filter-wrapper {
     height: 70px;
+  }
+
+  /* SUBPAGE CLOSING BUTTON */
+  .menu--close-button {
+    height: 70px;
+    width: 70px;
+    margin: var(--margin-default);
+    border: var(--border-default) solid var(--color-black-default);
   }
 }
 /*–––––––––––––––––––––––––––––––––*/

@@ -30,41 +30,44 @@ Template name: Projekt Page
 
 	<div class="wrapper--global">
 
+		<!-- ––––– Module A1 ––––– -->
+		<!--––––– Brand Icon ––––––-->
+		<?php snippet('/snippets_menus/aa-snippet-navbar-icon') ?>
+		<!-- ––––––––––––––––––––– -->
+		<!-- ––––––––––––––––––––– -->
+
+		<!-- ––––– Module A2 ––––– -->
+		<!-- –––––– Navbar ––––––– -->
+			<?php snippet('/snippets_menus/aa-snippet-navbar') ?>
+		<!-- ––––––––––––––––––––– -->
+		<!-- ––––––––––––––––––––– -->
+
 		<div class="main-wrapper" id="main-wrapper"> <!-- THIS IS THE BARBA MAIN WRAPPER! -->
 			<div class="main-container" data-namespace="projekt"> <!-- THIS IS THE BARBA MAIN CONTAINER! -->
 
-
-				<!-- ––––– Module A1 ––––– -->
-				<!--––––– Brand Icon ––––––-->
-					<?php snippet('/snippets_menus/aa-snippet-navbar-icon') ?>
-				<!-- ––––––––––––––––––––– -->
-				<!-- ––––––––––––––––––––– -->
-
-
-				<!-- ––––– Module A2 ––––– -->
-				<!-- –––––– Navbar ––––––– -->
-					<?php snippet('/snippets_menus/aa-snippet-navbar') ?>
-				<!-- ––––––––––––––––––––– -->
-				<!-- ––––––––––––––––––––– -->
-
 				<!-- – Project Descrip. II – -->
 				<div class="slider--projectDesc-container z--high text--project2">
+					<div class="slider--projectDesc-item-container">
 
-					<div class="slider--projectDesc-section" id="descSection2">
-						<div class="slider--projectDesc-item-container">
-							<div>
-								<span><?= $page->title()->kirbytext()?> </span>
-								<span>(<?= str::unhtml( $page->context()->kirbytext() ) ?>) </span>
-							</div>
+						<div class="description-item text--md">
+							<!-- Title -->
+							<span><?= $page->title()->kirbytext()?> </span>
+							<!-- Client/Free Work -->
+							<?php if($page->freeOrClient()->bool()): ?>
+								<p>Personal Work</p>
+								<?php else: ?>
+								<p><?= str::unhtml( $page->client()->kirbytext() ) ?></p>
+							<?php endif ?>
+						</div>
 
-							<div>
-								<span><?= $page->description()->kirbytext() ?> </span>
-							</div>
+						<!-- Descripiton -->
+						<div class="description-item text--md">
+							<span><?= $page->description()->kirbytext() ?></span>				
+						</div>
 
-							<div>
-								<span><?= $page->year()->kirbytext() ?> </span>
-								<span>(<?= str::unhtml( $page->additional()->kirbytext() ) ?>) </span>
-							</div>
+						<div class="description-item text--md">
+							<span><?= $page->year()->kirbytext() ?> </span>
+							<span><?= str::unhtml( $page->additional()->kirbytext() ) ?></span>
 
 							<!-- –––– Slide Counter –––– -->
 								<div class="slider--counter-container">
@@ -72,7 +75,9 @@ Template name: Projekt Page
 								</div>
 							<!-- ––––––––––––––––––––––– -->
 						</div>
-					</div>
+
+						
+					</div>	
 				</div>
 				<!-- ––––––––––––––––––––––– -->
 

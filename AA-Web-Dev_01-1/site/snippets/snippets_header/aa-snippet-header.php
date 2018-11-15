@@ -37,7 +37,7 @@
 	<!-- Grid -->
 		<?= css('assets/css/aa-css-grid-min.css') ?>
 	<!-- Slider -->
-		<?= css('assets/css/aa-css-slider.css') ?>
+		<?= css('assets/css/aa-css-slider-min.css') ?>
 
 	<!-- PLUGINS -->
 		<!-- Flickity -->

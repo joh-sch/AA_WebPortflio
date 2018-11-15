@@ -21,6 +21,7 @@ function mainmenu_toggle() {
   var pageLocation = $(".main-container");
 
   if (menu.hasClass("menu--state--closed")) {
+    console.log("Opening the main menu…");
     menuSec1.removeClass("hidden--vis");
     menuSec2.removeClass("hidden--vis");
     menuSec3.removeClass("hidden--vis");
@@ -42,6 +43,7 @@ function mainmenu_toggle() {
       }
     }
   } else {
+    console.log("Closing the main menu…");
     menuSec1.addClass("hidden--vis");
     menuSec2.addClass("hidden--vis");
     menuSec3.addClass("hidden--vis");
@@ -73,10 +75,12 @@ function filtermenu_toggle() {
 }
 
 // Close menu if click occurs outside of menu
-function mainmenu_close() {
+function mainmenu_closer() {
+  // Remove event handler
+  $("html").off("click");
+  // Add new event handler
   var menu = $("#MainMenu");
-
-  $("html").on("click.closeMenu", function(e) {
+  $("html").on("click", function(e) {
     // Check if menu is open…
     if (menu.hasClass("menu--state--open")) {
       if (
@@ -90,6 +94,7 @@ function mainmenu_close() {
     // …in case menu is closed
     else {
       console.log("Main Menu closed");
+      //
       if ($(e.target).is("#brandIcon", "#MainMenuButton")) {
         mainmenu_toggle();
       }

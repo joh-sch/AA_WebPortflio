@@ -448,11 +448,11 @@
 	"/assets/js/aa-js-barba-init.js": {
 		"ft": 64,
 		"ma": 0,
-		"mi": 1,
+		"mi": 0,
 		"oA": 0,
 		"oAP": "/assets/js/aa-js-barba-init-min.js",
 		"oF": 0,
-		"sC": 3,
+		"sC": 0,
 		"tS": 0
 		},
 	"/assets/js/aa-js-barba.js": {
