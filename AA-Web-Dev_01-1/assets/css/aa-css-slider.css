@@ -167,20 +167,23 @@
 @media only screen and (min-width: 1281px) {
   /* PROJECT DESCRIPTION LAYOUT */
   .slider--projectDesc-container {
-    background-color: lightgreen;
     height: 140px;
     width: calc(
       100vw -
         (
           var(--margin-default) + 140px + var(--margin-default) + 70px +
+            var(--margin-default) + var(--margin-default) +
             var(--margin-default) + var(--margin-default)
         )
     );
 
     margin-top: var(--margin-default);
     margin-bottom: var(--margin-default);
-    margin-left: calc(var(--margin-default) + 140px + var(--margin-default));
-    margin-right: calc(var(--margin-default));
+    margin-left: calc(
+      var(--margin-default) + 140px + var(--margin-default) +
+        var(--margin-default)
+    );
+    margin-right: calc(var(--margin-default) + var(--margin-default));
   }
 }
 /*–––––––––––––––––––––––––––––––––*/

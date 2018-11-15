@@ -50,18 +50,25 @@ Template name: Projekt Page
 
 					<div class="slider--projectDesc-section" id="descSection2">
 						<div class="slider--projectDesc-item-container">
-							<div>
+							<div class="text--md">
+								<!-- Title -->
 								<span><?= $page->title()->kirbytext()?> </span>
-								<span>(<?= str::unhtml( $page->context()->kirbytext() ) ?>) </span>
+								<!-- Client/Free Work -->
+								<?php if($page->freeOrClient()->bool()): ?>
+									<p>Personal Work</p>
+									<?php else: ?>
+									<p><?= str::unhtml( $page->client()->kirbytext() ) ?></p>
+								<?php endif ?>
 							</div>
 
-							<div>
+							<!-- Descripiton -->
+							<div class="text--md">
 								<span><?= $page->description()->kirbytext() ?> </span>
 							</div>
 
-							<div>
+							<div class="text--md">
 								<span><?= $page->year()->kirbytext() ?> </span>
-								<span>(<?= str::unhtml( $page->additional()->kirbytext() ) ?>) </span>
+								<span><?= str::unhtml( $page->additional()->kirbytext() ) ?></span>
 							</div>
 
 							<!-- –––– Slide Counter –––– -->
