@@ -22,6 +22,7 @@
     --typesize--md: calc(30px * 0.75);
     --typesize--button: calc(46px * 0.75);
     --typesize--lg: calc(68px * 0.75);
+    --typesize--max: calc(90px * 0.75);
   }
 }
 /*–––––––––––––––––––––––––––––––––*/
@@ -49,6 +50,7 @@
     --typesize--md: 30px;
     --typesize--button: 46px;
     --typesize--lg: 68px;
+    --typesize--max: 90px;
   }
 }
 

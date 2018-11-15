@@ -33,6 +33,11 @@ body {
 /*–––––– TYPE SIZE & SPACING ––––––*/
 /*–––––––––––––––––––––––––––––––––*/
 
+.text--max {
+  font-size: var(--typesize--max);
+  line-height: 0.999;
+}
+
 .text--lg {
   font-size: var(--typesize--lg);
   line-height: 0.999;
