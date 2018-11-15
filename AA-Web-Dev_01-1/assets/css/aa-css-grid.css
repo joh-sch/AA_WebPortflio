@@ -64,7 +64,6 @@
 
 /*––––––– GRID ITEM OVERLAY –––––––*/
 /*–––––––––––––––––––––––––––––––––*/
-
 .grid-item--overlay {
   position: absolute;
   line-height: 0.75 !important;
@@ -83,15 +82,10 @@
   opacity: 1;
   cursor: url(/assets/cursor/aa-pointer_45deg.svg), auto !important;
 }
-.grid-item--overlay a {
-  width: 100%;
-  height: 100%;
-  position: absolute;
 
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-end;
+.grid-item--overlay a {
+  position: absolute;
+  z-index: 999;
 }
 /*****/
 .text-wrapper.overlay {
@@ -106,30 +100,6 @@
 
 .text-divider.overlay {
   border-top: var(--border-default) solid white;
-}
-
-.grid-item--overlay--text {
-  width: 100%;
-  line-height: 1.15;
-
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-/* Overlay Title */
-.grid-item--overlay--text.title span:first-of-type {
-  line-height: 1.5;
-}
-/* Overlay Year */
-.grid-item--overlay--text.year p {
-  width: 100%;
-  text-align: right;
-}
-.grid-item--overlay--text:last-of-type {
-  margin-bottom: 0 !important;
-}
-.grid-item--overlay--text:last-child {
-  margin-bottom: 0;
 }
 
 /*–––––––––––––––––––––––––––––––––*/
@@ -159,6 +129,13 @@
     height: calc(100% - (var(--padding-default) + var(--padding-default)));
   }
 
+  .grid-item--overlay a {
+    width: calc(100% - (var(--padding-default) + var(--padding-default)));
+    height: calc(
+      100% - (var(--padding-default) + 70px + var(--padding-default))
+    );
+  }
+
   .text-container.overlay.header div:first-of-type {
     margin-bottom: calc(var(--margin-default) * 1);
   }
@@ -166,12 +143,6 @@
   .text-divider.overlay {
     margin-top: var(--margin-default);
     margin-bottom: calc(var(--margin-default) * 2);
-  }
-
-  .grid-item--overlay a {
-    padding: var(--padding-default);
-    width: calc(100% - (var(--padding-default) + var(--padding-default)));
-    height: calc(100% - (var(--padding-default) + var(--padding-default)));
   }
 }
 /*–––––––––––––––––––––––––––––––––*/

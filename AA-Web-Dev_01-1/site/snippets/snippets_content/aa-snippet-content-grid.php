@@ -28,6 +28,9 @@ $projects_col3 = page('aa-projekte')->children()->visible()->filterBy('column', 
         </div>
         <!-- Item Overlay -->
         <div class="grid-item--overlay">
+          <!-- Project Link -->
+          <a href="<?= $project->url() ?>">
+          </a>
           <!-- Headline/Year/Client Container -->
           <div class="text-wrapper overlay">
             <div class="text-container overlay header">
@@ -87,6 +90,9 @@ $projects_col3 = page('aa-projekte')->children()->visible()->filterBy('column', 
         </div>
         <!-- Item Overlay -->
         <div class="grid-item--overlay">
+          <!-- Project Link -->
+          <a href="<?= $project->url() ?>">
+          </a>
           <!-- Headline/Year/Client Container -->
           <div class="text-wrapper overlay">
             <div class="text-container overlay header">
@@ -146,6 +152,9 @@ $projects_col3 = page('aa-projekte')->children()->visible()->filterBy('column', 
         </div>
         <!-- Item Overlay -->
         <div class="grid-item--overlay">
+          <!-- Project Link -->
+          <a href="<?= $project->url() ?>">
+          </a>
           <!-- Headline/Year/Client Container -->
           <div class="text-wrapper overlay">
             <div class="text-container overlay header">
