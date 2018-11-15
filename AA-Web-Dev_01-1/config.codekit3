@@ -130,6 +130,16 @@
 		"oF": 0,
 		"oS": 3
 		},
+	"/assets/css/aa-css-slider-min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/assets/css/aa-css-slider-min-min.css",
+		"oF": 0,
+		"oS": 3
+		},
 	"/assets/css/aa-css-slider.css": {
 		"aP": 1,
 		"bl": 0,
@@ -444,6 +454,16 @@
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
+		},
+	"/assets/js/aa-js-barba-init-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/assets/js/aa-js-barba-init-min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
 		},
 	"/assets/js/aa-js-barba-init.js": {
 		"ft": 64,
@@ -1949,6 +1969,63 @@
 		"oA": 0,
 		"oAP": "/content/aa-home/aa-home.txt",
 		"oF": 0
+		},
+	"/content/about/aa-about.txt": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/content/about/aa-about.txt",
+		"oF": 0
+		},
+	"/content/about/aa_web_about_illu01.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/content/about/aa_web_about_illu01.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/content/about/aa_web_about_illu02_schule.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/content/about/aa_web_about_illu02_schule.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/content/about/aa_web_about_illu03_swing.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/content/about/aa_web_about_illu03_swing.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/content/about/aa_web_about_illu04_switzerland.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/content/about/aa_web_about_illu04_switzerland.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/content/about/aa_web_about_illu05_yoga.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/content/about/aa_web_about_illu05_yoga.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
 		},
 	"/content/error/error.txt": {
 		"cB": 0,
@@ -6667,6 +6744,13 @@
 		"oAP": "/site/accounts/index.html",
 		"oF": 0
 		},
+	"/site/blueprints/aa-about.yml": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/site/blueprints/aa-about.yml",
+		"oF": 0
+		},
 	"/site/blueprints/aa-home.yml": {
 		"cB": 0,
 		"ft": 8192,
@@ -6790,6 +6874,13 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "/site/snippets/snippets_overlay/aa-snippet-overlay-fadeCover.php",
+		"oF": 0
+		},
+	"/site/templates/aa-about.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/site/templates/aa-about.php",
 		"oF": 0
 		},
 	"/site/templates/aa-home.php": {

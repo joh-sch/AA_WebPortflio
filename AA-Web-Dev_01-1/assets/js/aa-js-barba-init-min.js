@@ -62,8 +62,8 @@ $("document").ready(function() {
         draggable: false,
         pageDots: false,
         wrapAround: false,
-        selectedAttraction: 1,
-        friction: 1,
+        selectedAttraction: 0.025,
+        friction: 0.28,
         imagesLoaded: true
       });
       console.log("… slider ready!");
@@ -141,6 +141,60 @@ $("document").ready(function() {
 
   // Init the view
   projekt.init();
+  // ------------
+
+  // Page: »About«
+  var about = Barba.BaseView.extend({
+    namespace: "about",
+    onEnter: function() {
+      console.log("%conEnter fired.", "background:orchid ; color: white");
+      /////////////////////////
+      console.log("Entering about page …");
+    },
+    onEnterCompleted: function() {
+      console.log("… about page loaded successfully!");
+      // Set up click-listener for main menu
+      mainmenu_closer();
+      /////////////////////////
+      console.log("Setting up slider …");
+      $(".about-slider").flickity({
+        // options
+        cellAlign: "left",
+        contain: true,
+        draggable: false,
+        freeScroll: true,
+        pageDots: false,
+        wrapAround: false,
+        selectedAttraction: 0.025,
+        friction: 0.28,
+        imagesLoaded: true
+      });
+      console.log("… slider ready!");
+      /////////////////////////
+      console.log("%cpage content ready.", "background:orchid ; color: white");
+      /////////////////////////
+      setTimeout(fadeInCover_toggle_hardbreak, 100);
+    },
+    onLeave: function() {
+      console.log("%conLeave fired.", "background:orchid ; color: white");
+      /////////////////////////
+      fadeInCover_toggle_hardbreak();
+      /////////////////////////
+      console.log("Closing navbar …");
+      if ($("#MainMenu").hasClass("menu--state--open")) {
+        mainmenu_toggle();
+        console.log("… navbar closed …");
+      } else {
+        console.log("… Navbar cannot be closed b/c it is not open …");
+      }
+      /////////////////////////
+      console.log("… leaving about page …");
+    },
+    onLeaveCompleted: function() {}
+  });
+
+  // Init the view
+  about.init();
   // ------------
 
   // -------------------------------

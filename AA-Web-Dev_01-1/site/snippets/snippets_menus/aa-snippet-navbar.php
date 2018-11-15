@@ -10,7 +10,9 @@
 
 	<div class="menu--navbar--section_md hidden--vis" id="MainMenu_about">
 		<div class="text--lg">
-			<span>about</span>
+			<a href="/about/">
+				<span>about</span>
+			</a>
 		</div>
 	</div>
 
