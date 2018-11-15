@@ -1970,6 +1970,30 @@
 		"oAP": "/content/aa-home/aa-home.txt",
 		"oF": 0
 		},
+	"/content/aa-home/webaa_kopf_hypnose.gif": {
+		"ft": 4194304,
+		"iS": 9475,
+		"oA": 0,
+		"oAP": "/content/aa-home/webaa_kopf_hypnose.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"/content/aa-home/webaa_kopf_zungeraus.gif": {
+		"ft": 4194304,
+		"iS": 9926,
+		"oA": 0,
+		"oAP": "/content/aa-home/webaa_kopf_zungeraus.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"/content/aa-home/webaa_kopf_zwinkern.gif": {
+		"ft": 4194304,
+		"iS": 8484,
+		"oA": 0,
+		"oAP": "/content/aa-home/webaa_kopf_zwinkern.gif",
+		"oF": 0,
+		"opt": 0
+		},
 	"/content/about/aa-about.txt": {
 		"cB": 0,
 		"ft": 8192,
@@ -6896,6 +6920,30 @@
 		"oA": 0,
 		"oAP": "/site/templates/aa-projekt.php",
 		"oF": 0
+		},
+	"/thumbs/aa-home/webaa_kopf_hypnose-75x75.gif": {
+		"ft": 4194304,
+		"iS": 2407,
+		"oA": 0,
+		"oAP": "/thumbs/aa-home/webaa_kopf_hypnose-75x75.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"/thumbs/aa-home/webaa_kopf_zungeraus-75x75.gif": {
+		"ft": 4194304,
+		"iS": 2412,
+		"oA": 0,
+		"oAP": "/thumbs/aa-home/webaa_kopf_zungeraus-75x75.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"/thumbs/aa-home/webaa_kopf_zwinkern-75x75.gif": {
+		"ft": 4194304,
+		"iS": 2433,
+		"oA": 0,
+		"oAP": "/thumbs/aa-home/webaa_kopf_zwinkern-75x75.gif",
+		"oF": 0,
+		"opt": 0
 		},
 	"/thumbs/aa-projekte/a-heros-journey/180116_zkb_zh01_mut_heldenreise_aa_rz_a_mit-text-75x75.jpg": {
 		"ft": 16384,

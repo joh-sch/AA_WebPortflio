@@ -18,20 +18,17 @@
 
   display: flex;
   justify-content: space-around;
-
+  align-items: center;
   overflow: hidden;
 }
 .menu--navbar--icon img {
-  width: 110%;
-  height: 110%;
-
-  transform: translateY(-5%);
-}
-.menu--navbar--icon img:hover {
-  filter: invert(100%);
+  width: 70%;
+  height: auto;
+  position: absolute;
 }
 .menu--navbar--icon:hover {
   cursor: url(/assets/cursor/aa-pointer_45deg.svg), auto !important;
+  background-color: var(--color-black-default);
 }
 /*–––––––––––––––––––––––*/
 /*–––––––––––––––––––––––*/
